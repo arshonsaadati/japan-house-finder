@@ -51,6 +51,19 @@ def _status(labels: list[str]) -> str:
     return "live"
 
 
+def _image_urls(content_html: str, thumb: str | None) -> list[str]:
+    urls = re.findall(r'<img[^>]+src="([^"]+)"', content_html)
+    # De-dupe, keep order; upgrade Blogger thumbnails to full size (…/s1600/…).
+    seen: list[str] = []
+    for u in urls:
+        u = re.sub(r"/s\d+(-[a-z])?/", "/s1600/", u)
+        if u not in seen and "googleusercontent" in u:
+            seen.append(u)
+    if thumb and not seen:
+        seen.append(thumb)
+    return seen
+
+
 def parse_entry(entry: dict) -> Listing | None:
     title = entry.get("title", {}).get("$t", "")
     labels = [c["term"] for c in entry.get("category", [])]
@@ -58,7 +71,9 @@ def parse_entry(entry: dict) -> Listing | None:
         (l["href"] for l in entry.get("link", []) if l.get("rel") == "alternate"),
         "",
     )
-    body = _strip_html(entry.get("content", {}).get("$t", ""))
+    content_html = entry.get("content", {}).get("$t", "")
+    body = _strip_html(content_html)
+    image_urls = _image_urls(content_html, entry.get("media$thumbnail", {}).get("url"))
 
     source_id = _field(body, "登録#") or _field(title, "登録#")
     if not source_id:
@@ -113,6 +128,7 @@ def parse_entry(entry: dict) -> Listing | None:
         property_type=prop,
         status=_status(labels),
         flags=flags,
+        image_urls=image_urls,
         raw={"labels": labels, "other": other},
     )
 

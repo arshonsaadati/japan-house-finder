@@ -13,6 +13,8 @@ from __future__ import annotations
 import argparse
 import sys
 
+from pathlib import Path
+
 from . import filters
 from .display import change_report, console, listings_table, underwrite_report
 from .fetch import Client
@@ -108,6 +110,37 @@ def cmd_leads(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_images(args: argparse.Namespace) -> int:
+    from .images import download_all
+
+    store = Store()
+    listings = store.query(verdict=args.verdict, town=args.town)
+    if not args.include_rejects and args.verdict is None:
+        listings = [l for l in listings if l.verdict != "reject"]
+    with_urls = [l for l in listings if l.image_urls]
+    console.print(f"[dim]downloading images for {len(with_urls)} listings…[/dim]")
+    total = download_all(with_urls, force=args.force)
+    # Persist the local_images paths back to the store.
+    for l in with_urls:
+        stored = store.get(l.key)
+        if stored:
+            stored.local_images = l.local_images
+    store.save()
+    console.print(f"[green]saved {total} images[/green] under data/images/")
+    return 0
+
+
+def cmd_gallery(args: argparse.Namespace) -> int:
+    from .gallery import build
+
+    store = Store()
+    listings = store.query(verdict=args.verdict, town=args.town, max_price=args.max_price)
+    out = Path(args.output)
+    build(listings, out)
+    console.print(f"[green]gallery written:[/green] {out}  ({len(listings)} listings)")
+    return 0
+
+
 def cmd_underwrite(args: argparse.Namespace) -> int:
     kw = dict(
         price_yen=args.price,
@@ -151,6 +184,20 @@ def build_parser() -> argparse.ArgumentParser:
 
     lep = sub.add_parser("leads", help="re-check the handoff's known leads")
     lep.set_defaults(func=cmd_leads)
+
+    ip = sub.add_parser("images", help="download listing photos into data/images/")
+    ip.add_argument("--verdict", choices=["pass", "stretch", "flagged", "reject"])
+    ip.add_argument("--town")
+    ip.add_argument("--include-rejects", action="store_true", help="also fetch reject photos")
+    ip.add_argument("--force", action="store_true", help="re-download even if present")
+    ip.set_defaults(func=cmd_images)
+
+    gp = sub.add_parser("gallery", help="build a self-contained HTML gallery to eyeball")
+    gp.add_argument("-o", "--output", default="data/gallery.html")
+    gp.add_argument("--verdict", choices=["pass", "stretch", "flagged", "reject"])
+    gp.add_argument("--town")
+    gp.add_argument("--max-price", type=int)
+    gp.set_defaults(func=cmd_gallery)
 
     up = sub.add_parser("underwrite", help="run the P&L model")
     up.add_argument("--price", type=int, required=True, help="purchase price in yen")

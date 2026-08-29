@@ -59,6 +59,15 @@ def parse_results_page(html: str) -> list[Listing]:
         a = unit.find("a", href=re.compile(r"/nc_\d+"))
         if not a:
             continue
+        # Photos are lazy-loaded: real URL sits in the `rel` attribute (bs4
+        # parses rel as a list); `src` is a 1px placeholder gif.
+        images: list[str] = []
+        for im in unit.select("img"):
+            src = im.get("rel") or im.get("data-src") or ""
+            if isinstance(src, list):
+                src = src[0] if src else ""
+            if src and "suumo.com" in src and "resizeImage" in src and src not in images:
+                images.append(src)
         url = a["href"]
         if url.startswith("/"):
             url = BASE + url
@@ -81,6 +90,7 @@ def parse_results_page(html: str) -> list[Listing]:
                 property_type="detached",
                 status="live",
                 flags=[],
+                image_urls=images,
                 raw={"station": specs.get("沿線・駅"), "specs": specs},
             )
         )

@@ -109,6 +109,30 @@ def _spec_pairs(soup: BeautifulSoup) -> dict[str, str]:
     return specs
 
 
+def _detail_images(soup: BeautifulSoup) -> list[str]:
+    """Best-effort property photos from a HOME'S detail page.
+
+    Property photos are lazy-loaded; when the page is browser-rendered they
+    appear as real <img> srcs on the HOME'S image host. Site chrome (logos,
+    banners, ad slots) is filtered out.
+    """
+    images: list[str] = []
+    for im in soup.select("img"):
+        src = im.get("data-src") or im.get("src") or ""
+        if isinstance(src, list):
+            src = src[0] if src else ""
+        if not src or src.startswith("data:"):
+            continue
+        low = src.lower()
+        if any(bad in low for bad in ("logo", "bnr_", "/assets/", "googlesyndication",
+                                      "googletagmanager", "awswaf", "page_top", ".svg")):
+            continue
+        if any(good in low for good in ("image.homes", "img.homes", "/pic/", "bukken", "/photo")):
+            if src not in images:
+                images.append(src)
+    return images
+
+
 def parse_detail(html: str, url: str, category: str = "") -> Listing:
     soup = BeautifulSoup(html, "html.parser")
     specs = _spec_pairs(soup)
@@ -139,6 +163,7 @@ def parse_detail(html: str, url: str, category: str = "") -> Listing:
     if "市街化調整区域" in (zoning or ""):
         flags.append("urbanization-control zone (市街化調整区域) — build/reno restricted")
 
+    images = _detail_images(soup)
     build_field = specs.get("築年月(築年数)") or specs.get("築年月")
     # land area sometimes only in 備考 as 土地面積：995.48㎡
     land = parse_area(specs.get("土地面積"))
@@ -162,6 +187,7 @@ def parse_detail(html: str, url: str, category: str = "") -> Listing:
         property_type=prop_type,
         status="rental" if category and "賃貸" in category else "live",
         flags=flags,
+        image_urls=images,
         raw={"category": category, "structure": structure, "specs": specs},
     )
 

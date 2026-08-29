@@ -154,6 +154,8 @@ class Listing:
     property_type: str = "unknown"  # detached | condo | land | business | mixed | unknown
     status: str = "live"  # live | negotiating | sold | rental
     flags: list[str] = field(default_factory=list)
+    image_urls: list[str] = field(default_factory=list)   # remote listing photos
+    local_images: list[str] = field(default_factory=list)  # downloaded file paths
     raw: dict[str, Any] = field(default_factory=dict)
     # Filled by filters.annotate():
     verdict: str | None = None  # pass | stretch | flagged | reject
