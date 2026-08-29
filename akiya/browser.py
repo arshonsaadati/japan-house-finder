@@ -17,6 +17,8 @@ import os
 CHALLENGE_MARKERS = ("awswaf", "challenge.js", "Just a moment", "cf-browser-verification")
 # Text that appears on the rendered challenge interstitial itself.
 CHALLENGE_BODY_MARKERS = ("confirm you are human", "確認しています", "Checking your browser")
+# A hard Cloudflare block (rate-limit / IP flag) — waiting won't clear it.
+BLOCK_MARKERS = ("Attention Required! | Cloudflare", "Sorry, you have been blocked")
 
 
 def looks_like_challenge(text: str, status: int | None = None) -> bool:
@@ -29,8 +31,16 @@ def looks_like_challenge(text: str, status: int | None = None) -> bool:
     return any(m.lower() in text.lower() for m in CHALLENGE_BODY_MARKERS)
 
 
+def looks_blocked(text: str) -> bool:
+    return bool(text) and any(m.lower() in text.lower() for m in BLOCK_MARKERS)
+
+
 class ChallengeUnsolved(RuntimeError):
     pass
+
+
+class HardBlocked(RuntimeError):
+    """Site returned a hard block page (e.g. Cloudflare rate-limit)."""
 
 
 class BrowserSession:
@@ -136,6 +146,8 @@ class BrowserSession:
                     pass
 
             content = page.content()
+            if looks_blocked(content):
+                raise HardBlocked(f"hard block page returned for {url}")
             if looks_like_challenge(content):
                 raise ChallengeUnsolved(f"WAF challenge still present for {url}")
             return content

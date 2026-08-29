@@ -1,5 +1,5 @@
 {
-  "count": 335,
+  "count": 435,
   "listings": [
     {
       "address": "倶知安町北５条西２丁目",
@@ -13521,6 +13521,3661 @@
       "verdict": "reject",
       "verdict_reasons": [
         "over ¥10M (¥115,000,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1976,
+      "building_m2": 84.0,
+      "first_seen": "2026-08-29",
+      "flags": [],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_d3076674-a1e0-11f1-a659-a6ae20f6eefe_327ae7208f12d_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_d3076674-a1e0-11f1-a659-a6ae20f6eefe_624f53e03ce59_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_d3076674-a1e0-11f1-a659-a6ae20f6eefe_b7e18adcf5a8d_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_d3076674-a1e0-11f1-a659-a6ae20f6eefe_c9651f524e306_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_d3076674-a1e0-11f1-a659-a6ae20f6eefe_fbe98fdddbc26_thumb.webp"
+      ],
+      "land_m2": 323.0,
+      "last_seen": "2026-08-29",
+      "layout": "5SLDK",
+      "local_images": [],
+      "price_yen": 1900000,
+      "property_type": "mixed",
+      "raw": {
+        "property_id": "1743212",
+        "uuid": "53616c7465645f5f19e16e7cff39695d62b5eb3aa5800425e2bbc6c2d76546e4"
+      },
+      "source": "akiyajapan",
+      "source_id": "1743212",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f19e16e7cff39695d62b5eb3aa5800425e2bbc6c2d76546e4",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "mixed-use (店舗付) — review zoning/usage",
+        "pre-1981 seismic (1976) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1993,
+      "building_m2": 106.0,
+      "first_seen": "2026-08-29",
+      "flags": [],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_766bcf6f-a19d-11f1-a659-a6ae20f6eefe_7006c5d20d10f_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_766bcf6f-a19d-11f1-a659-a6ae20f6eefe_91ba607edfd9e_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_766bcf6f-a19d-11f1-a659-a6ae20f6eefe_4657c03e52abf_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_766bcf6f-a19d-11f1-a659-a6ae20f6eefe_10e0a79d7ea52_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_766bcf6f-a19d-11f1-a659-a6ae20f6eefe_565f564e40569_thumb.webp"
+      ],
+      "land_m2": 205.0,
+      "last_seen": "2026-08-29",
+      "layout": null,
+      "local_images": [],
+      "price_yen": 6500000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1742245",
+        "uuid": "53616c7465645f5f3c1e169b81628fb42f64cbaeb5b32e4d62890e28cc9dcfd5"
+      },
+      "source": "akiyajapan",
+      "source_id": "1742245",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f3c1e169b81628fb42f64cbaeb5b32e4d62890e28cc9dcfd5",
+      "verdict": "pass",
+      "verdict_reasons": []
+    },
+    {
+      "address": null,
+      "build_year": 1988,
+      "building_m2": 126.0,
+      "first_seen": "2026-08-29",
+      "flags": [],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_ec3adc8c-a19d-11f1-a659-a6ae20f6eefe_ecfcfffe7babc_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_ec3adc8c-a19d-11f1-a659-a6ae20f6eefe_cb4499861d96d_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_ec3adc8c-a19d-11f1-a659-a6ae20f6eefe_7da907b58cee5_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_ec3adc8c-a19d-11f1-a659-a6ae20f6eefe_2e69cc6148e7e_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_ec3adc8c-a19d-11f1-a659-a6ae20f6eefe_cac6e3d196a1b_thumb.webp"
+      ],
+      "land_m2": 169.0,
+      "last_seen": "2026-08-29",
+      "layout": "5LDK",
+      "local_images": [],
+      "price_yen": 3600000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1742251",
+        "uuid": "53616c7465645f5fd83216700acce61005c5e2927a1b10cb169142446599e969"
+      },
+      "source": "akiyajapan",
+      "source_id": "1742251",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fd83216700acce61005c5e2927a1b10cb169142446599e969",
+      "verdict": "pass",
+      "verdict_reasons": []
+    },
+    {
+      "address": null,
+      "build_year": 1984,
+      "building_m2": 176.0,
+      "first_seen": "2026-08-29",
+      "flags": [],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_4e5c140c-a19d-11f1-a659-a6ae20f6eefe_6ab3208ff75f8_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_4e5c140c-a19d-11f1-a659-a6ae20f6eefe_06d252eea3529_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_4e5c140c-a19d-11f1-a659-a6ae20f6eefe_d6d532313eddd_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_4e5c140c-a19d-11f1-a659-a6ae20f6eefe_ca41c323e3a46_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_4e5c140c-a19d-11f1-a659-a6ae20f6eefe_f3e2bc110f369_thumb.webp"
+      ],
+      "land_m2": 249.0,
+      "last_seen": "2026-08-29",
+      "layout": "3LDK",
+      "local_images": [],
+      "price_yen": 13000000,
+      "property_type": "mixed",
+      "raw": {
+        "property_id": "1742243",
+        "uuid": "53616c7465645f5f80a027eac65dd699f9319e0bf42e717d8a65d2ea92d705a4"
+      },
+      "source": "akiyajapan",
+      "source_id": "1742243",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f80a027eac65dd699f9319e0bf42e717d8a65d2ea92d705a4",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "mixed-use (店舗付) — review zoning/usage",
+        "over ¥10M (¥13,000,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 2007,
+      "building_m2": 104.0,
+      "first_seen": "2026-08-29",
+      "flags": [],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_aed0f627-a12c-11f1-a659-a6ae20f6eefe_165e58faad49d_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_aed0f627-a12c-11f1-a659-a6ae20f6eefe_fe0f3f77d1b5c_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_aed0f627-a12c-11f1-a659-a6ae20f6eefe_5a71d4487c7e4_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_aed0f627-a12c-11f1-a659-a6ae20f6eefe_a64e952c8e437_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_aed0f627-a12c-11f1-a659-a6ae20f6eefe_f88911718899c_thumb.webp"
+      ],
+      "land_m2": null,
+      "last_seen": "2026-08-29",
+      "layout": null,
+      "local_images": [],
+      "price_yen": 85000000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1740703",
+        "uuid": "53616c7465645f5fa2153461489bc593dfc07df30a169a2ddf17aa284252123a"
+      },
+      "source": "akiyajapan",
+      "source_id": "1740703",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fa2153461489bc593dfc07df30a169a2ddf17aa284252123a",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥85,000,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1973,
+      "building_m2": 120.0,
+      "first_seen": "2026-08-29",
+      "flags": [],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_85d8119c-a129-11f1-a659-a6ae20f6eefe_420a0c6528e5d_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_85d8119c-a129-11f1-a659-a6ae20f6eefe_b67fc9e01db41_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_85d8119c-a129-11f1-a659-a6ae20f6eefe_d294fc918e252_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_85d8119c-a129-11f1-a659-a6ae20f6eefe_0290b573d26b3_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_85d8119c-a129-11f1-a659-a6ae20f6eefe_fa22268bba372_thumb.webp"
+      ],
+      "land_m2": 153.0,
+      "last_seen": "2026-08-29",
+      "layout": null,
+      "local_images": [],
+      "price_yen": 1500000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1740672",
+        "uuid": "53616c7465645f5fdee1e0f53bebc324a5f49ae5c07ed2eeea5b8d6edf8d461c"
+      },
+      "source": "akiyajapan",
+      "source_id": "1740672",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fdee1e0f53bebc324a5f49ae5c07ed2eeea5b8d6edf8d461c",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1973) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1962,
+      "building_m2": 82.0,
+      "first_seen": "2026-08-29",
+      "flags": [],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_e107c8ce-a0fa-11f1-a659-a6ae20f6eefe_ccfcf4990a65b_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_e107c8ce-a0fa-11f1-a659-a6ae20f6eefe_8050d9a921210_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_e107c8ce-a0fa-11f1-a659-a6ae20f6eefe_39281364448b8_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_e107c8ce-a0fa-11f1-a659-a6ae20f6eefe_dfae6ee3d2874_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_e107c8ce-a0fa-11f1-a659-a6ae20f6eefe_67d0c4b5d463f_thumb.webp"
+      ],
+      "land_m2": 297.0,
+      "last_seen": "2026-08-29",
+      "layout": null,
+      "local_images": [],
+      "price_yen": 1000000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1740167",
+        "uuid": "53616c7465645f5f5fae6fa16a2e5f47462793afba6cff1afed3252137b01863"
+      },
+      "source": "akiyajapan",
+      "source_id": "1740167",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f5fae6fa16a2e5f47462793afba6cff1afed3252137b01863",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1962) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 2010,
+      "building_m2": 110.0,
+      "first_seen": "2026-08-29",
+      "flags": [],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hp/hp_ace12a06-9937-11f1-a659-a6ae20f6eefe_d58cedf5f39ed_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hp/hp_ace12a06-9937-11f1-a659-a6ae20f6eefe_3ea8eedd87a2b_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hp/hp_ace12a06-9937-11f1-a659-a6ae20f6eefe_c4e35d93e0038_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hp/hp_ace12a06-9937-11f1-a659-a6ae20f6eefe_afeac66931d0b_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hp/hp_ace12a06-9937-11f1-a659-a6ae20f6eefe_e9debe77be53e_thumb.webp"
+      ],
+      "land_m2": 185.0,
+      "last_seen": "2026-08-29",
+      "layout": "3SLDK",
+      "local_images": [],
+      "price_yen": 17490000,
+      "property_type": "mixed",
+      "raw": {
+        "property_id": "1703160",
+        "uuid": "53616c7465645f5f6dbf5e28927d943342a065c9b270864273c0313688dad9b9"
+      },
+      "source": "akiyajapan",
+      "source_id": "1703160",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f6dbf5e28927d943342a065c9b270864273c0313688dad9b9",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "mixed-use (店舗付) — review zoning/usage",
+        "over ¥10M (¥17,490,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": null,
+      "building_m2": 202.0,
+      "first_seen": "2026-08-29",
+      "flags": [],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/ip/ip_3ba3ef4f-968a-11f1-a659-a6ae20f6eefe_244172642a34f_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/ip/ip_3ba3ef4f-968a-11f1-a659-a6ae20f6eefe_1b905d9a01607_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/ip/ip_3ba3ef4f-968a-11f1-a659-a6ae20f6eefe_2bf7e035cb0fc_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/ip/ip_3ba3ef4f-968a-11f1-a659-a6ae20f6eefe_43bd166c877cd_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/ip/ip_3ba3ef4f-968a-11f1-a659-a6ae20f6eefe_3a24a0f1e5b1f_thumb.webp"
+      ],
+      "land_m2": 202.0,
+      "last_seen": "2026-08-29",
+      "layout": null,
+      "local_images": [],
+      "price_yen": 4500000,
+      "property_type": "mixed",
+      "raw": {
+        "property_id": "1698550",
+        "uuid": "53616c7465645f5fe8d7eaab2856855a806e4a17b922ca70bfbed82e21804103"
+      },
+      "source": "akiyajapan",
+      "source_id": "1698550",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fe8d7eaab2856855a806e4a17b922ca70bfbed82e21804103",
+      "verdict": "flagged",
+      "verdict_reasons": [
+        "mixed-use (店舗付) — review zoning/usage",
+        "build year unknown — verify ≥1981"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1986,
+      "building_m2": 19.0,
+      "first_seen": "2026-08-29",
+      "flags": [],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hp/hp_38c3f1f2-954e-11f1-a659-a6ae20f6eefe_89479a7919ac9_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hp/hp_38c3f1f2-954e-11f1-a659-a6ae20f6eefe_437bf2532653a_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hp/hp_38c3f1f2-954e-11f1-a659-a6ae20f6eefe_7ce1e8903b3a1_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hp/hp_38c3f1f2-954e-11f1-a659-a6ae20f6eefe_1d5bf6483d203_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hp/hp_38c3f1f2-954e-11f1-a659-a6ae20f6eefe_92602957c6332_thumb.webp"
+      ],
+      "land_m2": 105.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 16990000,
+      "property_type": "condo",
+      "raw": {
+        "property_id": "1696967",
+        "uuid": "53616c7465645f5fcb1967f84705ce874130632ea3faff8e2b6b9f451ab13286"
+      },
+      "source": "akiyajapan",
+      "source_id": "1696967",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fcb1967f84705ce874130632ea3faff8e2b6b9f451ab13286",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "not a detached house (type=condo)",
+        "over ¥10M (¥16,990,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1981,
+      "building_m2": 115.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_ecaabf70-9109-11f1-a659-a6ae20f6eefe_c3487590ccb0e.jpg"
+      ],
+      "land_m2": 146.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 2100000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1685673",
+        "uuid": "53616c7465645f5f39033b5c407b7410feef9acb51a1ee2db8d9f9261ee10bab"
+      },
+      "source": "akiyajapan",
+      "source_id": "1685673",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f39033b5c407b7410feef9acb51a1ee2db8d9f9261ee10bab",
+      "verdict": "flagged",
+      "verdict_reasons": [
+        "built 1981 — verify month vs June 1981 code date"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1965,
+      "building_m2": 84.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_c98a752b-9109-11f1-a659-a6ae20f6eefe_ffc9bed9fb757_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_c98a752b-9109-11f1-a659-a6ae20f6eefe_a9369d626b2f9_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_c98a752b-9109-11f1-a659-a6ae20f6eefe_8a9e049f9bd9b_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_c98a752b-9109-11f1-a659-a6ae20f6eefe_c16530c38f03a_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_c98a752b-9109-11f1-a659-a6ae20f6eefe_f0b41000c29d4_thumb.webp"
+      ],
+      "land_m2": 84.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 2250000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1685670",
+        "uuid": "53616c7465645f5feaafd41a18e87607d9a75cdc599a9d3ba81168257db16515"
+      },
+      "source": "akiyajapan",
+      "source_id": "1685670",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5feaafd41a18e87607d9a75cdc599a9d3ba81168257db16515",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1965) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 2016,
+      "building_m2": 132.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_b3c55745-9108-11f1-a659-a6ae20f6eefe_76a3b49201380_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_b3c55745-9108-11f1-a659-a6ae20f6eefe_c7b60b174df70_thumb.webp"
+      ],
+      "land_m2": 436.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 20850000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1685657",
+        "uuid": "53616c7465645f5fbbccdb60e917a16590bf92366565238715ba6a8435dab46e"
+      },
+      "source": "akiyajapan",
+      "source_id": "1685657",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fbbccdb60e917a16590bf92366565238715ba6a8435dab46e",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥20,850,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1979,
+      "building_m2": 83.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_9019b654-9109-11f1-a659-a6ae20f6eefe_871e651d811db_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_9019b654-9109-11f1-a659-a6ae20f6eefe_45796a3cf0363_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_9019b654-9109-11f1-a659-a6ae20f6eefe_80b50a3262969_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_9019b654-9109-11f1-a659-a6ae20f6eefe_553d657e2d81c_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_9019b654-9109-11f1-a659-a6ae20f6eefe_d5a45915f638b_thumb.webp"
+      ],
+      "land_m2": 153.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 2400000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1685669",
+        "uuid": "53616c7465645f5f40f3c30d7cb5dd77049a7cbbcf1dbff78b32094a64c9a31a"
+      },
+      "source": "akiyajapan",
+      "source_id": "1685669",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f40f3c30d7cb5dd77049a7cbbcf1dbff78b32094a64c9a31a",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1979) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1951,
+      "building_m2": 36.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_fb998e69-9108-11f1-a659-a6ae20f6eefe_9e6aaeb0dcbb1_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_fb998e69-9108-11f1-a659-a6ae20f6eefe_60e1872bee731_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_fb998e69-9108-11f1-a659-a6ae20f6eefe_97435948734fb_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_fb998e69-9108-11f1-a659-a6ae20f6eefe_badb1af04c884_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_fb998e69-9108-11f1-a659-a6ae20f6eefe_4802f40215c24_thumb.webp"
+      ],
+      "land_m2": 167.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 6450000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1685662",
+        "uuid": "53616c7465645f5ff0e762b3f889dc5645b7052bbdc16c58d4eaf4385bfc9daf"
+      },
+      "source": "akiyajapan",
+      "source_id": "1685662",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5ff0e762b3f889dc5645b7052bbdc16c58d4eaf4385bfc9daf",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1951) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1985,
+      "building_m2": 114.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_4c8fa1ab-910a-11f1-a659-a6ae20f6eefe_043b35ac94789_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_4c8fa1ab-910a-11f1-a659-a6ae20f6eefe_c4995f67917fd_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_4c8fa1ab-910a-11f1-a659-a6ae20f6eefe_93bf6c1e515ba_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_4c8fa1ab-910a-11f1-a659-a6ae20f6eefe_ba7fb31b618f4_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_4c8fa1ab-910a-11f1-a659-a6ae20f6eefe_98538b5cf7e1f_thumb.webp"
+      ],
+      "land_m2": 542.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 5700000,
+      "property_type": "mixed",
+      "raw": {
+        "property_id": "1685687",
+        "uuid": "53616c7465645f5f99c9745b41d2f5d862dd5bf9547c7ec322537b0151bd0af8"
+      },
+      "source": "akiyajapan",
+      "source_id": "1685687",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f99c9745b41d2f5d862dd5bf9547c7ec322537b0151bd0af8",
+      "verdict": "flagged",
+      "verdict_reasons": [
+        "mixed-use (店舗付) — review zoning/usage"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1974,
+      "building_m2": 80.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_1041ecd7-910a-11f1-a659-a6ae20f6eefe_498349488cc1e_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_1041ecd7-910a-11f1-a659-a6ae20f6eefe_b7d8c8222a39e_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_1041ecd7-910a-11f1-a659-a6ae20f6eefe_ac1dfe8ee3e91_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_1041ecd7-910a-11f1-a659-a6ae20f6eefe_f5080e876a6d5_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_1041ecd7-910a-11f1-a659-a6ae20f6eefe_8be2cf2cf3a5f_thumb.webp"
+      ],
+      "land_m2": null,
+      "last_seen": "2026-08-29",
+      "layout": "5LDK",
+      "local_images": [],
+      "price_yen": 7500000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1685679",
+        "uuid": "53616c7465645f5f56441b5ec2a353d68909fa6742106c0ad5638e4a1ff0ce44"
+      },
+      "source": "akiyajapan",
+      "source_id": "1685679",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f56441b5ec2a353d68909fa6742106c0ad5638e4a1ff0ce44",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1974) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1972,
+      "building_m2": 100.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_6c80a57a-9109-11f1-a659-a6ae20f6eefe_1e41921a73618_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_6c80a57a-9109-11f1-a659-a6ae20f6eefe_891205fe746a4_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_6c80a57a-9109-11f1-a659-a6ae20f6eefe_280ea8cacc686_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_6c80a57a-9109-11f1-a659-a6ae20f6eefe_39814a71f3407_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_6c80a57a-9109-11f1-a659-a6ae20f6eefe_b75c46e7d5594_thumb.webp"
+      ],
+      "land_m2": 162.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 3300000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1685666",
+        "uuid": "53616c7465645f5fd6bdc1e9dc1f28dc620f174afc133140b2b28a400cf4d772"
+      },
+      "source": "akiyajapan",
+      "source_id": "1685666",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fd6bdc1e9dc1f28dc620f174afc133140b2b28a400cf4d772",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1972) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1997,
+      "building_m2": 133.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_cbc2128c-9108-11f1-a659-a6ae20f6eefe_9a714aa04b9fa_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_cbc2128c-9108-11f1-a659-a6ae20f6eefe_e00d365b5584b_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_cbc2128c-9108-11f1-a659-a6ae20f6eefe_020c0c14fe855_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_cbc2128c-9108-11f1-a659-a6ae20f6eefe_876751bd7854f_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_cbc2128c-9108-11f1-a659-a6ae20f6eefe_bee52998e34fa_thumb.webp"
+      ],
+      "land_m2": 309.0,
+      "last_seen": "2026-08-29",
+      "layout": "3LDK",
+      "local_images": [],
+      "price_yen": 15900000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1685658",
+        "uuid": "53616c7465645f5f677cb744b852f44b7cf013b78c4dd637d07ff664b782c5cf"
+      },
+      "source": "akiyajapan",
+      "source_id": "1685658",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f677cb744b852f44b7cf013b78c4dd637d07ff664b782c5cf",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥15,900,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1963,
+      "building_m2": 72.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_d01a8670-907d-11f1-a659-a6ae20f6eefe_826e6bd4de87c_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_d01a8670-907d-11f1-a659-a6ae20f6eefe_86de9a364498c_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_d01a8670-907d-11f1-a659-a6ae20f6eefe_87d3a54b3804f_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_d01a8670-907d-11f1-a659-a6ae20f6eefe_a9563a3543535_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_d01a8670-907d-11f1-a659-a6ae20f6eefe_0f72d73434f98_thumb.webp"
+      ],
+      "land_m2": 489.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 465000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1683138",
+        "uuid": "53616c7465645f5f43f25be6d69a7d5924ae09637975da3bb7a7223d419f85db"
+      },
+      "source": "akiyajapan",
+      "source_id": "1683138",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f43f25be6d69a7d5924ae09637975da3bb7a7223d419f85db",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1963) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1972,
+      "building_m2": 80.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_a17a50aa-8f8c-11f1-a659-a6ae20f6eefe_a8960a30382a0_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_a17a50aa-8f8c-11f1-a659-a6ae20f6eefe_35da3e419cce0_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_a17a50aa-8f8c-11f1-a659-a6ae20f6eefe_5a0aeae587232_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_a17a50aa-8f8c-11f1-a659-a6ae20f6eefe_5dc30e372e30a_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_a17a50aa-8f8c-11f1-a659-a6ae20f6eefe_463ebe763071b_thumb.webp"
+      ],
+      "land_m2": 129.0,
+      "last_seen": "2026-08-29",
+      "layout": "5LDK",
+      "local_images": [],
+      "price_yen": 1800000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1675375",
+        "uuid": "53616c7465645f5fa99d39b56a73bec89d5eac14959c34ab23d7e86412885288"
+      },
+      "source": "akiyajapan",
+      "source_id": "1675375",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fa99d39b56a73bec89d5eac14959c34ab23d7e86412885288",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1972) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1976,
+      "building_m2": 84.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_e25fe36c-8f8c-11f1-a659-a6ae20f6eefe_d7f413c049f80_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_e25fe36c-8f8c-11f1-a659-a6ae20f6eefe_2f29239f6c93f_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_e25fe36c-8f8c-11f1-a659-a6ae20f6eefe_982ed4c008701_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_e25fe36c-8f8c-11f1-a659-a6ae20f6eefe_2b66f493f7c2b_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_e25fe36c-8f8c-11f1-a659-a6ae20f6eefe_ea9d9d5a73273_thumb.webp"
+      ],
+      "land_m2": 323.0,
+      "last_seen": "2026-08-29",
+      "layout": "5LDK",
+      "local_images": [],
+      "price_yen": 1800000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1675377",
+        "uuid": "53616c7465645f5f52a6fd3925bd8a3b7bee44e4cf4eb72de8aa23520d2a3d89"
+      },
+      "source": "akiyajapan",
+      "source_id": "1675377",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f52a6fd3925bd8a3b7bee44e4cf4eb72de8aa23520d2a3d89",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1976) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 2008,
+      "building_m2": 198.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_fe715d03-8f8d-11f1-a659-a6ae20f6eefe_c519575ec29c0_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_fe715d03-8f8d-11f1-a659-a6ae20f6eefe_c735f6c7c47ac_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_fe715d03-8f8d-11f1-a659-a6ae20f6eefe_69fa8b20c342b_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_fe715d03-8f8d-11f1-a659-a6ae20f6eefe_48eb45d7807f6_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_fe715d03-8f8d-11f1-a659-a6ae20f6eefe_61c7f4f50962b_thumb.webp"
+      ],
+      "land_m2": null,
+      "last_seen": "2026-08-29",
+      "layout": null,
+      "local_images": [],
+      "price_yen": 89700000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1675395",
+        "uuid": "53616c7465645f5f306436945787642e20d712df58c354668ca68936d0e8add3"
+      },
+      "source": "akiyajapan",
+      "source_id": "1675395",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f306436945787642e20d712df58c354668ca68936d0e8add3",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥89,700,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1979,
+      "building_m2": 169.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_52268cd2-8f8c-11f1-a659-a6ae20f6eefe_e38cfdb7d2a41_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_52268cd2-8f8c-11f1-a659-a6ae20f6eefe_f6e777447fbd5_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_52268cd2-8f8c-11f1-a659-a6ae20f6eefe_bd58153949c7a_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_52268cd2-8f8c-11f1-a659-a6ae20f6eefe_3c273af2d218d_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_52268cd2-8f8c-11f1-a659-a6ae20f6eefe_e41f6f9230214_thumb.webp"
+      ],
+      "land_m2": 380.0,
+      "last_seen": "2026-08-29",
+      "layout": "5LDK",
+      "local_images": [],
+      "price_yen": 2850000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1675362",
+        "uuid": "53616c7465645f5f12ece21b6f6d21e85bc86efa084ba7b1c7eaf38a7c9e9cbc"
+      },
+      "source": "akiyajapan",
+      "source_id": "1675362",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f12ece21b6f6d21e85bc86efa084ba7b1c7eaf38a7c9e9cbc",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1979) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1979,
+      "building_m2": 37.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_abacc5cb-8f8d-11f1-a659-a6ae20f6eefe_664bb7491a197_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_abacc5cb-8f8d-11f1-a659-a6ae20f6eefe_d1a3bc52a9af5_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_abacc5cb-8f8d-11f1-a659-a6ae20f6eefe_bf47e26288e90_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_abacc5cb-8f8d-11f1-a659-a6ae20f6eefe_f025c0dd2946e_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_abacc5cb-8f8d-11f1-a659-a6ae20f6eefe_40d1b9a34d291_thumb.webp"
+      ],
+      "land_m2": 47.0,
+      "last_seen": "2026-08-29",
+      "layout": "2LDK",
+      "local_images": [],
+      "price_yen": 945000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1675391",
+        "uuid": "53616c7465645f5f5ba39bb2c61af7c2bef42f838970d88e5917ab959fd09adb"
+      },
+      "source": "akiyajapan",
+      "source_id": "1675391",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f5ba39bb2c61af7c2bef42f838970d88e5917ab959fd09adb",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1979) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1979,
+      "building_m2": 102.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_83c3b40f-8f8d-11f1-a659-a6ae20f6eefe_25a91e80cd5c8_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_83c3b40f-8f8d-11f1-a659-a6ae20f6eefe_ddfbc60162a8a_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_83c3b40f-8f8d-11f1-a659-a6ae20f6eefe_c5fe4b7a99c8e_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_83c3b40f-8f8d-11f1-a659-a6ae20f6eefe_e17014a81a840_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_83c3b40f-8f8d-11f1-a659-a6ae20f6eefe_791a97a721807_thumb.webp"
+      ],
+      "land_m2": 107.0,
+      "last_seen": "2026-08-29",
+      "layout": "5LDK",
+      "local_images": [],
+      "price_yen": 1035000,
+      "property_type": "mixed",
+      "raw": {
+        "property_id": "1675388",
+        "uuid": "53616c7465645f5f026da270b29c671faa82995aab3d39e35f6b5f975d210051"
+      },
+      "source": "akiyajapan",
+      "source_id": "1675388",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f026da270b29c671faa82995aab3d39e35f6b5f975d210051",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "mixed-use (店舗付) — review zoning/usage",
+        "pre-1981 seismic (1979) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1989,
+      "building_m2": 107.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_f5799f30-8f8b-11f1-a659-a6ae20f6eefe_3dee1baa23a81_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_f5799f30-8f8b-11f1-a659-a6ae20f6eefe_bd767527ea480_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_f5799f30-8f8b-11f1-a659-a6ae20f6eefe_98e3b80413b38_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_f5799f30-8f8b-11f1-a659-a6ae20f6eefe_f6a3eabfad386_thumb.webp"
+      ],
+      "land_m2": 332.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 4200000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1675353",
+        "uuid": "53616c7465645f5f09eff2743c8cd666e37e5d003657c9331fd31605c809304c"
+      },
+      "source": "akiyajapan",
+      "source_id": "1675353",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f09eff2743c8cd666e37e5d003657c9331fd31605c809304c",
+      "verdict": "pass",
+      "verdict_reasons": []
+    },
+    {
+      "address": null,
+      "build_year": 1993,
+      "building_m2": 106.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_9c414009-8f8a-11f1-a659-a6ae20f6eefe_c1dc828db5b80_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_9c414009-8f8a-11f1-a659-a6ae20f6eefe_99eaba7b5c8cb_thumb.webp"
+      ],
+      "land_m2": 205.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 6150000,
+      "property_type": "mixed",
+      "raw": {
+        "property_id": "1675318",
+        "uuid": "53616c7465645f5f8db5d14fc1f2ea3fabf43b2b1da0517d8f6ec9698a5afce7"
+      },
+      "source": "akiyajapan",
+      "source_id": "1675318",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f8db5d14fc1f2ea3fabf43b2b1da0517d8f6ec9698a5afce7",
+      "verdict": "flagged",
+      "verdict_reasons": [
+        "mixed-use (店舗付) — review zoning/usage"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1970,
+      "building_m2": 106.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_7dbc7198-8f8b-11f1-a659-a6ae20f6eefe_bb8297279b500_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_7dbc7198-8f8b-11f1-a659-a6ae20f6eefe_1bde18757540a_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_7dbc7198-8f8b-11f1-a659-a6ae20f6eefe_7b1fc139f7a04_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_7dbc7198-8f8b-11f1-a659-a6ae20f6eefe_22b5fe7068fc3_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_7dbc7198-8f8b-11f1-a659-a6ae20f6eefe_46edf24422cfb_thumb.webp"
+      ],
+      "land_m2": 339.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 3600000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1675345",
+        "uuid": "53616c7465645f5fbc002d377111d41532ba60269f3901c88b44b17a090a4d2d"
+      },
+      "source": "akiyajapan",
+      "source_id": "1675345",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fbc002d377111d41532ba60269f3901c88b44b17a090a4d2d",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1970) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1966,
+      "building_m2": 108.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_b2e16ed9-8f8a-11f1-a659-a6ae20f6eefe_50da7f29616ee_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_b2e16ed9-8f8a-11f1-a659-a6ae20f6eefe_182c3205a1682_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_b2e16ed9-8f8a-11f1-a659-a6ae20f6eefe_9f274286bc263_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_b2e16ed9-8f8a-11f1-a659-a6ae20f6eefe_df72014a578cc_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_b2e16ed9-8f8a-11f1-a659-a6ae20f6eefe_a8316118d51ae_thumb.webp"
+      ],
+      "land_m2": 256.0,
+      "last_seen": "2026-08-29",
+      "layout": "6LDK",
+      "local_images": [],
+      "price_yen": 4950000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1675320",
+        "uuid": "53616c7465645f5f2892bcd6d5be28fe7f9e426d94a9318d4e0ce564b7bb2ec7"
+      },
+      "source": "akiyajapan",
+      "source_id": "1675320",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f2892bcd6d5be28fe7f9e426d94a9318d4e0ce564b7bb2ec7",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1966) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1989,
+      "building_m2": 41.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_13a396cc-8f8b-11f1-a659-a6ae20f6eefe_ca68dd404f34e_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_13a396cc-8f8b-11f1-a659-a6ae20f6eefe_1ca3c37b18448_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_13a396cc-8f8b-11f1-a659-a6ae20f6eefe_161daecf26398_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_13a396cc-8f8b-11f1-a659-a6ae20f6eefe_48394fd077923_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_13a396cc-8f8b-11f1-a659-a6ae20f6eefe_e0c6a5ffc56a2_thumb.webp"
+      ],
+      "land_m2": 60.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 4500000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1675332",
+        "uuid": "53616c7465645f5f451b74c7d05ccedee2f5dda856c41dca77a028dea8a1672a"
+      },
+      "source": "akiyajapan",
+      "source_id": "1675332",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f451b74c7d05ccedee2f5dda856c41dca77a028dea8a1672a",
+      "verdict": "pass",
+      "verdict_reasons": []
+    },
+    {
+      "address": null,
+      "build_year": 1987,
+      "building_m2": 127.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_53d6566e-8f8b-11f1-a659-a6ae20f6eefe_f9a0d7aa9a8f6_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_53d6566e-8f8b-11f1-a659-a6ae20f6eefe_43ecc36b07c6f_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_53d6566e-8f8b-11f1-a659-a6ae20f6eefe_f9744653568e2_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_53d6566e-8f8b-11f1-a659-a6ae20f6eefe_1df78a701846f_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_53d6566e-8f8b-11f1-a659-a6ae20f6eefe_b2373e900b8c9_thumb.webp"
+      ],
+      "land_m2": 280.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 3600000,
+      "property_type": "mixed",
+      "raw": {
+        "property_id": "1675339",
+        "uuid": "53616c7465645f5f59fd0c0ec0d42106e24706ef6192c145f6a1d288466e56b0"
+      },
+      "source": "akiyajapan",
+      "source_id": "1675339",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f59fd0c0ec0d42106e24706ef6192c145f6a1d288466e56b0",
+      "verdict": "flagged",
+      "verdict_reasons": [
+        "mixed-use (店舗付) — review zoning/usage"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1984,
+      "building_m2": 176.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_77a168e5-8f8a-11f1-a659-a6ae20f6eefe_a6e1d2863fa86_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_77a168e5-8f8a-11f1-a659-a6ae20f6eefe_1cd9d0e11a3d8_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_77a168e5-8f8a-11f1-a659-a6ae20f6eefe_8caba2676a7da_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_77a168e5-8f8a-11f1-a659-a6ae20f6eefe_76261c630225f_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_77a168e5-8f8a-11f1-a659-a6ae20f6eefe_ea7d276d0a141_thumb.webp"
+      ],
+      "land_m2": 249.0,
+      "last_seen": "2026-08-29",
+      "layout": "3LDK",
+      "local_images": [],
+      "price_yen": 12300000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1675310",
+        "uuid": "53616c7465645f5f828c422087829ed7458dfa32c99795eb056bfb9e6945c4af"
+      },
+      "source": "akiyajapan",
+      "source_id": "1675310",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f828c422087829ed7458dfa32c99795eb056bfb9e6945c4af",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥12,300,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 2002,
+      "building_m2": 17.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/fp/fp_6f066b20-8d68-11f1-a659-a6ae20f6eefe_f951944692224_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/fp/fp_6f066b20-8d68-11f1-a659-a6ae20f6eefe_71a8f362d9596_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/fp/fp_6f066b20-8d68-11f1-a659-a6ae20f6eefe_431715ea76390_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/fp/fp_6f066b20-8d68-11f1-a659-a6ae20f6eefe_b06670e111d8b_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/fp/fp_6f066b20-8d68-11f1-a659-a6ae20f6eefe_bc1752e42a403_thumb.webp"
+      ],
+      "land_m2": 74.0,
+      "last_seen": "2026-08-29",
+      "layout": "3LDK",
+      "local_images": [],
+      "price_yen": 20550000,
+      "property_type": "condo",
+      "raw": {
+        "property_id": "1655879",
+        "uuid": "53616c7465645f5f3cc88b6ba340ba704dac7cec4716304df374db962b73f2fa"
+      },
+      "source": "akiyajapan",
+      "source_id": "1655879",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f3cc88b6ba340ba704dac7cec4716304df374db962b73f2fa",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "not a detached house (type=condo)",
+        "over ¥10M (¥20,550,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 2025,
+      "building_m2": 91.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_cdadc4fb-8d5c-11f1-a659-a6ae20f6eefe_78dc94eccfdb9_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_cdadc4fb-8d5c-11f1-a659-a6ae20f6eefe_706e3ab166dfe_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_cdadc4fb-8d5c-11f1-a659-a6ae20f6eefe_7815952e82f36_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_cdadc4fb-8d5c-11f1-a659-a6ae20f6eefe_a37d60537c81e_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_cdadc4fb-8d5c-11f1-a659-a6ae20f6eefe_645d1ba1dedbc_thumb.webp"
+      ],
+      "land_m2": 365.0,
+      "last_seen": "2026-08-29",
+      "layout": "3LDK",
+      "local_images": [],
+      "price_yen": 39450000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1655565",
+        "uuid": "53616c7465645f5faf8dae2a9d300d545bbf8ef3fd7903b374ee410afb79b796"
+      },
+      "source": "akiyajapan",
+      "source_id": "1655565",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5faf8dae2a9d300d545bbf8ef3fd7903b374ee410afb79b796",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥39,450,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1998,
+      "building_m2": 158.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_93d43a1d-8d5c-11f1-a659-a6ae20f6eefe_86ff968adaed1_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_93d43a1d-8d5c-11f1-a659-a6ae20f6eefe_0ec7a3dbfa1c7_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_93d43a1d-8d5c-11f1-a659-a6ae20f6eefe_4297f0341a444_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_93d43a1d-8d5c-11f1-a659-a6ae20f6eefe_dcf21669db2ee_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_93d43a1d-8d5c-11f1-a659-a6ae20f6eefe_87a5217c9acd5_thumb.webp"
+      ],
+      "land_m2": 203.0,
+      "last_seen": "2026-08-29",
+      "layout": "6LDK",
+      "local_images": [],
+      "price_yen": 11250000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1655554",
+        "uuid": "53616c7465645f5f11c6f748bcb9dffb9398c7c65da444b87bcffa01d6e4935c"
+      },
+      "source": "akiyajapan",
+      "source_id": "1655554",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f11c6f748bcb9dffb9398c7c65da444b87bcffa01d6e4935c",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥11,250,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1981,
+      "building_m2": 64.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_70753ae4-8d59-11f1-a659-a6ae20f6eefe_c1b4b065f881d_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_70753ae4-8d59-11f1-a659-a6ae20f6eefe_97b005589005c_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_70753ae4-8d59-11f1-a659-a6ae20f6eefe_a9054e47e10f1_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_70753ae4-8d59-11f1-a659-a6ae20f6eefe_fbd16ce96dd2f_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_70753ae4-8d59-11f1-a659-a6ae20f6eefe_82420929d39aa_thumb.webp"
+      ],
+      "land_m2": null,
+      "last_seen": "2026-08-29",
+      "layout": "3LDK",
+      "local_images": [],
+      "price_yen": 1410000,
+      "property_type": "condo",
+      "raw": {
+        "property_id": "1655396",
+        "uuid": "53616c7465645f5f198c06460753017842fa3d6b11f6c4b827006cdf3a1cd36a"
+      },
+      "source": "akiyajapan",
+      "source_id": "1655396",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f198c06460753017842fa3d6b11f6c4b827006cdf3a1cd36a",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "not a detached house (type=condo)",
+        "built 1981 — verify month vs June 1981 code date"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1981,
+      "building_m2": 95.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_4c834b1e-8d59-11f1-a659-a6ae20f6eefe_a5f1231d7dd10_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_4c834b1e-8d59-11f1-a659-a6ae20f6eefe_3a3294885ecca_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_4c834b1e-8d59-11f1-a659-a6ae20f6eefe_3f4770a7f7e16_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_4c834b1e-8d59-11f1-a659-a6ae20f6eefe_fb87be84cc1d4_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_4c834b1e-8d59-11f1-a659-a6ae20f6eefe_514a09cbe75c3_thumb.webp"
+      ],
+      "land_m2": null,
+      "last_seen": "2026-08-29",
+      "layout": "5LDK",
+      "local_images": [],
+      "price_yen": 1950000,
+      "property_type": "condo",
+      "raw": {
+        "property_id": "1655390",
+        "uuid": "53616c7465645f5f2b4a5f7c92565619c1a7a1a024a7acb0bfbff1fb9ee8abb4"
+      },
+      "source": "akiyajapan",
+      "source_id": "1655390",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f2b4a5f7c92565619c1a7a1a024a7acb0bfbff1fb9ee8abb4",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "not a detached house (type=condo)",
+        "built 1981 — verify month vs June 1981 code date"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1984,
+      "building_m2": 132.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/fp/fp_adde418f-88a9-11f1-a659-a6ae20f6eefe_5f96ce456e70b_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/fp/fp_adde418f-88a9-11f1-a659-a6ae20f6eefe_a336d6dd0fac9_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/fp/fp_adde418f-88a9-11f1-a659-a6ae20f6eefe_74ff149fb47e4_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/fp/fp_adde418f-88a9-11f1-a659-a6ae20f6eefe_011d55c4c61d9_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/fp/fp_adde418f-88a9-11f1-a659-a6ae20f6eefe_95d5424216377_thumb.webp"
+      ],
+      "land_m2": 215.0,
+      "last_seen": "2026-08-29",
+      "layout": "3LDK",
+      "local_images": [],
+      "price_yen": 6600000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1627056",
+        "uuid": "53616c7465645f5fbd8a85e38e296dc769a92cb2cffb12c2ececb78eb78fe43c"
+      },
+      "source": "akiyajapan",
+      "source_id": "1627056",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fbd8a85e38e296dc769a92cb2cffb12c2ececb78eb78fe43c",
+      "verdict": "pass",
+      "verdict_reasons": []
+    },
+    {
+      "address": null,
+      "build_year": 1966,
+      "building_m2": 108.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/fp/fp_22fabdac-87da-11f1-a659-a6ae20f6eefe_bb6d2d77d18ea_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/fp/fp_22fabdac-87da-11f1-a659-a6ae20f6eefe_c40d0a746f8c9_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/fp/fp_22fabdac-87da-11f1-a659-a6ae20f6eefe_44ae6ea106a97_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/fp/fp_22fabdac-87da-11f1-a659-a6ae20f6eefe_3e987126b4501_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/fp/fp_22fabdac-87da-11f1-a659-a6ae20f6eefe_1de8f546d786f_thumb.webp"
+      ],
+      "land_m2": 256.0,
+      "last_seen": "2026-08-29",
+      "layout": "6LDK",
+      "local_images": [],
+      "price_yen": 4950000,
+      "property_type": "mixed",
+      "raw": {
+        "property_id": "1616307",
+        "uuid": "53616c7465645f5f2ca7d363c92df0e94bb25ec400ccd90f3da464ac21abef30"
+      },
+      "source": "akiyajapan",
+      "source_id": "1616307",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f2ca7d363c92df0e94bb25ec400ccd90f3da464ac21abef30",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "mixed-use (店舗付) — review zoning/usage",
+        "pre-1981 seismic (1966) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1976,
+      "building_m2": null,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/rp/rp_c338a8f8-878f-11f1-a659-a6ae20f6eefe_8a86ce6f166e6_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/rp/rp_c338a8f8-878f-11f1-a659-a6ae20f6eefe_801e284f65e45_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/rp/rp_c338a8f8-878f-11f1-a659-a6ae20f6eefe_ceea2b030ca21_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/rp/rp_c338a8f8-878f-11f1-a659-a6ae20f6eefe_26ef6b21890f7_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/rp/rp_c338a8f8-878f-11f1-a659-a6ae20f6eefe_67f25fc647245_thumb.webp"
+      ],
+      "land_m2": null,
+      "last_seen": "2026-08-29",
+      "layout": null,
+      "local_images": [],
+      "price_yen": 127500000,
+      "property_type": "mixed",
+      "raw": {
+        "property_id": "1614427",
+        "uuid": "53616c7465645f5f4f04a6fff0d1f7e66cc9406c13b48986cc1d3e5b35ee5f6d"
+      },
+      "source": "akiyajapan",
+      "source_id": "1614427",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f4f04a6fff0d1f7e66cc9406c13b48986cc1d3e5b35ee5f6d",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "mixed-use (店舗付) — review zoning/usage",
+        "pre-1981 seismic (1976) — reinforcement cost",
+        "over ¥10M (¥127,500,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1982,
+      "building_m2": 136.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_87055e3e-86b9-11f1-a659-a6ae20f6eefe_b84f956c146fc_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_87055e3e-86b9-11f1-a659-a6ae20f6eefe_cf762b1340421_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_87055e3e-86b9-11f1-a659-a6ae20f6eefe_546ef6f9186bd_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_87055e3e-86b9-11f1-a659-a6ae20f6eefe_9bfff3559ccbe_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_87055e3e-86b9-11f1-a659-a6ae20f6eefe_c9f4a663ae6d8_thumb.webp"
+      ],
+      "land_m2": 195.0,
+      "last_seen": "2026-08-29",
+      "layout": "3LDK",
+      "local_images": [],
+      "price_yen": 11850000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1600915",
+        "uuid": "53616c7465645f5fdf3e7392164ab9dff4eb4709a77833af77519669b945c659"
+      },
+      "source": "akiyajapan",
+      "source_id": "1600915",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fdf3e7392164ab9dff4eb4709a77833af77519669b945c659",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥11,850,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1979,
+      "building_m2": 82.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_9451f24e-86b4-11f1-a659-a6ae20f6eefe_a80d9b07635ec_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_9451f24e-86b4-11f1-a659-a6ae20f6eefe_3ebd5f830672f_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_9451f24e-86b4-11f1-a659-a6ae20f6eefe_1c5d1179c67e0_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_9451f24e-86b4-11f1-a659-a6ae20f6eefe_ff968de18b09a_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_9451f24e-86b4-11f1-a659-a6ae20f6eefe_0ea217df6e909_thumb.webp"
+      ],
+      "land_m2": 140.0,
+      "last_seen": "2026-08-29",
+      "layout": "3LDK",
+      "local_images": [],
+      "price_yen": 13200000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1598528",
+        "uuid": "53616c7465645f5f3e0816d17f356e03b41751dbb5b919f2ee7741040f4cef3f"
+      },
+      "source": "akiyajapan",
+      "source_id": "1598528",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f3e0816d17f356e03b41751dbb5b919f2ee7741040f4cef3f",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1979) — reinforcement cost",
+        "over ¥10M (¥13,200,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 2004,
+      "building_m2": 116.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_e23516b8-86b4-11f1-a659-a6ae20f6eefe_5d65cb2356def_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_e23516b8-86b4-11f1-a659-a6ae20f6eefe_045e9429cc3d6_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_e23516b8-86b4-11f1-a659-a6ae20f6eefe_6ed44f706dfd0_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_e23516b8-86b4-11f1-a659-a6ae20f6eefe_421e9717ccfbb_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_e23516b8-86b4-11f1-a659-a6ae20f6eefe_d502401f3baa6_thumb.webp"
+      ],
+      "land_m2": 175.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 17400000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1598633",
+        "uuid": "53616c7465645f5f4d58a59055a2317c67b3ffaf29672a958519450b3b9e1e48"
+      },
+      "source": "akiyajapan",
+      "source_id": "1598633",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f4d58a59055a2317c67b3ffaf29672a958519450b3b9e1e48",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥17,400,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1981,
+      "building_m2": 87.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_1f7d306b-86b4-11f1-a659-a6ae20f6eefe_794e7dfbd88bc_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_1f7d306b-86b4-11f1-a659-a6ae20f6eefe_28faa5996058e_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_1f7d306b-86b4-11f1-a659-a6ae20f6eefe_9c3998237afba_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_1f7d306b-86b4-11f1-a659-a6ae20f6eefe_c0159a318a0d9_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_1f7d306b-86b4-11f1-a659-a6ae20f6eefe_52cf01d931cb8_thumb.webp"
+      ],
+      "land_m2": 133.0,
+      "last_seen": "2026-08-29",
+      "layout": "3LDK",
+      "local_images": [],
+      "price_yen": 3000000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1598286",
+        "uuid": "53616c7465645f5f7ccbc454bf3beb97a344885682fba7a12d1896b31fa4d515"
+      },
+      "source": "akiyajapan",
+      "source_id": "1598286",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f7ccbc454bf3beb97a344885682fba7a12d1896b31fa4d515",
+      "verdict": "flagged",
+      "verdict_reasons": [
+        "built 1981 — verify month vs June 1981 code date"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1984,
+      "building_m2": 187.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_5b05b905-86b4-11f1-a659-a6ae20f6eefe_6ffd023784953_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_5b05b905-86b4-11f1-a659-a6ae20f6eefe_029a0bea55241_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_5b05b905-86b4-11f1-a659-a6ae20f6eefe_4b39a991b1b8f_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_5b05b905-86b4-11f1-a659-a6ae20f6eefe_d63186726dac4_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_5b05b905-86b4-11f1-a659-a6ae20f6eefe_425597500b861_thumb.webp"
+      ],
+      "land_m2": 382.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 12150000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1598434",
+        "uuid": "53616c7465645f5f3e06f1dac35f34b1fa59ce53aee61cc573f1783951a46bdb"
+      },
+      "source": "akiyajapan",
+      "source_id": "1598434",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f3e06f1dac35f34b1fa59ce53aee61cc573f1783951a46bdb",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥12,150,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1982,
+      "building_m2": 99.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_0c5116c4-85db-11f1-a659-a6ae20f6eefe_45acb59cef926_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_0c5116c4-85db-11f1-a659-a6ae20f6eefe_88d0fbc92a0be_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_0c5116c4-85db-11f1-a659-a6ae20f6eefe_da690cdbbc3dc_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_0c5116c4-85db-11f1-a659-a6ae20f6eefe_30135a37d1efb_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_0c5116c4-85db-11f1-a659-a6ae20f6eefe_f6c823cd4e18c_thumb.webp"
+      ],
+      "land_m2": 105.0,
+      "last_seen": "2026-08-29",
+      "layout": "3LDK",
+      "local_images": [],
+      "price_yen": 1650000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1586106",
+        "uuid": "53616c7465645f5f7bd72fe8069acf4bb4bfc8a83fac23826de36480e7439e85"
+      },
+      "source": "akiyajapan",
+      "source_id": "1586106",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f7bd72fe8069acf4bb4bfc8a83fac23826de36480e7439e85",
+      "verdict": "pass",
+      "verdict_reasons": []
+    },
+    {
+      "address": null,
+      "build_year": 1988,
+      "building_m2": 126.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_15382e0a-85ce-11f1-a659-a6ae20f6eefe_f642fe8741a8d_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_15382e0a-85ce-11f1-a659-a6ae20f6eefe_e12745a957f36_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_15382e0a-85ce-11f1-a659-a6ae20f6eefe_ae05357225d9d_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_15382e0a-85ce-11f1-a659-a6ae20f6eefe_fac15ac71aea3_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_15382e0a-85ce-11f1-a659-a6ae20f6eefe_8af41bd23fc5b_thumb.webp"
+      ],
+      "land_m2": 169.0,
+      "last_seen": "2026-08-29",
+      "layout": "6LDK",
+      "local_images": [],
+      "price_yen": 3450000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1585556",
+        "uuid": "53616c7465645f5fe3b5a6be18e1d190ac6000d1c46a738eeab1cfb3525d85a3"
+      },
+      "source": "akiyajapan",
+      "source_id": "1585556",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fe3b5a6be18e1d190ac6000d1c46a738eeab1cfb3525d85a3",
+      "verdict": "pass",
+      "verdict_reasons": []
+    },
+    {
+      "address": null,
+      "build_year": 1975,
+      "building_m2": 91.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_0d4b2b36-85d5-11f1-a659-a6ae20f6eefe_71e2d3469f2e9_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_0d4b2b36-85d5-11f1-a659-a6ae20f6eefe_6cbfefb9c5422_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_0d4b2b36-85d5-11f1-a659-a6ae20f6eefe_9d095d10e5ebb_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_0d4b2b36-85d5-11f1-a659-a6ae20f6eefe_fcdccfe95bb95_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_0d4b2b36-85d5-11f1-a659-a6ae20f6eefe_99d43fa190c5f_thumb.webp"
+      ],
+      "land_m2": 330.0,
+      "last_seen": "2026-08-29",
+      "layout": "5LDK",
+      "local_images": [],
+      "price_yen": 2400000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1585872",
+        "uuid": "53616c7465645f5ff5afb407fac05e2686e5aa79a74b5f6f0ba7529f095b0f1c"
+      },
+      "source": "akiyajapan",
+      "source_id": "1585872",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5ff5afb407fac05e2686e5aa79a74b5f6f0ba7529f095b0f1c",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1975) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1972,
+      "building_m2": 66.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_2568fc09-85c5-11f1-a659-a6ae20f6eefe_84e8da7677517_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_2568fc09-85c5-11f1-a659-a6ae20f6eefe_d89318376487b_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_2568fc09-85c5-11f1-a659-a6ae20f6eefe_08e863d5f13e1_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_2568fc09-85c5-11f1-a659-a6ae20f6eefe_dd4cc42317456_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_2568fc09-85c5-11f1-a659-a6ae20f6eefe_ab8b416f22626_thumb.webp"
+      ],
+      "land_m2": 141.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 1230000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1585433",
+        "uuid": "53616c7465645f5fefa3d610925756dc8b8f56515ce2792648908db5d60d5236"
+      },
+      "source": "akiyajapan",
+      "source_id": "1585433",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fefa3d610925756dc8b8f56515ce2792648908db5d60d5236",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1972) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1975,
+      "building_m2": 90.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_01e910ee-85c5-11f1-a659-a6ae20f6eefe_b7d4ce677fea5_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_01e910ee-85c5-11f1-a659-a6ae20f6eefe_26ea7d72209c3_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_01e910ee-85c5-11f1-a659-a6ae20f6eefe_8e6f8e2a9676e_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_01e910ee-85c5-11f1-a659-a6ae20f6eefe_74c70cd78137c_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_01e910ee-85c5-11f1-a659-a6ae20f6eefe_6309ac1130249_thumb.webp"
+      ],
+      "land_m2": 193.0,
+      "last_seen": "2026-08-29",
+      "layout": "5LDK",
+      "local_images": [],
+      "price_yen": 2850000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1585432",
+        "uuid": "53616c7465645f5fdee75ef7f063d2a6c17fb5428c585ef89943d323bc64eb2a"
+      },
+      "source": "akiyajapan",
+      "source_id": "1585432",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fdee75ef7f063d2a6c17fb5428c585ef89943d323bc64eb2a",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1975) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1948,
+      "building_m2": 88.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_33a7d6e3-85c5-11f1-a659-a6ae20f6eefe_537e5ec6e12b0_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_33a7d6e3-85c5-11f1-a659-a6ae20f6eefe_c70dc0ff90d0b_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_33a7d6e3-85c5-11f1-a659-a6ae20f6eefe_2ce50e0cae34a_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_33a7d6e3-85c5-11f1-a659-a6ae20f6eefe_1a918ac0a0b63_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_33a7d6e3-85c5-11f1-a659-a6ae20f6eefe_4647a299ded55_thumb.webp"
+      ],
+      "land_m2": 122.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 1140000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1585434",
+        "uuid": "53616c7465645f5f45434e227b37c1e37e1e5f14acdc26ef04b5399bf27a080d"
+      },
+      "source": "akiyajapan",
+      "source_id": "1585434",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f45434e227b37c1e37e1e5f14acdc26ef04b5399bf27a080d",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1948) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1997,
+      "building_m2": 109.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_c95787fb-85c1-11f1-a659-a6ae20f6eefe_5a693f9cd82bb_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_c95787fb-85c1-11f1-a659-a6ae20f6eefe_dc8860f9ee001_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_c95787fb-85c1-11f1-a659-a6ae20f6eefe_819a5259fe643_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_c95787fb-85c1-11f1-a659-a6ae20f6eefe_ab5e8bb7782ae_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_c95787fb-85c1-11f1-a659-a6ae20f6eefe_b105832350a92_thumb.webp"
+      ],
+      "land_m2": 203.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 8400000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1584935",
+        "uuid": "53616c7465645f5fb919af7e985f62efb5aec75ac61d0e39ce348e43f1a092dd"
+      },
+      "source": "akiyajapan",
+      "source_id": "1584935",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fb919af7e985f62efb5aec75ac61d0e39ce348e43f1a092dd",
+      "verdict": "stretch",
+      "verdict_reasons": [
+        "stretch price ¥8,400,000 (>¥7.5M)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1970,
+      "building_m2": 91.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_ebbc5313-85c4-11f1-a659-a6ae20f6eefe_3905e19cf991a_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_ebbc5313-85c4-11f1-a659-a6ae20f6eefe_049d53c48db71_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_ebbc5313-85c4-11f1-a659-a6ae20f6eefe_9b89da6c134aa_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_ebbc5313-85c4-11f1-a659-a6ae20f6eefe_e5f1e3c2e7cab_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_ebbc5313-85c4-11f1-a659-a6ae20f6eefe_335788d9fd3d9_thumb.webp"
+      ],
+      "land_m2": 201.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 4050000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1585431",
+        "uuid": "53616c7465645f5f78f9aa19725ca6bbce76c4db6a1cc0ae69f0ee2098ee5b7c"
+      },
+      "source": "akiyajapan",
+      "source_id": "1585431",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f78f9aa19725ca6bbce76c4db6a1cc0ae69f0ee2098ee5b7c",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1970) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 2001,
+      "building_m2": 283.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_a51fe2f2-85c1-11f1-a659-a6ae20f6eefe_61185a66b95a5_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_a51fe2f2-85c1-11f1-a659-a6ae20f6eefe_ff8f7306a8a0d_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_a51fe2f2-85c1-11f1-a659-a6ae20f6eefe_b3c5e3970572a_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_a51fe2f2-85c1-11f1-a659-a6ae20f6eefe_9162f1e13a97f_thumb.webp"
+      ],
+      "land_m2": 313.0,
+      "last_seen": "2026-08-29",
+      "layout": null,
+      "local_images": [],
+      "price_yen": 31050000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1584890",
+        "uuid": "53616c7465645f5f58f3accf41d3b94ba43d2ea0204764d7bec9bed8dcb29224"
+      },
+      "source": "akiyajapan",
+      "source_id": "1584890",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f58f3accf41d3b94ba43d2ea0204764d7bec9bed8dcb29224",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥31,050,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1966,
+      "building_m2": 73.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_e709caf1-85c1-11f1-a659-a6ae20f6eefe_721bc503c38d7_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_e709caf1-85c1-11f1-a659-a6ae20f6eefe_62906565afc8e_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_e709caf1-85c1-11f1-a659-a6ae20f6eefe_3c68cc68f4511_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_e709caf1-85c1-11f1-a659-a6ae20f6eefe_1030929d59f37_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_e709caf1-85c1-11f1-a659-a6ae20f6eefe_e60b18d971387_thumb.webp"
+      ],
+      "land_m2": 333.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 4500000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1584969",
+        "uuid": "53616c7465645f5f796d14b54dd0de03002be0bf9aeb372bd8bd47da62303bc2"
+      },
+      "source": "akiyajapan",
+      "source_id": "1584969",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f796d14b54dd0de03002be0bf9aeb372bd8bd47da62303bc2",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1966) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1976,
+      "building_m2": 77.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_d798b643-85c1-11f1-a659-a6ae20f6eefe_dbcf0179f2e16_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_d798b643-85c1-11f1-a659-a6ae20f6eefe_62baa8a9af293_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_d798b643-85c1-11f1-a659-a6ae20f6eefe_c4c7e9246d271_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_d798b643-85c1-11f1-a659-a6ae20f6eefe_f303b8908a680_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_d798b643-85c1-11f1-a659-a6ae20f6eefe_66c6728830b64_thumb.webp"
+      ],
+      "land_m2": 199.0,
+      "last_seen": "2026-08-29",
+      "layout": "3LDK",
+      "local_images": [],
+      "price_yen": 4650000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1584950",
+        "uuid": "53616c7465645f5ff5419f860d8c4fb38c717531dfa293046fb43d7ef6a0a7f4"
+      },
+      "source": "akiyajapan",
+      "source_id": "1584950",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5ff5419f860d8c4fb38c717531dfa293046fb43d7ef6a0a7f4",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1976) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1987,
+      "building_m2": 163.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_b51dbbc2-85c1-11f1-a659-a6ae20f6eefe_0171366a434a9_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_b51dbbc2-85c1-11f1-a659-a6ae20f6eefe_e1c483dcdedbd_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_b51dbbc2-85c1-11f1-a659-a6ae20f6eefe_28f549f62f46f_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_b51dbbc2-85c1-11f1-a659-a6ae20f6eefe_8b7d92c754256_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_b51dbbc2-85c1-11f1-a659-a6ae20f6eefe_ce113418d46e3_thumb.webp"
+      ],
+      "land_m2": 197.0,
+      "last_seen": "2026-08-29",
+      "layout": "5LDK",
+      "local_images": [],
+      "price_yen": 8550000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1584912",
+        "uuid": "53616c7465645f5fde81f01dcd4d827998288a685bf98b4ee4200d2576f2b272"
+      },
+      "source": "akiyajapan",
+      "source_id": "1584912",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fde81f01dcd4d827998288a685bf98b4ee4200d2576f2b272",
+      "verdict": "stretch",
+      "verdict_reasons": [
+        "stretch price ¥8,550,000 (>¥7.5M)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1980,
+      "building_m2": 488.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/im/im_080bc1b0-82cb-11f1-a659-a6ae20f6eefe_63273f5b07e6e_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/im/im_080bc1b0-82cb-11f1-a659-a6ae20f6eefe_8fe5d8766cfa4_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/im/im_080bc1b0-82cb-11f1-a659-a6ae20f6eefe_ebb85fa33be09_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/im/im_080bc1b0-82cb-11f1-a659-a6ae20f6eefe_7bacae989502a_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/im/im_080bc1b0-82cb-11f1-a659-a6ae20f6eefe_5580e6ed01582_thumb.webp"
+      ],
+      "land_m2": 816.0,
+      "last_seen": "2026-08-29",
+      "layout": null,
+      "local_images": [],
+      "price_yen": 47250000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1559820",
+        "uuid": "53616c7465645f5f4d594e665f80143cf6af94f8993a99dfe7a8f35bbd2987a3"
+      },
+      "source": "akiyajapan",
+      "source_id": "1559820",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f4d594e665f80143cf6af94f8993a99dfe7a8f35bbd2987a3",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1980) — reinforcement cost",
+        "over ¥10M (¥47,250,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1967,
+      "building_m2": 103.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_9792b5a8-8088-11f1-a659-a6ae20f6eefe_7410ffa3c013f_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_9792b5a8-8088-11f1-a659-a6ae20f6eefe_4819f5d14004c_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_9792b5a8-8088-11f1-a659-a6ae20f6eefe_c428d0461df72_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_9792b5a8-8088-11f1-a659-a6ae20f6eefe_184817dbf22f1_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_9792b5a8-8088-11f1-a659-a6ae20f6eefe_6d69e2cdfeef1_thumb.webp"
+      ],
+      "land_m2": 322.0,
+      "last_seen": "2026-08-29",
+      "layout": "3LDK",
+      "local_images": [],
+      "price_yen": 1950000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1535806",
+        "uuid": "53616c7465645f5f962d5b897645000387d86f5b19c3a131654447b0d9782f97"
+      },
+      "source": "akiyajapan",
+      "source_id": "1535806",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f962d5b897645000387d86f5b19c3a131654447b0d9782f97",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1967) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1969,
+      "building_m2": 82.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_e2337f69-8081-11f1-a659-a6ae20f6eefe_d280d1a02c930_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_e2337f69-8081-11f1-a659-a6ae20f6eefe_d822abfc86b31_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_e2337f69-8081-11f1-a659-a6ae20f6eefe_5c806afe5bc38_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_e2337f69-8081-11f1-a659-a6ae20f6eefe_ce9c3df7f7ef7_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_e2337f69-8081-11f1-a659-a6ae20f6eefe_98b2f8bbf5827_thumb.webp"
+      ],
+      "land_m2": 190.0,
+      "last_seen": "2026-08-29",
+      "layout": "3LDK",
+      "local_images": [],
+      "price_yen": 3300000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1535562",
+        "uuid": "53616c7465645f5fbee6b9896623869b6973fdfaed731980e911454800124fb3"
+      },
+      "source": "akiyajapan",
+      "source_id": "1535562",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fbee6b9896623869b6973fdfaed731980e911454800124fb3",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1969) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1974,
+      "building_m2": 125.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_d40867a6-8086-11f1-a659-a6ae20f6eefe_6f578c669d7fc_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_d40867a6-8086-11f1-a659-a6ae20f6eefe_44f7257624665_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_d40867a6-8086-11f1-a659-a6ae20f6eefe_dee52a0e6085f_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_d40867a6-8086-11f1-a659-a6ae20f6eefe_aebc113da55a8_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_d40867a6-8086-11f1-a659-a6ae20f6eefe_ea7ba7ba99835_thumb.webp"
+      ],
+      "land_m2": 167.0,
+      "last_seen": "2026-08-29",
+      "layout": "6LDK",
+      "local_images": [],
+      "price_yen": 2400000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1535742",
+        "uuid": "53616c7465645f5f04b8e3d14d9136259ab62243a0e0ddbeb96d7522e9a9010d"
+      },
+      "source": "akiyajapan",
+      "source_id": "1535742",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f04b8e3d14d9136259ab62243a0e0ddbeb96d7522e9a9010d",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1974) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1973,
+      "building_m2": 77.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_eecd684f-8081-11f1-a659-a6ae20f6eefe_fdd2e2cad99cc_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_eecd684f-8081-11f1-a659-a6ae20f6eefe_804864ef83b74_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_eecd684f-8081-11f1-a659-a6ae20f6eefe_c3bc0f7643383_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_eecd684f-8081-11f1-a659-a6ae20f6eefe_b61e2382d3e21_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_eecd684f-8081-11f1-a659-a6ae20f6eefe_a925d4c86bd99_thumb.webp"
+      ],
+      "land_m2": 196.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 3300000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1535565",
+        "uuid": "53616c7465645f5f2a16c9d37bf7d2ff7f78acb64e2829237d482746be3e89cc"
+      },
+      "source": "akiyajapan",
+      "source_id": "1535565",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f2a16c9d37bf7d2ff7f78acb64e2829237d482746be3e89cc",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1973) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1969,
+      "building_m2": 118.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_c2cd8962-8081-11f1-a659-a6ae20f6eefe_4448076291158_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_c2cd8962-8081-11f1-a659-a6ae20f6eefe_661cabd7f7dc0_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_c2cd8962-8081-11f1-a659-a6ae20f6eefe_81704f79373e2_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_c2cd8962-8081-11f1-a659-a6ae20f6eefe_85131e2554ac4_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_c2cd8962-8081-11f1-a659-a6ae20f6eefe_00931e97e67d2_thumb.webp"
+      ],
+      "land_m2": 466.0,
+      "last_seen": "2026-08-29",
+      "layout": "6LDK",
+      "local_images": [],
+      "price_yen": 3300000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1535554",
+        "uuid": "53616c7465645f5fcad65e68a67c162324d30324acd1d15bee8be6780d359769"
+      },
+      "source": "akiyajapan",
+      "source_id": "1535554",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fcad65e68a67c162324d30324acd1d15bee8be6780d359769",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1969) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1975,
+      "building_m2": 113.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_01359d4e-8085-11f1-a659-a6ae20f6eefe_bb8af6a06a3fc_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_01359d4e-8085-11f1-a659-a6ae20f6eefe_69fa747ad6bcf_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_01359d4e-8085-11f1-a659-a6ae20f6eefe_2fb08e8fe1184_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_01359d4e-8085-11f1-a659-a6ae20f6eefe_4796385704d91_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_01359d4e-8085-11f1-a659-a6ae20f6eefe_eae1f43b231fa_thumb.webp"
+      ],
+      "land_m2": 330.0,
+      "last_seen": "2026-08-29",
+      "layout": "5LDK",
+      "local_images": [],
+      "price_yen": 2400000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1535674",
+        "uuid": "53616c7465645f5f3f85a97fa87e858f00f89491f1a225ec1fe197f001c8478a"
+      },
+      "source": "akiyajapan",
+      "source_id": "1535674",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f3f85a97fa87e858f00f89491f1a225ec1fe197f001c8478a",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1975) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1979,
+      "building_m2": 130.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_8fced8ea-8077-11f1-a659-a6ae20f6eefe_eebb901eae63e_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_8fced8ea-8077-11f1-a659-a6ae20f6eefe_4c618103d37fe_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_8fced8ea-8077-11f1-a659-a6ae20f6eefe_494de6ccd34cf_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_8fced8ea-8077-11f1-a659-a6ae20f6eefe_397643ff0927d_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_8fced8ea-8077-11f1-a659-a6ae20f6eefe_7a6f1f10bb09f_thumb.webp"
+      ],
+      "land_m2": 175.0,
+      "last_seen": "2026-08-29",
+      "layout": "4SLDK",
+      "local_images": [],
+      "price_yen": 4650000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1535157",
+        "uuid": "53616c7465645f5f70caa725b7ee41a365ef7464bd2f974dc5ddc63b76dda12b"
+      },
+      "source": "akiyajapan",
+      "source_id": "1535157",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f70caa725b7ee41a365ef7464bd2f974dc5ddc63b76dda12b",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1979) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1978,
+      "building_m2": 127.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_ff41af07-807a-11f1-a659-a6ae20f6eefe_ddf3eb26d4333_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_ff41af07-807a-11f1-a659-a6ae20f6eefe_6b85992b36b0c_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_ff41af07-807a-11f1-a659-a6ae20f6eefe_3c7157e0ed243_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_ff41af07-807a-11f1-a659-a6ae20f6eefe_d301439ee89b9_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_ff41af07-807a-11f1-a659-a6ae20f6eefe_3105541a92e02_thumb.webp"
+      ],
+      "land_m2": 178.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 4200000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1535286",
+        "uuid": "53616c7465645f5f857f2ca8637d3e3d7eceda5a0f77cb2aa4ee2091f80b4d8f"
+      },
+      "source": "akiyajapan",
+      "source_id": "1535286",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f857f2ca8637d3e3d7eceda5a0f77cb2aa4ee2091f80b4d8f",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1978) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1982,
+      "building_m2": 71.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_7741a99f-8077-11f1-a659-a6ae20f6eefe_6597abdeab62c_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_7741a99f-8077-11f1-a659-a6ae20f6eefe_a9ce081436121_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_7741a99f-8077-11f1-a659-a6ae20f6eefe_c3ec3ce5be607_thumb.webp"
+      ],
+      "land_m2": 214.0,
+      "last_seen": "2026-08-29",
+      "layout": "6LDK",
+      "local_images": [],
+      "price_yen": 4950000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1535153",
+        "uuid": "53616c7465645f5f01dccf12f842159870f8d915b7875245ce43b00d99b01deb"
+      },
+      "source": "akiyajapan",
+      "source_id": "1535153",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f01dccf12f842159870f8d915b7875245ce43b00d99b01deb",
+      "verdict": "pass",
+      "verdict_reasons": []
+    },
+    {
+      "address": null,
+      "build_year": 1988,
+      "building_m2": 101.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_e0ec74e3-807c-11f1-a659-a6ae20f6eefe_c2cafe3ea2730_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_e0ec74e3-807c-11f1-a659-a6ae20f6eefe_9acbbbbfe2ab6_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_e0ec74e3-807c-11f1-a659-a6ae20f6eefe_1f99cc6e8347d_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_e0ec74e3-807c-11f1-a659-a6ae20f6eefe_7422f352d99ce_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_e0ec74e3-807c-11f1-a659-a6ae20f6eefe_11503bac33bc5_thumb.webp"
+      ],
+      "land_m2": 168.0,
+      "last_seen": "2026-08-29",
+      "layout": "4SLDK",
+      "local_images": [],
+      "price_yen": 3750000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1535377",
+        "uuid": "53616c7465645f5fe493e1210daff53aae7d67a2d1a90c922ffa4a6c87525d69"
+      },
+      "source": "akiyajapan",
+      "source_id": "1535377",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fe493e1210daff53aae7d67a2d1a90c922ffa4a6c87525d69",
+      "verdict": "pass",
+      "verdict_reasons": []
+    },
+    {
+      "address": null,
+      "build_year": 1979,
+      "building_m2": 117.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_7c0d72e6-8072-11f1-a659-a6ae20f6eefe_de96488f31f3e_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_7c0d72e6-8072-11f1-a659-a6ae20f6eefe_8c7171bf38d3f_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_7c0d72e6-8072-11f1-a659-a6ae20f6eefe_a8e11def909b6_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_7c0d72e6-8072-11f1-a659-a6ae20f6eefe_f79a5e61835af_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_7c0d72e6-8072-11f1-a659-a6ae20f6eefe_62d65e91239a0_thumb.webp"
+      ],
+      "land_m2": 554.0,
+      "last_seen": "2026-08-29",
+      "layout": "6LDK",
+      "local_images": [],
+      "price_yen": 5700000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1534963",
+        "uuid": "53616c7465645f5ff9c82cc1e08972ffc49c5fbab87350415798d663b6ba6a65"
+      },
+      "source": "akiyajapan",
+      "source_id": "1534963",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5ff9c82cc1e08972ffc49c5fbab87350415798d663b6ba6a65",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1979) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1984,
+      "building_m2": 105.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_057f41bd-8074-11f1-a659-a6ae20f6eefe_7c3400f3f6efa_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_057f41bd-8074-11f1-a659-a6ae20f6eefe_f2a72f7d9e82b_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_057f41bd-8074-11f1-a659-a6ae20f6eefe_303699fd4c14d_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_057f41bd-8074-11f1-a659-a6ae20f6eefe_fa87685849613_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_057f41bd-8074-11f1-a659-a6ae20f6eefe_957640ed7edbd_thumb.webp"
+      ],
+      "land_m2": 153.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 5700000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1535031",
+        "uuid": "53616c7465645f5f3ed2f3e5888ba2e14ddeaa194e1800ea024b538dee5ce5b4"
+      },
+      "source": "akiyajapan",
+      "source_id": "1535031",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f3ed2f3e5888ba2e14ddeaa194e1800ea024b538dee5ce5b4",
+      "verdict": "pass",
+      "verdict_reasons": []
+    },
+    {
+      "address": null,
+      "build_year": 1983,
+      "building_m2": 136.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_c643f7dd-8075-11f1-a659-a6ae20f6eefe_5b360b9c8caac_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_c643f7dd-8075-11f1-a659-a6ae20f6eefe_8cfa6b54d7040_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_c643f7dd-8075-11f1-a659-a6ae20f6eefe_4da19fc65e29c_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_c643f7dd-8075-11f1-a659-a6ae20f6eefe_bcaf347032721_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_c643f7dd-8075-11f1-a659-a6ae20f6eefe_fe2adbc75dfbd_thumb.webp"
+      ],
+      "land_m2": 206.0,
+      "last_seen": "2026-08-29",
+      "layout": "5LDK",
+      "local_images": [],
+      "price_yen": 5250000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1535092",
+        "uuid": "53616c7465645f5f473b388d9b6531f35b6330ce8806c318b678dc353f905fae"
+      },
+      "source": "akiyajapan",
+      "source_id": "1535092",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f473b388d9b6531f35b6330ce8806c318b678dc353f905fae",
+      "verdict": "pass",
+      "verdict_reasons": []
+    },
+    {
+      "address": null,
+      "build_year": 1981,
+      "building_m2": 138.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_6caf17b9-8072-11f1-a659-a6ae20f6eefe_ceb2644def76e_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_6caf17b9-8072-11f1-a659-a6ae20f6eefe_0c712b0d4493c_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_6caf17b9-8072-11f1-a659-a6ae20f6eefe_8b38b652c1b59_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_6caf17b9-8072-11f1-a659-a6ae20f6eefe_bb2f1b5ffa3a1_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_6caf17b9-8072-11f1-a659-a6ae20f6eefe_fc834d2f13f81_thumb.webp"
+      ],
+      "land_m2": 290.0,
+      "last_seen": "2026-08-29",
+      "layout": "6LDK",
+      "local_images": [],
+      "price_yen": 5700000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1534958",
+        "uuid": "53616c7465645f5f3e731a5bbc4f48cf89423451a6302f5d9f3954ab5cde5f36"
+      },
+      "source": "akiyajapan",
+      "source_id": "1534958",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f3e731a5bbc4f48cf89423451a6302f5d9f3954ab5cde5f36",
+      "verdict": "flagged",
+      "verdict_reasons": [
+        "built 1981 — verify month vs June 1981 code date"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1985,
+      "building_m2": 102.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_0b5232d3-8074-11f1-a659-a6ae20f6eefe_f0adda2e3d0db_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_0b5232d3-8074-11f1-a659-a6ae20f6eefe_f0d1275427837_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_0b5232d3-8074-11f1-a659-a6ae20f6eefe_108312095ba6d_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_0b5232d3-8074-11f1-a659-a6ae20f6eefe_cf15d14729c8c_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_0b5232d3-8074-11f1-a659-a6ae20f6eefe_e1d95919c1f85_thumb.webp"
+      ],
+      "land_m2": 258.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 5700000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1535032",
+        "uuid": "53616c7465645f5f7fe79c4353d07a8433a39cdcfa914da1868ea36c102ef384"
+      },
+      "source": "akiyajapan",
+      "source_id": "1535032",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f7fe79c4353d07a8433a39cdcfa914da1868ea36c102ef384",
+      "verdict": "pass",
+      "verdict_reasons": []
+    },
+    {
+      "address": null,
+      "build_year": 1971,
+      "building_m2": 108.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_374758fe-8074-11f1-a659-a6ae20f6eefe_afd42de7ef13f_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_374758fe-8074-11f1-a659-a6ae20f6eefe_07d17fc06f525_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_374758fe-8074-11f1-a659-a6ae20f6eefe_5911503d76f22_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_374758fe-8074-11f1-a659-a6ae20f6eefe_abe9d95a8aaea_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_374758fe-8074-11f1-a659-a6ae20f6eefe_12f62f52f1d28_thumb.webp"
+      ],
+      "land_m2": 117.0,
+      "last_seen": "2026-08-29",
+      "layout": "3DK",
+      "local_images": [],
+      "price_yen": 5550000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1535043",
+        "uuid": "53616c7465645f5fabbd48cb9abe81d083758e9f6a5681697339800a7540d670"
+      },
+      "source": "akiyajapan",
+      "source_id": "1535043",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fabbd48cb9abe81d083758e9f6a5681697339800a7540d670",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1971) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1969,
+      "building_m2": 83.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_ace32786-806e-11f1-a659-a6ae20f6eefe_2434f28f57233_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_ace32786-806e-11f1-a659-a6ae20f6eefe_2374ccfdafe77_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_ace32786-806e-11f1-a659-a6ae20f6eefe_fd1fb4aaa95b4_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_ace32786-806e-11f1-a659-a6ae20f6eefe_6b3ef4552b925_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_ace32786-806e-11f1-a659-a6ae20f6eefe_706aaae6b7bc9_thumb.webp"
+      ],
+      "land_m2": 165.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 7350000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1534804",
+        "uuid": "53616c7465645f5f435641518ccda513968cd8c70b6cbfdb6892767399f34a1b"
+      },
+      "source": "akiyajapan",
+      "source_id": "1534804",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f435641518ccda513968cd8c70b6cbfdb6892767399f34a1b",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1969) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1995,
+      "building_m2": 119.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_f89ebda2-806c-11f1-a659-a6ae20f6eefe_c6b138582212e_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_f89ebda2-806c-11f1-a659-a6ae20f6eefe_9987fcb98aa61_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_f89ebda2-806c-11f1-a659-a6ae20f6eefe_37661d7f13820_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_f89ebda2-806c-11f1-a659-a6ae20f6eefe_4b59f24a4cae3_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_f89ebda2-806c-11f1-a659-a6ae20f6eefe_ebafca1ca52c6_thumb.webp"
+      ],
+      "land_m2": 142.0,
+      "last_seen": "2026-08-29",
+      "layout": "3SLDK",
+      "local_images": [],
+      "price_yen": 7500000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1534751",
+        "uuid": "53616c7465645f5f483482bcb3d5e2b35eeea8c341af802bc5fa8c3374b0a147"
+      },
+      "source": "akiyajapan",
+      "source_id": "1534751",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f483482bcb3d5e2b35eeea8c341af802bc5fa8c3374b0a147",
+      "verdict": "pass",
+      "verdict_reasons": []
+    },
+    {
+      "address": null,
+      "build_year": 1971,
+      "building_m2": 85.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_fec6f4cf-8062-11f1-a659-a6ae20f6eefe_fe48bfafa7ea2_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_fec6f4cf-8062-11f1-a659-a6ae20f6eefe_1ba73c095de4e_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_fec6f4cf-8062-11f1-a659-a6ae20f6eefe_eb17f0742d6da_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_fec6f4cf-8062-11f1-a659-a6ae20f6eefe_5aabd9e7a0bde_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_fec6f4cf-8062-11f1-a659-a6ae20f6eefe_d379177fc90ab_thumb.webp"
+      ],
+      "land_m2": 317.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 10800000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1534473",
+        "uuid": "53616c7465645f5f4866c4ab93175944fc02bf5fb185413e42b13a6f0d11e261"
+      },
+      "source": "akiyajapan",
+      "source_id": "1534473",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f4866c4ab93175944fc02bf5fb185413e42b13a6f0d11e261",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1971) — reinforcement cost",
+        "over ¥10M (¥10,800,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1974,
+      "building_m2": 198.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_56593c97-805f-11f1-a659-a6ae20f6eefe_6379cba77234f_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_56593c97-805f-11f1-a659-a6ae20f6eefe_41f0bbf8f0bdd_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_56593c97-805f-11f1-a659-a6ae20f6eefe_2c529824a04a5_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_56593c97-805f-11f1-a659-a6ae20f6eefe_ce0bd136df6ee_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_56593c97-805f-11f1-a659-a6ae20f6eefe_effc2576a164f_thumb.webp"
+      ],
+      "land_m2": 272.0,
+      "last_seen": "2026-08-29",
+      "layout": "3LDK",
+      "local_images": [],
+      "price_yen": 11400000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1534381",
+        "uuid": "53616c7465645f5f351093df170e3ab6baf07d59f0683021111bf286fb0dcf95"
+      },
+      "source": "akiyajapan",
+      "source_id": "1534381",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f351093df170e3ab6baf07d59f0683021111bf286fb0dcf95",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1974) — reinforcement cost",
+        "over ¥10M (¥11,400,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1987,
+      "building_m2": 118.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_5124ad22-8061-11f1-a659-a6ae20f6eefe_9e089324648e8_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_5124ad22-8061-11f1-a659-a6ae20f6eefe_d6a393090a97b_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_5124ad22-8061-11f1-a659-a6ae20f6eefe_b1b6ef5f8a0e7_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_5124ad22-8061-11f1-a659-a6ae20f6eefe_1db321a6cdd3b_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_5124ad22-8061-11f1-a659-a6ae20f6eefe_b0583d17237e7_thumb.webp"
+      ],
+      "land_m2": 221.0,
+      "last_seen": "2026-08-29",
+      "layout": "4SLDK",
+      "local_images": [],
+      "price_yen": 11100000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1534438",
+        "uuid": "53616c7465645f5fceb6e5c7edf05af6c82d4026c1fc54ffbdc74b75632dffef"
+      },
+      "source": "akiyajapan",
+      "source_id": "1534438",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fceb6e5c7edf05af6c82d4026c1fc54ffbdc74b75632dffef",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥11,100,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1988,
+      "building_m2": 133.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_3945fbdb-8066-11f1-a659-a6ae20f6eefe_7cf412cc928e6_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_3945fbdb-8066-11f1-a659-a6ae20f6eefe_c4139318db68e_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_3945fbdb-8066-11f1-a659-a6ae20f6eefe_e4461f2e38aef_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_3945fbdb-8066-11f1-a659-a6ae20f6eefe_4bc6b69f3811c_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_3945fbdb-8066-11f1-a659-a6ae20f6eefe_ba72a6a3a98d0_thumb.webp"
+      ],
+      "land_m2": 331.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 9450000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1534552",
+        "uuid": "53616c7465645f5f8918b2047a8ae24b26aab11be6fa95cdd0152b3c892474ed"
+      },
+      "source": "akiyajapan",
+      "source_id": "1534552",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f8918b2047a8ae24b26aab11be6fa95cdd0152b3c892474ed",
+      "verdict": "stretch",
+      "verdict_reasons": [
+        "stretch price ¥9,450,000 (>¥7.5M)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1929,
+      "building_m2": 187.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_8c222f4b-8064-11f1-a659-a6ae20f6eefe_b9185990e6032_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_8c222f4b-8064-11f1-a659-a6ae20f6eefe_9e9e4234cad84_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_8c222f4b-8064-11f1-a659-a6ae20f6eefe_572292fa122d6_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_8c222f4b-8064-11f1-a659-a6ae20f6eefe_f599a9dc3e67f_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_8c222f4b-8064-11f1-a659-a6ae20f6eefe_5c25b6984a4e7_thumb.webp"
+      ],
+      "land_m2": 509.0,
+      "last_seen": "2026-08-29",
+      "layout": "11LDK",
+      "local_images": [],
+      "price_yen": 10350000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1534504",
+        "uuid": "53616c7465645f5f56aa1e9a93741941ca43fd0fe1a6c9864a1d9b927eeb0be1"
+      },
+      "source": "akiyajapan",
+      "source_id": "1534504",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f56aa1e9a93741941ca43fd0fe1a6c9864a1d9b927eeb0be1",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1929) — reinforcement cost",
+        "over ¥10M (¥10,350,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1976,
+      "building_m2": 80.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_35dc451a-805f-11f1-a659-a6ae20f6eefe_d75f0ff5383ad_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_35dc451a-805f-11f1-a659-a6ae20f6eefe_98645d304920c_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_35dc451a-805f-11f1-a659-a6ae20f6eefe_5c94d49b42911_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_35dc451a-805f-11f1-a659-a6ae20f6eefe_abd1be67160e9_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_35dc451a-805f-11f1-a659-a6ae20f6eefe_0b91611f377f5_thumb.webp"
+      ],
+      "land_m2": 81.0,
+      "last_seen": "2026-08-29",
+      "layout": "3LDK",
+      "local_images": [],
+      "price_yen": 7050000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1534370",
+        "uuid": "53616c7465645f5fd3c3da1358b4c7fb534f40ce75b698d0ed136a226e290d92"
+      },
+      "source": "akiyajapan",
+      "source_id": "1534370",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fd3c3da1358b4c7fb534f40ce75b698d0ed136a226e290d92",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1976) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 2000,
+      "building_m2": 104.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_074085a5-8061-11f1-a659-a6ae20f6eefe_49b527f5616ac_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_074085a5-8061-11f1-a659-a6ae20f6eefe_beea9cd995e0b_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_074085a5-8061-11f1-a659-a6ae20f6eefe_80f18891555ff_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_074085a5-8061-11f1-a659-a6ae20f6eefe_e66ab75f813b0_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_074085a5-8061-11f1-a659-a6ae20f6eefe_ebbffacf57697_thumb.webp"
+      ],
+      "land_m2": 187.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 8850000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1534419",
+        "uuid": "53616c7465645f5f8999eb8c7e37a280f28c3ed5ad55c0ea8216c6c615ac510d"
+      },
+      "source": "akiyajapan",
+      "source_id": "1534419",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f8999eb8c7e37a280f28c3ed5ad55c0ea8216c6c615ac510d",
+      "verdict": "stretch",
+      "verdict_reasons": [
+        "stretch price ¥8,850,000 (>¥7.5M)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1997,
+      "building_m2": 105.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_4e280066-8057-11f1-a659-a6ae20f6eefe_6a8fcb9f31b82_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_4e280066-8057-11f1-a659-a6ae20f6eefe_6d17afd8c7df6_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_4e280066-8057-11f1-a659-a6ae20f6eefe_8f24ba6444a8b_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_4e280066-8057-11f1-a659-a6ae20f6eefe_724b7bdc7ebde_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_4e280066-8057-11f1-a659-a6ae20f6eefe_73dbc4ad8e3a6_thumb.webp"
+      ],
+      "land_m2": 201.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 13950000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1534147",
+        "uuid": "53616c7465645f5f64f16149bff764f23a1761a18f01f557146d4b1325027b5c"
+      },
+      "source": "akiyajapan",
+      "source_id": "1534147",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f64f16149bff764f23a1761a18f01f557146d4b1325027b5c",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥13,950,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1992,
+      "building_m2": 127.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_d8df9559-8053-11f1-a659-a6ae20f6eefe_1fcf651602158_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_d8df9559-8053-11f1-a659-a6ae20f6eefe_e1e70495a6d82_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_d8df9559-8053-11f1-a659-a6ae20f6eefe_c643e07915e3e_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_d8df9559-8053-11f1-a659-a6ae20f6eefe_3dc9e17dceeed_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_d8df9559-8053-11f1-a659-a6ae20f6eefe_82077589f7618_thumb.webp"
+      ],
+      "land_m2": 376.0,
+      "last_seen": "2026-08-29",
+      "layout": "5LDK",
+      "local_images": [],
+      "price_yen": 14100000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1534044",
+        "uuid": "53616c7465645f5fb6d61b8b438a52a8d9a9c2f6b75b180ae2a6345ad0f926a9"
+      },
+      "source": "akiyajapan",
+      "source_id": "1534044",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fb6d61b8b438a52a8d9a9c2f6b75b180ae2a6345ad0f926a9",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥14,100,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 2009,
+      "building_m2": 96.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_eed7acef-804e-11f1-a659-a6ae20f6eefe_d892f44046530_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_eed7acef-804e-11f1-a659-a6ae20f6eefe_239dde8c65e97_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_eed7acef-804e-11f1-a659-a6ae20f6eefe_8c1099206416d_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_eed7acef-804e-11f1-a659-a6ae20f6eefe_0320c7f073905_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_eed7acef-804e-11f1-a659-a6ae20f6eefe_d019c0358e603_thumb.webp"
+      ],
+      "land_m2": 198.0,
+      "last_seen": "2026-08-29",
+      "layout": "3LDK",
+      "local_images": [],
+      "price_yen": 15600000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1533893",
+        "uuid": "53616c7465645f5f6653e5101777f6adf8923ca3aef1bbf10f39cb56ce486539"
+      },
+      "source": "akiyajapan",
+      "source_id": "1533893",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f6653e5101777f6adf8923ca3aef1bbf10f39cb56ce486539",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥15,600,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1994,
+      "building_m2": 171.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_087c1ed6-804d-11f1-a659-a6ae20f6eefe_4fd643eb283da_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_087c1ed6-804d-11f1-a659-a6ae20f6eefe_add2ad3f82859_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_087c1ed6-804d-11f1-a659-a6ae20f6eefe_27d00f631427c_thumb.webp"
+      ],
+      "land_m2": 198.0,
+      "last_seen": "2026-08-29",
+      "layout": "6LDK",
+      "local_images": [],
+      "price_yen": 16050000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1533825",
+        "uuid": "53616c7465645f5fc942bd8fc03891524267813dd6e8d11e02a26200e43a217c"
+      },
+      "source": "akiyajapan",
+      "source_id": "1533825",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fc942bd8fc03891524267813dd6e8d11e02a26200e43a217c",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥16,050,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1990,
+      "building_m2": 131.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_f30b8dab-803f-11f1-a659-a6ae20f6eefe_f2136a959e143_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_f30b8dab-803f-11f1-a659-a6ae20f6eefe_fc71340e05842_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_f30b8dab-803f-11f1-a659-a6ae20f6eefe_e9a667f5930ba_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_f30b8dab-803f-11f1-a659-a6ae20f6eefe_ac64a5eb1eabe_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_f30b8dab-803f-11f1-a659-a6ae20f6eefe_7353b99bd1eae_thumb.webp"
+      ],
+      "land_m2": 172.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 19650000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1533382",
+        "uuid": "53616c7465645f5f2d3c1f6d3e2b548b93dfd87c1da0206fbaaac42bede6604e"
+      },
+      "source": "akiyajapan",
+      "source_id": "1533382",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f2d3c1f6d3e2b548b93dfd87c1da0206fbaaac42bede6604e",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥19,650,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 2023,
+      "building_m2": 53.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_9eeffc8b-8038-11f1-a659-a6ae20f6eefe_63f5b1195b98c_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_9eeffc8b-8038-11f1-a659-a6ae20f6eefe_0188a4ffdd11c_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_9eeffc8b-8038-11f1-a659-a6ae20f6eefe_e85634fb82ee1_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_9eeffc8b-8038-11f1-a659-a6ae20f6eefe_666209cabedad_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_9eeffc8b-8038-11f1-a659-a6ae20f6eefe_bbeea8e9545ef_thumb.webp"
+      ],
+      "land_m2": 88.0,
+      "last_seen": "2026-08-29",
+      "layout": "2LDK",
+      "local_images": [],
+      "price_yen": 22500000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1533138",
+        "uuid": "53616c7465645f5fb600771f5ccfe76f597a5f680146c8ed4f42e5e9546ea222"
+      },
+      "source": "akiyajapan",
+      "source_id": "1533138",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fb600771f5ccfe76f597a5f680146c8ed4f42e5e9546ea222",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥22,500,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1990,
+      "building_m2": 126.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_01d0303f-8037-11f1-a659-a6ae20f6eefe_7f1cc8d68756e_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_01d0303f-8037-11f1-a659-a6ae20f6eefe_79661f83b3341_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_01d0303f-8037-11f1-a659-a6ae20f6eefe_63c126151e5f9_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_01d0303f-8037-11f1-a659-a6ae20f6eefe_641d7b15df57a_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_01d0303f-8037-11f1-a659-a6ae20f6eefe_7ea02e181f648_thumb.webp"
+      ],
+      "land_m2": 364.0,
+      "last_seen": "2026-08-29",
+      "layout": "5LDK",
+      "local_images": [],
+      "price_yen": 22500000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1533081",
+        "uuid": "53616c7465645f5fb7cd19f4f80454755be99f0ad912f029681c08c3bb87c830"
+      },
+      "source": "akiyajapan",
+      "source_id": "1533081",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fb7cd19f4f80454755be99f0ad912f029681c08c3bb87c830",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥22,500,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 2007,
+      "building_m2": 164.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_ddd16d0f-8029-11f1-a659-a6ae20f6eefe_9552038443c3a_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_ddd16d0f-8029-11f1-a659-a6ae20f6eefe_6d915e5ab9b83_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_ddd16d0f-8029-11f1-a659-a6ae20f6eefe_4e20275e7e877_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_ddd16d0f-8029-11f1-a659-a6ae20f6eefe_65fe185a4948e_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_ddd16d0f-8029-11f1-a659-a6ae20f6eefe_2855308b62e3e_thumb.webp"
+      ],
+      "land_m2": 191.0,
+      "last_seen": "2026-08-29",
+      "layout": "5LDK",
+      "local_images": [],
+      "price_yen": 28350000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1532617",
+        "uuid": "53616c7465645f5fec3730a1801965d12fe853ada21246cae945a5d0159f9bfc"
+      },
+      "source": "akiyajapan",
+      "source_id": "1532617",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fec3730a1801965d12fe853ada21246cae945a5d0159f9bfc",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥28,350,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 2018,
+      "building_m2": 124.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_cf2835b4-8029-11f1-a659-a6ae20f6eefe_21b88d6205f26_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_cf2835b4-8029-11f1-a659-a6ae20f6eefe_b8998b6979236_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_cf2835b4-8029-11f1-a659-a6ae20f6eefe_028a39fc1a38c_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_cf2835b4-8029-11f1-a659-a6ae20f6eefe_c34dfe534bb38_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_cf2835b4-8029-11f1-a659-a6ae20f6eefe_cb8e7e89335ad_thumb.webp"
+      ],
+      "land_m2": 329.0,
+      "last_seen": "2026-08-29",
+      "layout": "2LDK",
+      "local_images": [],
+      "price_yen": 28800000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1532615",
+        "uuid": "53616c7465645f5f142598a52d2f65dc3d14b19784d05bb3c636630ba171ee4c"
+      },
+      "source": "akiyajapan",
+      "source_id": "1532615",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f142598a52d2f65dc3d14b19784d05bb3c636630ba171ee4c",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥28,800,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 2018,
+      "building_m2": 124.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_4476bab7-7fdb-11f1-a659-a6ae20f6eefe_6d45a483f044c_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_4476bab7-7fdb-11f1-a659-a6ae20f6eefe_dd3c697f14e4f_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_4476bab7-7fdb-11f1-a659-a6ae20f6eefe_eb92f0bf2f699_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_4476bab7-7fdb-11f1-a659-a6ae20f6eefe_6ff2a1ca67473_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_4476bab7-7fdb-11f1-a659-a6ae20f6eefe_4236016d3217f_thumb.webp"
+      ],
+      "land_m2": 329.0,
+      "last_seen": "2026-08-29",
+      "layout": "2LDK",
+      "local_images": [],
+      "price_yen": 28800000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1530460",
+        "uuid": "53616c7465645f5f04e4441fdc3df813f9e698f0d408aed18a6f43e0d4590e98"
+      },
+      "source": "akiyajapan",
+      "source_id": "1530460",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f04e4441fdc3df813f9e698f0d408aed18a6f43e0d4590e98",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥28,800,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 2008,
+      "building_m2": 172.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_317b1a1d-7fdb-11f1-a659-a6ae20f6eefe_58710cef0e3c0_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_317b1a1d-7fdb-11f1-a659-a6ae20f6eefe_4f90dc5129251_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_317b1a1d-7fdb-11f1-a659-a6ae20f6eefe_011bdae7b4e48_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_317b1a1d-7fdb-11f1-a659-a6ae20f6eefe_92177fbaecc8b_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_317b1a1d-7fdb-11f1-a659-a6ae20f6eefe_d6e6e11a0cb14_thumb.webp"
+      ],
+      "land_m2": 378.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 50100000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1530457",
+        "uuid": "53616c7465645f5fb172ff53b0eb4f7d6f0b0c39a030cc58cb373e06f5ce8ba6"
+      },
+      "source": "akiyajapan",
+      "source_id": "1530457",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fb172ff53b0eb4f7d6f0b0c39a030cc58cb373e06f5ce8ba6",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥50,100,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1980,
+      "building_m2": 98.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_63a03e61-7fd9-11f1-a659-a6ae20f6eefe_b4456537f75c4_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_63a03e61-7fd9-11f1-a659-a6ae20f6eefe_142177e2deda0_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_63a03e61-7fd9-11f1-a659-a6ae20f6eefe_d15908eb2f651_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_63a03e61-7fd9-11f1-a659-a6ae20f6eefe_4c532175b3583_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_63a03e61-7fd9-11f1-a659-a6ae20f6eefe_abd37d08024a4_thumb.webp"
+      ],
+      "land_m2": 216.0,
+      "last_seen": "2026-08-29",
+      "layout": "3LDK",
+      "local_images": [],
+      "price_yen": 4650000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1530420",
+        "uuid": "53616c7465645f5f0dd2d537c110368580448fb61d617aab59b605388b2eda90"
+      },
+      "source": "akiyajapan",
+      "source_id": "1530420",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f0dd2d537c110368580448fb61d617aab59b605388b2eda90",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1980) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1979,
+      "building_m2": 115.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_1c7e824d-7fdb-11f1-a659-a6ae20f6eefe_c87cf977ed42e_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_1c7e824d-7fdb-11f1-a659-a6ae20f6eefe_6cd1010b4af22_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_1c7e824d-7fdb-11f1-a659-a6ae20f6eefe_0aff958633e30_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_1c7e824d-7fdb-11f1-a659-a6ae20f6eefe_2811010094667_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_1c7e824d-7fdb-11f1-a659-a6ae20f6eefe_73f54043e75dc_thumb.webp"
+      ],
+      "land_m2": 574.0,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "local_images": [],
+      "price_yen": 1650000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1530455",
+        "uuid": "53616c7465645f5fd11194008b1eb506b5e62e8c033156c5ace7c8dbd33808df"
+      },
+      "source": "akiyajapan",
+      "source_id": "1530455",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fd11194008b1eb506b5e62e8c033156c5ace7c8dbd33808df",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1979) — reinforcement cost"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1990,
+      "building_m2": 131.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_01d6a203-7fd6-11f1-a659-a6ae20f6eefe_f194bc67a5068_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_01d6a203-7fd6-11f1-a659-a6ae20f6eefe_65851bd925aab_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_01d6a203-7fd6-11f1-a659-a6ae20f6eefe_cdc56b45f64bc_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_01d6a203-7fd6-11f1-a659-a6ae20f6eefe_80b01bc8f75a7_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_01d6a203-7fd6-11f1-a659-a6ae20f6eefe_2c6db31928188_thumb.webp"
+      ],
+      "land_m2": 172.0,
+      "last_seen": "2026-08-29",
+      "layout": null,
+      "local_images": [],
+      "price_yen": 19650000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1530327",
+        "uuid": "53616c7465645f5f6dbaeabe3ce04566400e66ac74fe07a9a03dcae97b0615f8"
+      },
+      "source": "akiyajapan",
+      "source_id": "1530327",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f6dbaeabe3ce04566400e66ac74fe07a9a03dcae97b0615f8",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥19,650,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1997,
+      "building_m2": 105.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_8d0be4cc-7fd7-11f1-a659-a6ae20f6eefe_b3f03cfd6ff5e_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_8d0be4cc-7fd7-11f1-a659-a6ae20f6eefe_7e1ab08c92107_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_8d0be4cc-7fd7-11f1-a659-a6ae20f6eefe_9482c0c62e98c_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_8d0be4cc-7fd7-11f1-a659-a6ae20f6eefe_ec60e7897cb8c_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_8d0be4cc-7fd7-11f1-a659-a6ae20f6eefe_204d9c5094f01_thumb.webp"
+      ],
+      "land_m2": 201.0,
+      "last_seen": "2026-08-29",
+      "layout": null,
+      "local_images": [],
+      "price_yen": 13950000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1530371",
+        "uuid": "53616c7465645f5f508f0dc02fffe2d05c3842c6d7e8805e2755a203f7198bb0"
+      },
+      "source": "akiyajapan",
+      "source_id": "1530371",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5f508f0dc02fffe2d05c3842c6d7e8805e2755a203f7198bb0",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥13,950,000)"
+      ]
+    },
+    {
+      "address": null,
+      "build_year": 1992,
+      "building_m2": 179.0,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "price approx (USD-derived)"
+      ],
+      "history": [],
+      "image_urls": [
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_80f923a9-7fd7-11f1-a659-a6ae20f6eefe_7719f681d0154_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_80f923a9-7fd7-11f1-a659-a6ae20f6eefe_d7be5b58d6619_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_80f923a9-7fd7-11f1-a659-a6ae20f6eefe_c3e9fa0844344_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_80f923a9-7fd7-11f1-a659-a6ae20f6eefe_7ce28c4ef6af0_thumb.webp",
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_80f923a9-7fd7-11f1-a659-a6ae20f6eefe_009f8e10a7fbf_thumb.webp"
+      ],
+      "land_m2": 769.0,
+      "last_seen": "2026-08-29",
+      "layout": null,
+      "local_images": [],
+      "price_yen": 18750000,
+      "property_type": "detached",
+      "raw": {
+        "property_id": "1530368",
+        "uuid": "53616c7465645f5fe940994fdc5dcec4a12eeee2237b857f3a4704385452f51a"
+      },
+      "source": "akiyajapan",
+      "source_id": "1530368",
+      "status": "live",
+      "title": "Otaru property",
+      "town": "Otaru",
+      "url": "https://www.akiyajapan.com/property/53616c7465645f5fe940994fdc5dcec4a12eeee2237b857f3a4704385452f51a",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥18,750,000)"
       ]
     }
   ],

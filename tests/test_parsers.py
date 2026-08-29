@@ -73,3 +73,29 @@ def test_homes_city_page_cards():
     assert len(cards) == 6
     cats = [c[1] for c in cards]
     assert any("売買" in c for c in cats)
+
+
+def test_akiyajapan_city_page():
+    from akiya.sources import akiyajapan as aj
+    listings = aj.parse_city_page((FIX / "akiyajapan_otaru.html").read_text(encoding="utf-8"), "Otaru")
+    assert len(listings) == 100
+    # every card has an id, a URL, a price, and photos
+    for l in listings:
+        assert l.source_id
+        assert l.url.startswith("https://")
+        assert l.price_yen is not None
+        assert l.image_urls
+    # exact JPY comes from JSON-LD for the featured items
+    exact = [l for l in listings if "price approx (USD-derived)" not in l.flags]
+    assert len(exact) >= 5
+
+
+def test_akiyajapan_type_mapping():
+    from akiya.sources import akiyajapan as aj
+    listings = aj.parse_city_page((FIX / "akiyajapan_otaru.html").read_text(encoding="utf-8"), "Otaru")
+    types = {l.property_type for l in listings}
+    assert "detached" in types      # House
+    assert "condo" in types         # Apartment
+    # land is assigned to the larger area, building to the smaller (houses)
+    houses = [l for l in listings if l.property_type == "detached" and l.building_m2 and l.land_m2]
+    assert all(l.land_m2 >= l.building_m2 for l in houses)

@@ -41,7 +41,11 @@ def cmd_scrape(args: argparse.Namespace) -> int:
             module = REGISTRY[name]
             console.print(f"[dim]scraping {name}…[/dim]")
             try:
-                listings = module.fetch(client)
+                import inspect
+                kwargs = {}
+                if "log" in inspect.signature(module.fetch).parameters:
+                    kwargs["log"] = lambda m: console.print(f"[yellow]  {m}[/yellow]")
+                listings = module.fetch(client, **kwargs)
             except Exception as e:  # one bad source shouldn't sink the run
                 console.print(f"[red]  {name} failed: {e}[/red]")
                 continue

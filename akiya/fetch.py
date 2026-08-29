@@ -31,8 +31,16 @@ DOMAIN_DELAYS = {
     "suumo.jp": 30.0,
     "www.homes.co.jp": 5.0,
     "akiyabank.blogspot.com": 2.0,
+    # akiyajapan sits behind Cloudflare, which rate-blocks rapid browser loads;
+    # a generous gap between city pages keeps us under its threshold.
+    "www.akiyajapan.com": 20.0,
+    "akiyajapan.com": 20.0,
 }
 DEFAULT_DELAY = 5.0
+
+# Domains that block non-browser agents outright (Cloudflare/UA gate); go
+# straight to the real browser instead of a doomed httpx round-trip.
+BROWSER_ONLY_DOMAINS = {"akiyajapan.com", "www.akiyajapan.com"}
 
 
 class Client:
@@ -47,7 +55,8 @@ class Client:
         self.allow_browser = allow_browser
         self._last_hit: dict[str, float] = {}
         self._browser = None  # lazily created BrowserSession
-        self._browser_domains: set[str] = set()  # domains known to need the browser
+        # domains known to need the browser (seeded with always-browser sites)
+        self._browser_domains: set[str] = set(BROWSER_ONLY_DOMAINS)
         self._http = httpx.Client(
             headers={
                 "User-Agent": USER_AGENT,
@@ -93,13 +102,14 @@ class Client:
         """
         if "sort=" in url:
             raise ValueError(f"sorted URLs are robots-disallowed on some targets: {url}")
+        from .browser import looks_blocked, looks_like_challenge
+
         cache = self._cache_path(url)
         if self.use_cache and cache.exists():
             cached = cache.read_text(encoding="utf-8")
-            if cached.strip():  # don't trust an empty/challenge body cached earlier
+            # Never trust an empty, challenge, or block page cached earlier.
+            if cached.strip() and not looks_like_challenge(cached) and not looks_blocked(cached):
                 return cached
-
-        from .browser import looks_like_challenge
 
         domain = urlsplit(url).netloc
         # A domain that challenged once this run keeps challenging httpx; skip

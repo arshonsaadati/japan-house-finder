@@ -49,8 +49,7 @@ uv run akiya scrape && echo "nothing new" || echo "NEW LISTINGS — go look"
 | `blogspot` | akiyabank.blogspot.com — Shiribeshi/Niseko akiya bank | JSON feed, one request |
 | `homes` | LIFULL HOME'S akiya bank, target towns | HTML + browser (solves the AWS WAF JS challenge) |
 | `suumo` | General used-detached-house market (Otaru, Furano) | HTML, throttled ≥30s, no `sort=` URLs |
-
-akiyajapan.com is handled separately (login required, anti-bot) — see below.
+| `akiyajapan` | English aggregator — richest source (~100/city) | Real browser on the robots-allowed `/city/{slug}` pages; no login |
 
 ## The filter (hard criteria)
 
@@ -71,15 +70,13 @@ headless, run headed:
 AKIYA_HEADED=1 uv run akiya scrape --source homes
 ```
 
-### akiyajapan.com credentials (never committed)
+### akiyajapan.com
 
-akiyajapan.com blocks non-browser agents and needs a logged-in session. Put
-credentials in the environment (or a gitignored `.env`), never in code:
-
-```bash
-export AKIYAJAPAN_EMAIL="you@example.com"
-export AKIYAJAPAN_PASSWORD="…"
-```
+Handled with a real browser on the robots-*allowed* `/city/{slug}` pages, which
+render ~100 listings with full specs and photos — **no login needed**, so no
+credentials are stored or handled. We never touch the site's honeypot or its
+`/api` / `/search` paths. It's the richest source; see `DECISIONS.md` for the
+full access rationale and the residual robots-policy risk (owner's call).
 
 ## Development
 
