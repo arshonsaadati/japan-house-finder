@@ -13576,7 +13576,13 @@
       "land_m2": 205.0,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1742245/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1742245/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1742245/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1742245/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1742245/04.webp"
+      ],
       "price_yen": 6500000,
       "property_type": "detached",
       "raw": {
@@ -13609,7 +13615,13 @@
       "land_m2": 169.0,
       "last_seen": "2026-08-29",
       "layout": "5LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1742251/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1742251/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1742251/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1742251/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1742251/04.webp"
+      ],
       "price_yen": 3600000,
       "property_type": "detached",
       "raw": {
@@ -13819,7 +13831,13 @@
       "land_m2": 202.0,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1698550/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1698550/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1698550/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1698550/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1698550/04.webp"
+      ],
       "price_yen": 4500000,
       "property_type": "mixed",
       "raw": {
@@ -13889,7 +13907,9 @@
       "land_m2": 146.0,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1685673/00.jpg"
+      ],
       "price_yen": 2100000,
       "property_type": "detached",
       "raw": {
@@ -14071,7 +14091,13 @@
       "land_m2": 542.0,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1685687/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1685687/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1685687/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1685687/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1685687/04.webp"
+      ],
       "price_yen": 5700000,
       "property_type": "mixed",
       "raw": {
@@ -14478,7 +14504,12 @@
       "land_m2": 332.0,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1675353/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1675353/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1675353/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1675353/03.webp"
+      ],
       "price_yen": 4200000,
       "property_type": "detached",
       "raw": {
@@ -14510,7 +14541,10 @@
       "land_m2": 205.0,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1675318/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1675318/01.webp"
+      ],
       "price_yen": 6150000,
       "property_type": "mixed",
       "raw": {
@@ -14621,7 +14655,13 @@
       "land_m2": 60.0,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1675332/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1675332/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1675332/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1675332/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1675332/04.webp"
+      ],
       "price_yen": 4500000,
       "property_type": "detached",
       "raw": {
@@ -14656,7 +14696,13 @@
       "land_m2": 280.0,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1675339/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1675339/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1675339/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1675339/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1675339/04.webp"
+      ],
       "price_yen": 3600000,
       "property_type": "mixed",
       "raw": {
@@ -14918,7 +14964,13 @@
       "land_m2": 215.0,
       "last_seen": "2026-08-29",
       "layout": "3LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1627056/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1627056/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1627056/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1627056/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1627056/04.webp"
+      ],
       "price_yen": 6600000,
       "property_type": "detached",
       "raw": {
@@ -15142,7 +15194,13 @@
       "land_m2": 133.0,
       "last_seen": "2026-08-29",
       "layout": "3LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1598286/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1598286/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1598286/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1598286/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1598286/04.webp"
+      ],
       "price_yen": 3000000,
       "property_type": "detached",
       "raw": {
@@ -15216,7 +15274,13 @@
       "land_m2": 105.0,
       "last_seen": "2026-08-29",
       "layout": "3LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1586106/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1586106/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1586106/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1586106/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1586106/04.webp"
+      ],
       "price_yen": 1650000,
       "property_type": "detached",
       "raw": {
@@ -15251,7 +15315,13 @@
       "land_m2": 169.0,
       "last_seen": "2026-08-29",
       "layout": "6LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1585556/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1585556/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1585556/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1585556/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1585556/04.webp"
+      ],
       "price_yen": 3450000,
       "property_type": "detached",
       "raw": {
@@ -15434,7 +15504,13 @@
       "land_m2": 203.0,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1584935/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1584935/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1584935/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1584935/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1584935/04.webp"
+      ],
       "price_yen": 8400000,
       "property_type": "detached",
       "raw": {
@@ -15618,7 +15694,13 @@
       "land_m2": 197.0,
       "last_seen": "2026-08-29",
       "layout": "5LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1584912/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1584912/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1584912/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1584912/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1584912/04.webp"
+      ],
       "price_yen": 8550000,
       "property_type": "detached",
       "raw": {
@@ -15987,7 +16069,11 @@
       "land_m2": 214.0,
       "last_seen": "2026-08-29",
       "layout": "6LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1535153/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1535153/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1535153/02.webp"
+      ],
       "price_yen": 4950000,
       "property_type": "detached",
       "raw": {
@@ -16022,7 +16108,13 @@
       "land_m2": 168.0,
       "last_seen": "2026-08-29",
       "layout": "4SLDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1535377/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1535377/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1535377/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1535377/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1535377/04.webp"
+      ],
       "price_yen": 3750000,
       "property_type": "detached",
       "raw": {
@@ -16094,7 +16186,13 @@
       "land_m2": 153.0,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1535031/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1535031/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1535031/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1535031/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1535031/04.webp"
+      ],
       "price_yen": 5700000,
       "property_type": "detached",
       "raw": {
@@ -16129,7 +16227,13 @@
       "land_m2": 206.0,
       "last_seen": "2026-08-29",
       "layout": "5LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1535092/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1535092/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1535092/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1535092/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1535092/04.webp"
+      ],
       "price_yen": 5250000,
       "property_type": "detached",
       "raw": {
@@ -16164,7 +16268,13 @@
       "land_m2": 290.0,
       "last_seen": "2026-08-29",
       "layout": "6LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1534958/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1534958/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1534958/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1534958/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1534958/04.webp"
+      ],
       "price_yen": 5700000,
       "property_type": "detached",
       "raw": {
@@ -16201,7 +16311,13 @@
       "land_m2": 258.0,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1535032/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1535032/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1535032/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1535032/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1535032/04.webp"
+      ],
       "price_yen": 5700000,
       "property_type": "detached",
       "raw": {
@@ -16310,7 +16426,13 @@
       "land_m2": 142.0,
       "last_seen": "2026-08-29",
       "layout": "3SLDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1534751/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1534751/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1534751/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1534751/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1534751/04.webp"
+      ],
       "price_yen": 7500000,
       "property_type": "detached",
       "raw": {
@@ -16458,7 +16580,13 @@
       "land_m2": 331.0,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1534552/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1534552/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1534552/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1534552/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1534552/04.webp"
+      ],
       "price_yen": 9450000,
       "property_type": "detached",
       "raw": {
@@ -16570,7 +16698,13 @@
       "land_m2": 187.0,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1534419/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1534419/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1534419/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1534419/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1534419/04.webp"
+      ],
       "price_yen": 8850000,
       "property_type": "detached",
       "raw": {
@@ -17195,7 +17329,13 @@
       "land_m2": 284.0,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1534971/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1534971/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1534971/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1534971/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1534971/04.webp"
+      ],
       "price_yen": 5000000,
       "property_type": "detached",
       "raw": {
@@ -17336,7 +17476,13 @@
       "land_m2": 286.0,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1365058/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1365058/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1365058/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1365058/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1365058/04.webp"
+      ],
       "price_yen": 9450000,
       "property_type": "detached",
       "raw": {
@@ -17447,7 +17593,13 @@
       "land_m2": 165.0,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1365067/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1365067/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1365067/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1365067/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1365067/04.webp"
+      ],
       "price_yen": 5550000,
       "property_type": "detached",
       "raw": {
@@ -20864,7 +21016,13 @@
       "land_m2": null,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1546969/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1546969/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1546969/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1546969/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1546969/04.webp"
+      ],
       "price_yen": null,
       "property_type": "detached",
       "raw": {
@@ -23363,7 +23521,13 @@
       "land_m2": 839.0,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1324416/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1324416/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1324416/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1324416/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1324416/04.webp"
+      ],
       "price_yen": null,
       "property_type": "detached",
       "raw": {
@@ -24321,7 +24485,13 @@
       "land_m2": null,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1158029/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1158029/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1158029/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1158029/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1158029/04.webp"
+      ],
       "price_yen": null,
       "property_type": "detached",
       "raw": {
@@ -24504,7 +24674,9 @@
       "land_m2": 544.0,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1150337/00.webp"
+      ],
       "price_yen": null,
       "property_type": "detached",
       "raw": {
@@ -25046,7 +25218,11 @@
       "land_m2": 158.0,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/992231/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/992231/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/992231/02.webp"
+      ],
       "price_yen": null,
       "property_type": "detached",
       "raw": {
@@ -25632,7 +25808,13 @@
       "land_m2": null,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1035645/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1035645/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1035645/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1035645/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1035645/04.webp"
+      ],
       "price_yen": null,
       "property_type": "detached",
       "raw": {
@@ -25814,7 +25996,13 @@
       "land_m2": 458.0,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/992111/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/992111/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/992111/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/992111/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/992111/04.webp"
+      ],
       "price_yen": null,
       "property_type": "detached",
       "raw": {
@@ -25847,7 +26035,11 @@
       "land_m2": null,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/992067/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/992067/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/992067/02.webp"
+      ],
       "price_yen": null,
       "property_type": "detached",
       "raw": {
@@ -25880,7 +26072,11 @@
       "land_m2": null,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991870/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991870/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991870/02.webp"
+      ],
       "price_yen": null,
       "property_type": "detached",
       "raw": {
@@ -25912,7 +26108,10 @@
       "land_m2": null,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991850/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991850/01.webp"
+      ],
       "price_yen": null,
       "property_type": "detached",
       "raw": {
@@ -25946,7 +26145,12 @@
       "land_m2": 766.0,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991666/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991666/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991666/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991666/03.webp"
+      ],
       "price_yen": null,
       "property_type": "detached",
       "raw": {
@@ -25979,7 +26183,11 @@
       "land_m2": null,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991662/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991662/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991662/02.webp"
+      ],
       "price_yen": null,
       "property_type": "detached",
       "raw": {
@@ -26078,7 +26286,12 @@
       "land_m2": 362.0,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991398/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991398/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991398/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991398/03.webp"
+      ],
       "price_yen": null,
       "property_type": "detached",
       "raw": {
@@ -26112,7 +26325,12 @@
       "land_m2": 331.0,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991354/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991354/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991354/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991354/03.webp"
+      ],
       "price_yen": null,
       "property_type": "detached",
       "raw": {
@@ -26147,7 +26365,13 @@
       "land_m2": 438.0,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991338/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991338/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991338/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991338/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991338/04.webp"
+      ],
       "price_yen": null,
       "property_type": "detached",
       "raw": {
@@ -26180,7 +26404,11 @@
       "land_m2": 352.0,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991317/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991317/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/991317/02.webp"
+      ],
       "price_yen": null,
       "property_type": "detached",
       "raw": {
@@ -26286,7 +26514,13 @@
       "land_m2": 273.0,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1695771/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1695771/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1695771/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1695771/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1695771/04.webp"
+      ],
       "price_yen": 8500000,
       "property_type": "detached",
       "raw": {
@@ -26724,7 +26958,13 @@
       "land_m2": 282.0,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1635361/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1635361/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1635361/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1635361/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1635361/04.webp"
+      ],
       "price_yen": null,
       "property_type": "detached",
       "raw": {
@@ -28076,7 +28316,13 @@
       "land_m2": 141.0,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1446429/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1446429/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1446429/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1446429/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1446429/04.webp"
+      ],
       "price_yen": 9450000,
       "property_type": "detached",
       "raw": {
@@ -28188,7 +28434,13 @@
       "land_m2": 141.0,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1420492/00.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1420492/01.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1420492/02.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1420492/03.webp",
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/1420492/04.webp"
+      ],
       "price_yen": 9450000,
       "property_type": "detached",
       "raw": {
