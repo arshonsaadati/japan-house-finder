@@ -1,0 +1,26 @@
+[project]
+name = "akiya"
+version = "0.1.0"
+description = "Find, monitor, and underwrite cheap Hokkaido houses for a legal minpaku Airbnb"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.27",
+    "beautifulsoup4>=4.12",
+    "rich>=13.0",
+]
+
+[project.scripts]
+akiya = "akiya.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["akiya"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
