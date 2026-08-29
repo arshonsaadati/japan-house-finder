@@ -103,3 +103,20 @@ uv run pytest          # parser/normalizer/filter/store/underwrite tests (fixtur
 
 Tests run against saved real-page fixtures in `tests/fixtures/`, so they're
 fast and don't hit the network.
+
+## Pi deployment (alerts + Telegram chat)
+
+Runs on the always-on Raspberry Pi (`ssh pi`), repo at `~/Code/japan-house-finder`:
+
+- **Daily alerts (cron)**: `bin/scrape_and_notify.py` scrapes, diffs the store,
+  and DMs Telegram only when genuinely new pass/stretch listings appear —
+  headless `claude -p` writes the analyst summary (deterministic fallback).
+  Crontab: `0 8 * * *` (quiet) and `0 15 * * *` with `AKIYA_DIGEST=1`
+  (heartbeat even when nothing is new).
+- **Chat with Claude from Telegram**: `bin/telegram_claude_bridge.py` long-polls
+  the bot, pipes owner messages to `claude -p --continue` (tools limited to
+  Read/Grep/Glob + the akiya CLI), replies in the DM. `/new` resets the
+  conversation. Runs via `deploy/akiya-bridge.service` (systemd user unit,
+  linger enabled).
+- **Secrets**: bot token + chat id live in gitignored `.env.telegram` next to
+  the repo root (`TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`).

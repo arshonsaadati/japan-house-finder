@@ -6,3 +6,6 @@ data/cache/
 dist/
 data/images/
 data/gallery*.html
+
+# local secrets
+.env*

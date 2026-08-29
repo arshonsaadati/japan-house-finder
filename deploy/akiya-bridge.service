@@ -1,0 +1,15 @@
+[Unit]
+Description=Telegram <-> Claude bridge for the akiya house hunt
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/arshons/Code/japan-house-finder
+ExecStart=/home/arshons/Code/japan-house-finder/.venv/bin/python /home/arshons/Code/japan-house-finder/bin/telegram_claude_bridge.py
+Restart=always
+RestartSec=10
+Environment=PATH=/home/arshons/.local/bin:/usr/local/bin:/usr/bin:/bin
+
+[Install]
+WantedBy=default.target
