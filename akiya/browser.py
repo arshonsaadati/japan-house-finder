@@ -61,17 +61,24 @@ class BrowserSession:
         from playwright.sync_api import sync_playwright
 
         self._pw = sync_playwright().start()
-        # Anti-automation-detection: AWS WAF/Cloudflare fingerprint headless
-        # Chrome and hand it harder (sometimes unsolvable) challenges. These
-        # args + the init script below make it look like an ordinary browser.
-        self._browser = self._pw.chromium.launch(
-            headless=self.headless,
-            args=[
-                "--disable-blink-features=AutomationControlled",
-                "--disable-dev-shm-usage",
-                "--no-sandbox",
-            ],
-        )
+        # Anti-automation-detection: AWS WAF/Cloudflare fingerprint the bundled
+        # Chromium and hand it harder (often unsolvable) challenges. Real Google
+        # Chrome (channel="chrome") is trusted far more — it clears Cloudflare
+        # blocks that bundled Chromium cannot. Fall back to Chromium if Chrome
+        # isn't installed. The args + init script complete the disguise.
+        launch_args = [
+            "--disable-blink-features=AutomationControlled",
+            "--disable-dev-shm-usage",
+            "--no-sandbox",
+        ]
+        try:
+            self._browser = self._pw.chromium.launch(
+                channel="chrome", headless=self.headless, args=launch_args
+            )
+        except Exception:
+            self._browser = self._pw.chromium.launch(
+                headless=self.headless, args=launch_args
+            )
         ctx_kwargs = {
             "user_agent": (
                 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -101,6 +108,7 @@ class BrowserSession:
             self._browser.close()
         if self._pw:
             self._pw.stop()
+        self._context = self._browser = self._pw = None
 
     def get_html(
         self,

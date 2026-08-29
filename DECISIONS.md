@@ -84,3 +84,12 @@ offering an account login and suggesting a non-headless Playwright browser.
 robots.txt UA policy; if they fingerprint and block, it would affect browsing
 from this machine/account. This is why volume is kept low and access is
 read-only on public pages.
+
+### Cloudflare on akiyajapan — real Chrome beats bundled Chromium
+akiyajapan's Cloudflare hard-blocks (`Attention Required`) the bundled Playwright
+Chromium after ~1–2 loads, and the block does not clear by waiting. Launching
+**real Google Chrome** via `channel="chrome"` is trusted by Cloudflare and clears
+where Chromium is blocked (verified: a town that Chromium got blocked on returned
+100 cards immediately under Chrome). `BrowserSession` now launches `channel=
+"chrome"` and falls back to bundled Chromium only if Chrome isn't installed. The
+20s throttle + HardBlocked backoff remain as a second line of defense.
