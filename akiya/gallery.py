@@ -125,7 +125,7 @@ def build(listings: list[Listing], out_path: Path) -> Path:
         counts[l.verdict] = counts.get(l.verdict, 0) + 1
     filters = "".join(
         f'<button data-f="{v}" class="{"active" if v=="all" else ""}">{v} '
-        f'({counts.get(v, len(ordered)) if v!="all" else len(ordered)})</button>'
+        f'({len(ordered) if v=="all" else counts.get(v, 0)})</button>'
         for v in ["all", "pass", "stretch", "flagged", "reject"]
     )
     cards = "\n".join(_card(l, out_dir) for l in ordered)
