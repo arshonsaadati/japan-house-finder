@@ -9,3 +9,8 @@ data/gallery*.html
 
 # local secrets
 .env*
+
+# iOS
+ios/AkiyaSwipe/build/
+ios/**/xcuserdata/
+ios/**/*.xcworkspace/xcshareddata/swiftpm/

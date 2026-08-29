@@ -6,6 +6,7 @@ Commands:
   diff        show what changed on the most recent scrape (re-runs upsert dry)
   leads       re-check the handoff's known leads against the store
   underwrite  run the P&L model for a price / scenario
+  serve       JSON API + photo server for the iOS swipe app
 """
 
 from __future__ import annotations
@@ -145,6 +146,13 @@ def cmd_gallery(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_serve(args: argparse.Namespace) -> int:
+    from .serve import serve
+
+    serve(host=args.host, port=args.port)
+    return 0
+
+
 def cmd_underwrite(args: argparse.Namespace) -> int:
     kw = dict(
         price_yen=args.price,
@@ -215,6 +223,11 @@ def build_parser() -> argparse.ArgumentParser:
     up.add_argument("--accom-tax", action="store_true", help="apply 3% (Kutchan/Niseko)")
     up.add_argument("--label")
     up.set_defaults(func=cmd_underwrite)
+
+    svp = sub.add_parser("serve", help="JSON API + photos for the iOS swipe app")
+    svp.add_argument("--host", default="127.0.0.1", help="use 0.0.0.0 to reach from a phone")
+    svp.add_argument("--port", type=int, default=8787)
+    svp.set_defaults(func=cmd_serve)
 
     return p
 

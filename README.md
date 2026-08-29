@@ -120,3 +120,42 @@ Runs on the always-on Raspberry Pi (`ssh pi`), repo at `~/Code/japan-house-finde
   linger enabled).
 - **Secrets**: bot token + chat id live in gitignored `.env.telegram` next to
   the repo root (`TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`).
+
+## iOS app — "Tinder for akiya" (`ios/AkiyaSwipe`)
+
+SwiftUI app (iOS 17+) that turns the store into a swipe deck. Built on
+[Shuffle](https://github.com/mac-gallagher/Shuffle) (SPM, ~1k★) for the card
+stack; everything inside the card is SwiftUI.
+
+- **Card** = tap-through photo pager (photos shrink-to-fit on a blurred fill,
+  never cropped), price ¥/~$, verdict badge, town/address, layout·m²·year, flags.
+  Tap the left 30% to go back a photo, anywhere else to advance.
+- **Swipe right / ❤️ = like, left / ✕ = pass, ↶ = undo, ⓘ = profile.**
+- **Profile sheet** shows every scraped field: photos, facts, verdict reasons,
+  flags, the per-source `raw` specs (agent remarks, station, features…), and the
+  **contact** — the source listing page (Open / Share). The scrapers don't
+  extract a phone/agent field separately; the source page is where the contact
+  form / agent lives.
+- **Likes** and **Passed** lists are stored **only on the device**
+  (`Documents/swipes.json`, full listing snapshots). Passed listings are never
+  re-shown; swipe a row to forget/like/pass again.
+- **Data**: `Resources/listings.json` is a bundled snapshot so the app works
+  offline. Set a server URL in Settings to pull live data from `akiya serve`.
+- Deck hides `reject` verdicts by default (toggle in Settings) and orders
+  pass → stretch → flagged, cheapest first.
+
+```bash
+uv run akiya serve --host 0.0.0.0 --port 8787     # JSON API + downloaded photos
+# then in the app: Settings → Server → http://<your-mac-ip>:8787
+open ios/AkiyaSwipe/AkiyaSwipe.xcodeproj           # build & run (Xcode 26)
+```
+
+Refresh the bundled snapshot after a scrape:
+
+```bash
+uv run python -c "
+from akiya.serve import build_payload; from akiya.store import Store; import json
+p=build_payload(Store())
+for l in p['listings']: l['photos']=l['image_urls']; l['local_images']=[]
+json.dump(p, open('ios/AkiyaSwipe/AkiyaSwipe/Resources/listings.json','w'), ensure_ascii=False)"
+```
