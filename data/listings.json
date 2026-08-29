@@ -1,0 +1,393 @@
+{
+  "count": 9,
+  "listings": [
+    {
+      "address": "北海道 小樽市 銭函１丁目３１番１１４",
+      "build_year": 1982,
+      "building_m2": null,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "zoning: 準工業地域"
+      ],
+      "history": [],
+      "land_m2": 995.48,
+      "last_seen": "2026-08-29",
+      "layout": "4LDK",
+      "price_yen": 3800000,
+      "property_type": "condo",
+      "raw": {
+        "category": "売買居住用",
+        "specs": {
+          "交通": "JR函館本線 銭函駅 徒歩 16分",
+          "価格": "3,800,000円",
+          "修繕積立金": "14,000円",
+          "備考": "駐車場利用：月額2,000円／ペット飼育：不可／土地面積：995.48㎡　共有持分：15,412/199,096／分譲会社：森昌株式会社／管理会社：なし（自主管理）／施工会社：保志建産株式会社／※洗面台下の排水管漏れあり。要交換or修繕",
+          "地上階": "4階",
+          "地目": "宅地",
+          "建物構造": "RC(鉄筋コンクリート)",
+          "引き渡し状況": "即時",
+          "所在地": "北海道 小樽市 銭函１丁目３１番１１４",
+          "物件名": "北海道小樽市銭函１丁目３１番１１４",
+          "現況": "空家",
+          "用途地域": "準工業地域",
+          "築年月(築年数)": "1982年07月 (築44年)",
+          "都市計画": "市街化区域",
+          "間取り": "4LDK"
+        },
+        "structure": "RC(鉄筋コンクリート)"
+      },
+      "source": "homes",
+      "source_id": "47650",
+      "status": "live",
+      "title": "北海道小樽市銭函１丁目３１番１１４",
+      "town": "Otaru",
+      "url": "https://www.homes.co.jp/akiyabank/b-47650/",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "not a detached house (type=condo)"
+      ]
+    },
+    {
+      "address": "北海道 小樽市 花園３丁目５０番１",
+      "build_year": null,
+      "building_m2": null,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "zoning: 商業地域"
+      ],
+      "history": [],
+      "land_m2": null,
+      "last_seen": "2026-08-29",
+      "layout": null,
+      "price_yen": 6000000,
+      "property_type": "land",
+      "raw": {
+        "category": "売買土地",
+        "specs": {
+          "交通": "JR函館本線 南小樽駅 徒歩 7分 JR函館本線 小樽駅 徒歩 16分",
+          "価格": "6,000,000円",
+          "備考": "現状渡し",
+          "土地面積(土地面積計測方式)": "116㎡-",
+          "地目": "宅地",
+          "所在地": "北海道 小樽市 花園３丁目５０番１",
+          "物件名": "北海道小樽市花園３丁目５０番１",
+          "現況": "更地",
+          "用途地域": "商業地域",
+          "都市計画": "市街化区域"
+        },
+        "structure": ""
+      },
+      "source": "homes",
+      "source_id": "12963",
+      "status": "live",
+      "title": "北海道小樽市花園３丁目５０番１",
+      "town": "Otaru",
+      "url": "https://www.homes.co.jp/akiyabank/b-12963/",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "not a detached house (type=land)",
+        "build year unknown — verify ≥1981"
+      ]
+    },
+    {
+      "address": "北海道 小樽市 桂岡町２７２番１６７",
+      "build_year": null,
+      "building_m2": null,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "zoning: 第一種低層住居専用地域"
+      ],
+      "history": [],
+      "land_m2": null,
+      "last_seen": "2026-08-29",
+      "layout": null,
+      "price_yen": 1500000,
+      "property_type": "land",
+      "raw": {
+        "category": "売買土地",
+        "specs": {
+          "価格": "1,500,000円",
+          "備考": "札幌市に近く小樽の中心までも近いです。海水浴場やスキー場も近くにあります。",
+          "土地面積(土地面積計測方式)": "199.33㎡-",
+          "地目": "宅地",
+          "所在地": "北海道 小樽市 桂岡町２７２番１６７",
+          "物件名": "北海道小樽市桂岡町２７２番１６７",
+          "現況": "更地",
+          "用途地域": "第一種低層住居専用地域",
+          "都市計画": "市街化区域"
+        },
+        "structure": ""
+      },
+      "source": "homes",
+      "source_id": "4735",
+      "status": "live",
+      "title": "北海道小樽市桂岡町２７２番１６７",
+      "town": "Otaru",
+      "url": "https://www.homes.co.jp/akiyabank/b-4735/",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "not a detached house (type=land)",
+        "build year unknown — verify ≥1981"
+      ]
+    },
+    {
+      "address": "北海道 余市郡余市町 富沢町6丁目116",
+      "build_year": 1969,
+      "building_m2": null,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "zoning: 第一種住居地域"
+      ],
+      "history": [],
+      "land_m2": null,
+      "last_seen": "2026-08-29",
+      "layout": null,
+      "price_yen": 24000000,
+      "property_type": "business",
+      "raw": {
+        "category": "売買事業用",
+        "specs": {
+          "交通": "JR函館本線 余市駅 バス 7分 富沢6丁目下車 徒歩 3分",
+          "価格": "24,000,000円",
+          "備考": "延べ床面積１，５７１㎡",
+          "土地面積(土地面積計測方式)": "2,616.59㎡-",
+          "地上階": "2階",
+          "地目": "宅地",
+          "建物構造": "SRC(鉄骨鉄筋コンクリート)",
+          "所在地": "北海道 余市郡余市町 富沢町6丁目116",
+          "物件名": "北海道余市町富沢町6丁目116",
+          "現況": "居住中",
+          "用途地域": "第一種住居地域",
+          "築年月(築年数)": "1968年12月 (築57年)",
+          "都市計画": "市街化区域"
+        },
+        "structure": "SRC(鉄骨鉄筋コンクリート)"
+      },
+      "source": "homes",
+      "source_id": "20162",
+      "status": "live",
+      "title": "北海道余市町富沢町6丁目116",
+      "town": "Yoichi",
+      "url": "https://www.homes.co.jp/akiyabank/b-20162/",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "not a detached house (type=business)",
+        "pre-1981 seismic (1969) — reinforcement cost",
+        "over ¥10M (¥24,000,000)"
+      ]
+    },
+    {
+      "address": "北海道 磯谷郡蘭越町",
+      "build_year": 1978,
+      "building_m2": null,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "zoning: 都市計画区域外"
+      ],
+      "history": [],
+      "land_m2": null,
+      "last_seen": "2026-08-29",
+      "layout": "6LDK",
+      "price_yen": 42000000,
+      "property_type": "detached",
+      "raw": {
+        "category": "売買居住用",
+        "specs": {
+          "価格": "42,000,000円",
+          "取引態様": "一般媒介",
+          "土地面積(土地面積計測方式)": "1,044.1㎡公簿",
+          "地目": "宅地",
+          "建物構造": "木造",
+          "建物面積(建物面積計測方式)": "132.48㎡ (-)",
+          "引き渡し状況": "即時",
+          "所在地": "北海道 磯谷郡蘭越町",
+          "物件名": "No.26-3　蘭越町字吉国（戸建）",
+          "現況": "空家",
+          "築年月(築年数)": "1978年01月 (築48年)",
+          "都市計画": "都市計画区域外",
+          "間取り": "6LDK"
+        },
+        "structure": "木造"
+      },
+      "source": "homes",
+      "source_id": "48138",
+      "status": "live",
+      "title": "No.26-3　蘭越町字吉国（戸建）",
+      "town": "Rankoshi",
+      "url": "https://www.homes.co.jp/akiyabank/b-48138/",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1978) — reinforcement cost",
+        "over ¥10M (¥42,000,000)"
+      ]
+    },
+    {
+      "address": "北海道 磯谷郡蘭越町",
+      "build_year": 1985,
+      "building_m2": null,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "zoning: 都市計画区域外"
+      ],
+      "history": [],
+      "land_m2": null,
+      "last_seen": "2026-08-29",
+      "layout": null,
+      "price_yen": 38000000,
+      "property_type": "detached",
+      "raw": {
+        "category": "売買居住用",
+        "specs": {
+          "価格": "38,000,000円",
+          "備考": "住居のある土地（210坪）及びその周辺の土地が売買対象です。総面積は約５０００坪です。",
+          "取引態様": "一般媒介",
+          "土地権利": "所有権",
+          "土地面積(土地面積計測方式)": "695.48㎡公簿",
+          "地目": "宅地",
+          "建物構造": "木造",
+          "建物面積(建物面積計測方式)": "162.61㎡ (-)",
+          "引き渡し状況": "相談",
+          "引き渡し相談内容": "現在所有者が居住中のため引渡時期は相談となります",
+          "所在地": "北海道 磯谷郡蘭越町",
+          "物件名": "No.25-7　蘭越町字富岡（戸建）",
+          "現況": "居住中",
+          "築年月(築年数)": "1984年10月 (築41年)",
+          "都市計画": "都市計画区域外"
+        },
+        "structure": "木造"
+      },
+      "source": "homes",
+      "source_id": "42316",
+      "status": "live",
+      "title": "No.25-7　蘭越町字富岡（戸建）",
+      "town": "Rankoshi",
+      "url": "https://www.homes.co.jp/akiyabank/b-42316/",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "over ¥10M (¥38,000,000)"
+      ]
+    },
+    {
+      "address": "北海道 磯谷郡蘭越町 字黄金",
+      "build_year": 2000,
+      "building_m2": null,
+      "first_seen": "2026-08-29",
+      "flags": [],
+      "history": [],
+      "land_m2": null,
+      "last_seen": "2026-08-29",
+      "layout": null,
+      "price_yen": null,
+      "property_type": "business",
+      "raw": {
+        "category": "売買事業用",
+        "specs": {
+          "価格": "応相談",
+          "建物構造": "鉄骨造",
+          "建物面積(建物面積計測方式)": "253.71㎡ (-)",
+          "引き渡し状況": "相談",
+          "所在地": "北海道 磯谷郡蘭越町 字黄金",
+          "物件名": "No.21-9　蘭越町字黄金（戸建）",
+          "現況": "空家",
+          "築年月(築年数)": "2000年01月 (築26年)"
+        },
+        "structure": "鉄骨造"
+      },
+      "source": "homes",
+      "source_id": "20965",
+      "status": "live",
+      "title": "No.21-9　蘭越町字黄金（戸建）",
+      "town": "Rankoshi",
+      "url": "https://www.homes.co.jp/akiyabank/b-20965/",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "not a detached house (type=business)",
+        "price unknown"
+      ]
+    },
+    {
+      "address": "北海道 磯谷郡蘭越町 目名町",
+      "build_year": 1967,
+      "building_m2": null,
+      "first_seen": "2026-08-29",
+      "flags": [
+        "zoning: 都市計画区域外"
+      ],
+      "history": [],
+      "land_m2": null,
+      "last_seen": "2026-08-29",
+      "layout": null,
+      "price_yen": 3000000,
+      "property_type": "detached",
+      "raw": {
+        "category": "売買居住用",
+        "specs": {
+          "価格": "3,000,000円",
+          "備考": "建物のある宅地の隣の土地（365㎡）も含めた売買となります",
+          "土地権利": "所有権",
+          "土地面積(土地面積計測方式)": "1,052㎡-",
+          "地目": "宅地",
+          "建物構造": "ブロック造",
+          "建物面積(建物面積計測方式)": "132.81㎡ (-)",
+          "引き渡し状況": "相談",
+          "所在地": "北海道 磯谷郡蘭越町 目名町",
+          "接道状況": "一方",
+          "物件名": "No.21-4　蘭越町目名町（住宅＋隣接宅地）",
+          "現況": "空家",
+          "築年月(築年数)": "1966年11月 (築59年)",
+          "都市計画": "都市計画区域外"
+        },
+        "structure": "ブロック造"
+      },
+      "source": "homes",
+      "source_id": "20836",
+      "status": "live",
+      "title": "No.21-4　蘭越町目名町（住宅＋隣接宅地）",
+      "town": "Rankoshi",
+      "url": "https://www.homes.co.jp/akiyabank/b-20836/",
+      "verdict": "reject",
+      "verdict_reasons": [
+        "pre-1981 seismic (1967) — reinforcement cost"
+      ]
+    },
+    {
+      "address": "北海道 寿都郡寿都町 字矢追町399番地4",
+      "build_year": null,
+      "building_m2": null,
+      "first_seen": "2026-08-29",
+      "flags": [],
+      "history": [],
+      "land_m2": null,
+      "last_seen": "2026-08-29",
+      "layout": "2LDK",
+      "price_yen": 3800000,
+      "property_type": "detached",
+      "raw": {
+        "category": "売買居住用",
+        "specs": {
+          "交通": "バス 寿都バスターミナル下車 徒歩 5分",
+          "価格": "3,800,000円",
+          "土地面積(土地面積計測方式)": "220.64㎡-",
+          "建物構造": "木造",
+          "所在地": "北海道 寿都郡寿都町 字矢追町399番地4",
+          "物件名": "北海道寿都町字矢追町399番地4",
+          "現況": "空家",
+          "築年月(築年数)": "-",
+          "間取り": "2LDK"
+        },
+        "structure": "木造"
+      },
+      "source": "homes",
+      "source_id": "17676",
+      "status": "live",
+      "title": "北海道寿都町字矢追町399番地4",
+      "town": "Suttsu",
+      "url": "https://www.homes.co.jp/akiyabank/b-17676/",
+      "verdict": "flagged",
+      "verdict_reasons": [
+        "build year unknown — verify ≥1981"
+      ]
+    }
+  ],
+  "updated": "2026-08-29"
+}

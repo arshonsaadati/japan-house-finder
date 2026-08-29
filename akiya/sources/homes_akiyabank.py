@@ -174,10 +174,12 @@ def fetch(client, towns: list[str] | None = None, sales_only: bool = True) -> li
         slug = slugs.get(town)
         if not slug:
             continue
-        city_html = client.get(f"{BASE}/akiyabank/hokkaido/{slug}/")
+        city_html = client.get(
+            f"{BASE}/akiyabank/hokkaido/{slug}/", wait_selector="h1.mod-result-title1"
+        )
         for url, cat, _addr in parse_city_page(city_html):
             if sales_only and cat and "賃貸" in cat:
                 continue
-            detail_html = client.get(url)
+            detail_html = client.get(url, wait_selector="table")
             listings.append(parse_detail(detail_html, url, cat))
     return listings
