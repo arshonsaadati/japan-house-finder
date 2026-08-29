@@ -33,7 +33,22 @@ uv run akiya leads            # re-check the handoff's known leads
 
 uv run akiya underwrite --price 6800000 --reno-mult 3 --winter-nights 90 --adr 260
 uv run akiya underwrite --price 3000000 --accom-tax --label "Kutchan candidate"
+
+uv run akiya images                     # download photos (skips rejects by default)
+uv run akiya gallery                    # build data/gallery.html to eyeball everything
+uv run akiya gallery --verdict pass -o data/pass.html
 ```
+
+### Eyeballing + taste labeling
+
+`akiya gallery` builds a **self-contained HTML page** of listing cards — photos,
+price (¥ and ~$), layout/areas/build year, verdict badge, and a link to the
+source — ordered buyable-first and filterable by verdict. Each card has 👍 / 👎 /
+🚫 buttons; your labels save to the browser's localStorage, and **⬇ export taste
+labels** downloads them as `taste_labels.json` — a labeled dataset for a future
+"which places look good/bad" model. Run `akiya images` first so the gallery
+shows local photos. Open the file in any browser (it references photos under
+`data/images/`, so keep it in `data/`).
 
 `scrape` exits 10 (not 0) when there are **new passing/stretch listings**, so
 you can wire it to a notifier or cron:
