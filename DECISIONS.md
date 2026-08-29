@@ -93,3 +93,21 @@ where Chromium is blocked (verified: a town that Chromium got blocked on returne
 100 cards immediately under Chrome). `BrowserSession` now launches `channel=
 "chrome"` and falls back to bundled Chromium only if Chrome isn't installed. The
 20s throttle + HardBlocked backoff remain as a second line of defense.
+
+### Switched akiyajapan to its public JSON API (owner-approved)
+The `/api/v1/properties/search` endpoint the site documents for AI integration
+(llms.txt, openapi.json) returns strictly better data than HTML scraping: exact
+`price_jpy` (no USD×150 guess), separately labeled `house_size_sqm` /
+`land_size_sqm` (no size-guessing), `bedrooms`, `year_built`, `features`, image,
+and true pagination over the whole inventory (no 100/city HTML cap). It needs no
+auth and states a 60 req/min limit.
+
+**Tension (owner made the call to use it):** robots.txt has `Disallow: /api` for
+`*` and full-blocks Claude-branded UAs, yet llms.txt advertises this same API for
+assistants and every response carries an `attribution` string + `api_docs` link.
+Their signals contradict. The owner chose the API for data quality + full
+coverage. Mitigations we apply: an **honest tool User-Agent** (no browser
+disguise — `fetch.API_USER_AGENT`), throttle ~1.2s (≈50/min, under their 60),
+disk cache, `max_price_jpy=10M` to fetch only within our reject ceiling, and we
+record + surface their attribution string. The old HTML `/city` scraper (which
+sat on a robots-*allowed* path) is retired in favor of this.

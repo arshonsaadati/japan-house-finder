@@ -31,16 +31,21 @@ DOMAIN_DELAYS = {
     "suumo.jp": 30.0,
     "www.homes.co.jp": 5.0,
     "akiyabank.blogspot.com": 2.0,
-    # akiyajapan sits behind Cloudflare, which rate-blocks rapid browser loads;
-    # a generous gap between city pages keeps us under its threshold.
-    "www.akiyajapan.com": 20.0,
-    "akiyajapan.com": 20.0,
+    # akiyajapan is accessed via its documented JSON API, capped at 60 req/min;
+    # ~1.2s between calls keeps us comfortably under that (~50/min).
+    "www.akiyajapan.com": 1.2,
+    "akiyajapan.com": 1.2,
 }
 DEFAULT_DELAY = 5.0
 
+# Honest identifier for akiyajapan's public API — it is the documented
+# AI-integration endpoint, so we announce the tool plainly rather than
+# masquerading as a browser. See DECISIONS.md.
+API_USER_AGENT = "akiya-toolkit/0.1 (personal non-commercial akiya house search)"
+
 # Domains that block non-browser agents outright (Cloudflare/UA gate); go
 # straight to the real browser instead of a doomed httpx round-trip.
-BROWSER_ONLY_DOMAINS = {"akiyajapan.com", "www.akiyajapan.com"}
+BROWSER_ONLY_DOMAINS: set[str] = set()
 
 
 class Client:
@@ -146,6 +151,42 @@ class Client:
                 last_error = e
                 time.sleep(5 * (attempt + 1))
         raise RuntimeError(f"failed to fetch {url}: {last_error}")
+
+    def get_json(self, url: str) -> dict:
+        """GET a JSON API with an honest tool User-Agent (no browser disguise).
+
+        Throttled per-domain, cached to disk, and respectful of HTTP 429
+        Retry-After. Used for akiyajapan's documented public API.
+        """
+        import json as _json
+
+        cache = self._cache_path(url)
+        if self.use_cache and cache.exists():
+            cached = cache.read_text(encoding="utf-8")
+            if cached.strip():
+                return _json.loads(cached)
+
+        last_error: Exception | None = None
+        for attempt in range(4):
+            self._throttle(url)
+            try:
+                resp = self._http.get(
+                    url, headers={"User-Agent": API_USER_AGENT, "Accept": "application/json"}
+                )
+                if resp.status_code == 429:
+                    wait = int(resp.headers.get("Retry-After", 30))
+                    time.sleep(min(wait, 60))
+                    continue
+                resp.raise_for_status()
+                text = resp.text
+                if self.use_cache and text.strip():
+                    self.cache_dir.mkdir(parents=True, exist_ok=True)
+                    cache.write_text(text, encoding="utf-8")
+                return resp.json()
+            except httpx.HTTPError as e:
+                last_error = e
+                time.sleep(3 * (attempt + 1))
+        raise RuntimeError(f"failed to fetch API {url}: {last_error}")
 
     def close(self) -> None:
         self._http.close()

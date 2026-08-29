@@ -75,27 +75,33 @@ def test_homes_city_page_cards():
     assert any("売買" in c for c in cats)
 
 
-def test_akiyajapan_city_page():
+def test_akiyajapan_api_parsing():
+    import json
     from akiya.sources import akiyajapan as aj
-    listings = aj.parse_city_page((FIX / "akiyajapan_otaru.html").read_text(encoding="utf-8"), "Otaru")
-    assert len(listings) == 100
-    # every card has an id, a URL, a price, and photos
+    data = json.loads((FIX / "akiyajapan_api_otaru.json").read_text(encoding="utf-8"))
+    listings = [aj.parse_result(r, "Otaru") for r in data["results"]]
+    assert len(listings) == 50
     for l in listings:
         assert l.source_id
         assert l.url.startswith("https://")
-        assert l.price_yen is not None
-        assert l.image_urls
-    # exact JPY comes from JSON-LD for the featured items
-    exact = [l for l in listings if "price approx (USD-derived)" not in l.flags]
-    assert len(exact) >= 5
+        assert l.price_yen is not None          # exact JPY, not approximated
+        assert l.property_type == "detached"    # this fixture is type=house
+        assert l.town == "Otaru"
+    # labeled sizes come straight from the API (no size-guessing)
+    sized = [l for l in listings if l.building_m2 and l.land_m2]
+    assert sized  # at least some have both
+    # build years are real ints
+    assert all(isinstance(l.build_year, int) for l in listings if l.build_year is not None)
 
 
-def test_akiyajapan_type_mapping():
+def test_akiyajapan_feature_flags():
+    import json
     from akiya.sources import akiyajapan as aj
-    listings = aj.parse_city_page((FIX / "akiyajapan_otaru.html").read_text(encoding="utf-8"), "Otaru")
-    types = {l.property_type for l in listings}
-    assert "detached" in types      # House
-    assert "condo" in types         # Apartment
-    # land is assigned to the larger area, building to the smaller (houses)
-    houses = [l for l in listings if l.property_type == "detached" and l.building_m2 and l.land_m2]
-    assert all(l.land_m2 >= l.building_m2 for l in houses)
+    data = json.loads((FIX / "akiyajapan_api_otaru.json").read_text(encoding="utf-8"))
+    # A result missing "parking" in features should get the no-parking flag.
+    no_parking = next(
+        (r for r in data["results"] if "parking" not in (r.get("features") or [])), None
+    )
+    if no_parking:
+        l = aj.parse_result(no_parking, "Otaru")
+        assert any("no parking" in f for f in l.flags)

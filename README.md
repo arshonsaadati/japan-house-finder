@@ -64,7 +64,7 @@ uv run akiya scrape && echo "nothing new" || echo "NEW LISTINGS — go look"
 | `blogspot` | akiyabank.blogspot.com — Shiribeshi/Niseko akiya bank | JSON feed, one request |
 | `homes` | LIFULL HOME'S akiya bank, target towns | HTML + browser (solves the AWS WAF JS challenge) |
 | `suumo` | General used-detached-house market (Otaru, Furano) | HTML, throttled ≥30s, no `sort=` URLs |
-| `akiyajapan` | English aggregator — richest source (~100/city) | Real browser on the robots-allowed `/city/{slug}` pages; no login |
+| `akiyajapan` | English aggregator — richest source, full inventory | Documented public JSON API (`/api/v1/properties/search`); exact JPY, labeled sizes, features; honest UA, ≤60 req/min, attributed |
 
 ## The filter (hard criteria)
 
@@ -87,11 +87,13 @@ AKIYA_HEADED=1 uv run akiya scrape --source homes
 
 ### akiyajapan.com
 
-Handled with a real browser on the robots-*allowed* `/city/{slug}` pages, which
-render ~100 listings with full specs and photos — **no login needed**, so no
-credentials are stored or handled. We never touch the site's honeypot or its
-`/api` / `/search` paths. It's the richest source; see `DECISIONS.md` for the
-full access rationale and the residual robots-policy risk (owner's call).
+Uses their **documented public JSON API** (`/api/v1/properties/search`) — exact
+JPY prices, separately labeled house/land sizes, bedrooms, build year, features,
+photos, and full pagination (no per-city cap). No login/credentials. We send an
+honest tool User-Agent, stay under their 60 req/min limit, cache, and record
+their attribution string. **Note (owner-approved tradeoff):** robots.txt lists
+`Disallow: /api` even though llms.txt advertises this API for assistants; see
+`DECISIONS.md` for the full rationale and residual risk.
 
 ## Development
 

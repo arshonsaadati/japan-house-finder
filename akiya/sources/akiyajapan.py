@@ -1,199 +1,123 @@
-"""akiyajapan.com — English-language aggregator, the richest listing source.
+"""akiyajapan.com — via its documented public JSON API. Richest source.
 
 Access notes (see DECISIONS.md):
-- The site blocks non-browser agents (Cloudflare + UA gate) and runs a scraper
-  honeypot at /resources/, which we never touch. We read only the allowed
-  /city/{slug} pages via a real browser at low volume.
-- Their own Dataset schema declares the listings CC BY-NC 4.0 — non-commercial
-  reuse with attribution — which fits this personal, non-commercial search.
-- Login is NOT required: /city pages render full data + photos publicly, so we
-  never handle the account password.
-- /city/{slug} renders the first ~100 listings server-side; going deeper uses
-  the robots-disallowed /api, so we stop at 100 per city and log the cap.
+- We use the public `/api/v1/properties/search` endpoint that the site
+  documents for AI/assistant integration (llms.txt, openapi.json). It needs no
+  auth, is rate-limited to 60 req/min, returns exact JPY prices, labeled
+  house/land sizes, bedrooms, build year, features, and photos, and paginates
+  over the full inventory (no 100-per-city HTML cap).
+- We send an honest tool User-Agent (no browser disguise), stay well under the
+  60/min limit (see fetch.DOMAIN_DELAYS), cache responses, and record the
+  attribution string the API returns (their data is CC BY-NC 4.0).
+- **Tradeoff the owner accepted:** robots.txt lists `Disallow: /api`, even
+  though llms.txt advertises this same API for assistants. Chosen for the data
+  quality + full coverage; kept low-volume and attributed.
 
-Cards carry clean data attributes (data-property-id, data-uuid) and USD prices;
-exact JPY comes from the page's RealEstateListing JSON-LD where present, else we
-convert USD→JPY and flag it approximate.
+We ingest `house` (→detached) and `business` (→mixed, often convertible
+store+residence) up to the reject price ceiling, and let filters.py judge them.
 """
 
 from __future__ import annotations
 
-import json
-import re
-import time
+from ..models import Listing, parse_layout
 
-from bs4 import BeautifulSoup
+API = "https://www.akiyajapan.com/api/v1/properties/search"
+PER_PAGE = 50
+PRICE_CEILING_YEN = 10_000_000  # our stretch ceiling; above this we'd reject anyway
+MAX_PAGES = 40                  # safety cap per (city, type)
 
-from ..models import Listing, parse_area, town_from_text
-
-BASE = "https://www.akiyajapan.com"
-PAGE_CAP = 100  # server-rendered ceiling per city page
-USD_TO_JPY = 150.0
-
-# English town name -> akiyajapan city slug (lowercase romaji).
 CITY_SLUGS = {
     "Otaru": "otaru", "Yoichi": "yoichi", "Kutchan": "kutchan",
     "Niseko": "niseko", "Rankoshi": "rankoshi", "Suttsu": "suttsu",
     "Furano": "furano", "Akaigawa": "akaigawa",
 }
-DEFAULT_TOWNS = ["Otaru", "Yoichi", "Kutchan", "Niseko", "Rankoshi", "Furano"]
+DEFAULT_TOWNS = ["Otaru", "Yoichi", "Kutchan", "Niseko", "Rankoshi", "Suttsu", "Furano", "Akaigawa"]
 
-_TYPE_MAP = {
-    "House": "detached",
-    "Apartment": "condo",
-    "Land": "land",
-    "Business": "mixed",  # often convertible store+residence; flag for review
-}
+_TYPE_MAP = {"house": "detached", "business": "mixed"}
+_FETCH_TYPES = ("house", "business")
 
 
-def _jpy_from_jsonld(html: str) -> dict[str, int]:
-    """Map property URL -> exact JPY price from RealEstateListing JSON-LD."""
-    out: dict[str, int] = {}
-    soup = BeautifulSoup(html, "html.parser")
-    for s in soup.find_all("script", type="application/ld+json"):
-        txt = (s.string or "").strip()
-        if "RealEstateListing" not in txt:
-            continue
-        try:
-            data = json.loads(txt)
-        except Exception:
-            continue
-        items = data.get("itemListElement", []) if isinstance(data, dict) else []
-        for it in items:
-            item = it.get("item", {})
-            url = item.get("url", "")
-            offer = item.get("offers", {})
-            if url and offer.get("priceCurrency") == "JPY":
-                try:
-                    out[url.rstrip("/")] = int(float(offer["price"]))
-                except (KeyError, ValueError):
-                    pass
-    return out
+def _flags_from_features(features: list[str]) -> list[str]:
+    flags: list[str] = []
+    fs = set(features or [])
+    if "parking" not in fs:
+        flags.append("no parking listed — ski guests drive")
+    if "boundary-undetermined" in fs:
+        flags.append("boundary undetermined (境界未確定) — survey before offer")
+    if "old-house" in fs or "showa-house" in fs:
+        flags.append("old/showa house — verify condition & insulation")
+    if "move-in-ready" in fs or "renovated" in fs:
+        flags.append("listed move-in-ready/renovated (verify)")
+    return flags
 
 
-def _card_type_and_layout(card) -> tuple[str, str | None]:
-    prop_type = "unknown"
-    layout = None
-    for sp in card.select("span"):
-        t = sp.get_text(strip=True)
-        if t in _TYPE_MAP:
-            prop_type = _TYPE_MAP[t]
-        elif re.fullmatch(r"\d+S?LDK|\d+[SLDK]{1,3}", t):
-            layout = t
-    return prop_type, layout
+def parse_result(r: dict, town_hint: str | None = None) -> Listing:
+    api_type = (r.get("property_type") or "").lower()
+    prop_type = _TYPE_MAP.get(api_type, "unknown")
+
+    features = r.get("features") or []
+    beds = r.get("bedrooms")
+    # Prefer an LDK layout parsed from the title; else express bedroom count.
+    layout = parse_layout(r.get("title")) or (f"{beds}BR" if beds is not None else None)
+
+    images = [r["image"]] if r.get("image") else []
+
+    return Listing(
+        source="akiyajapan",
+        source_id=str(r.get("id") or r.get("url", "")),
+        url=r.get("url", ""),
+        title=r.get("title", ""),
+        town=r.get("city") or town_hint,
+        address=None,
+        price_yen=r.get("price_jpy"),
+        layout=layout,
+        building_m2=r.get("house_size_sqm"),
+        land_m2=r.get("land_size_sqm"),
+        build_year=r.get("year_built"),
+        property_type=prop_type,
+        status="live",
+        flags=_flags_from_features(features),
+        image_urls=images,
+        raw={
+            "bedrooms": beds,
+            "features": features,
+            "price_usd_approx": r.get("price_usd_approx"),
+            "listing_type": r.get("listing_type"),
+        },
+    )
 
 
-def parse_city_page(html: str, town: str) -> list[Listing]:
-    soup = BeautifulSoup(html, "html.parser")
-    jpy = _jpy_from_jsonld(html)
-    listings: list[Listing] = []
-    for card in soup.select("[class*=property-card]"):
-        pid = card.get("data-property-id")
-        uuid = card.get("data-uuid")
-        a = card.find("a", href=re.compile(r"/property/"))
-        href = a["href"] if a else (f"/property/{uuid}" if uuid else None)
-        if not (pid or uuid) or not href:
-            continue
-        url = href if href.startswith("http") else BASE + href
-
-        prop_type, layout = _card_type_and_layout(card)
-
-        # Price: prefer exact JPY from JSON-LD, else convert the USD badge.
-        price_yen = jpy.get(url.rstrip("/"))
-        flags: list[str] = []
-        if price_yen is None:
-            badge = card.select_one('[class*=price-badge]')
-            usd = None
-            if badge:
-                m = re.search(r"\$([\d,]+)", badge.get_text())
-                if m:
-                    usd = int(m.group(1).replace(",", ""))
-            if usd is not None:
-                price_yen = int(usd * USD_TO_JPY)
-                flags.append("price approx (USD-derived)")
-
-        # Two m² values: assign larger -> land, smaller -> building (houses).
-        areas = sorted(
-            (parse_area(d.get_text()) for d in card.find_all("div")
-             if re.fullmatch(r"\d+(?:\.\d+)?m²", d.get_text(strip=True))),
-            reverse=True,
-        )
-        areas = [a for a in areas if a]
-        land_m2 = areas[0] if len(areas) >= 2 else (areas[0] if prop_type == "land" and areas else None)
-        building_m2 = areas[1] if len(areas) >= 2 else (areas[0] if prop_type in ("detached", "condo") and len(areas) == 1 else None)
-
-        yr = None
-        yel = card.select_one('[title^="Built "]')
-        if yel:
-            m = re.search(r"(\d{4})", yel.get("title", ""))
-            if m:
-                yr = int(m.group(1))
-
-        images = []
-        for im in card.select("img"):
-            src = im.get("src") or ""
-            if isinstance(src, list):
-                src = src[0] if src else ""
-            if src.startswith("http") and "cdn" in src and src not in images:
-                images.append(src)
-
-        if "Parking" not in card.get_text():
-            pass  # akiyajapan lists Parking as a positive tag when present
-
-        listings.append(
-            Listing(
-                source="akiyajapan",
-                source_id=str(pid or uuid),
-                url=url,
-                title=(a.get_text(strip=True) if a else "") or f"{town} property",
-                town=town_from_text(card.get_text()) or town,
-                address=None,
-                price_yen=price_yen,
-                layout=layout,
-                building_m2=building_m2,
-                land_m2=land_m2,
-                build_year=yr,
-                property_type=prop_type,
-                status="live",
-                flags=flags,
-                image_urls=images,
-                raw={"uuid": uuid, "property_id": pid},
-            )
-        )
-    return listings
+def _search_url(city_slug: str, ptype: str, page: int) -> str:
+    return (
+        f"{API}?prefecture=Hokkaido&city={city_slug}&type={ptype}"
+        f"&listing_type=buy&max_price_jpy={PRICE_CEILING_YEN}"
+        f"&per_page={PER_PAGE}&page={page}"
+    )
 
 
 def fetch(client, towns: list[str] | None = None, log=None) -> list[Listing]:
-    from ..browser import HardBlocked
-
     towns = towns or DEFAULT_TOWNS
     listings: list[Listing] = []
+    attribution = None
     for town in towns:
         slug = CITY_SLUGS.get(town)
         if not slug:
             continue
-        html = None
-        # On a Cloudflare hard block, back off and retry a couple of times.
-        for attempt in range(3):
-            try:
-                html = client.get(
-                    f"{BASE}/city/{slug}", wait_selector="[class*=property-card]"
-                )
-                break
-            except HardBlocked:
-                if log:
-                    log(f"akiyajapan {town}: Cloudflare block, backing off "
-                        f"{45 * (attempt + 1)}s (attempt {attempt + 1}/3)")
-                time.sleep(45 * (attempt + 1))
-            except Exception:
-                break
-        if not html:
-            if log:
-                log(f"akiyajapan {town}: skipped (still blocked or unavailable)")
-            continue
-        page = parse_city_page(html, town)
-        listings.extend(page)
-        if len(page) >= PAGE_CAP and log:
-            log(f"akiyajapan {town}: hit {PAGE_CAP}-listing page cap — more exist "
-                f"(deeper pages need the robots-disallowed API; skipped)")
+        for ptype in _FETCH_TYPES:
+            page = 1
+            total_pages = 1
+            while page <= total_pages and page <= MAX_PAGES:
+                try:
+                    data = client.get_json(_search_url(slug, ptype, page))
+                except Exception as e:
+                    if log:
+                        log(f"akiyajapan {town}/{ptype} p{page}: {e}")
+                    break
+                attribution = attribution or data.get("attribution")
+                total_pages = data.get("total_pages", 1) or 1
+                for r in data.get("results", []):
+                    listings.append(parse_result(r, town))
+                page += 1
+    if attribution and log:
+        log(f"akiyajapan attribution: {attribution}")
     return listings
