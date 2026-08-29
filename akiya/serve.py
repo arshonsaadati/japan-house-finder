@@ -21,6 +21,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 from .images import IMAGES_DIR
+from .sources.suumo import hires
 from .store import Store
 
 
@@ -32,7 +33,8 @@ def _photos(d: dict, images_dir: Path) -> list[str]:
         except ValueError:
             continue
         urls.append("/images/" + rel.as_posix())
-    return urls or list(d.get("image_urls") or [])
+    # Older store rows may still carry 192px SUUMO thumbnails; upgrade on the way out.
+    return urls or [hires(u) for u in (d.get("image_urls") or [])]
 
 
 def build_payload(store: Store, images_dir: Path = IMAGES_DIR) -> dict:

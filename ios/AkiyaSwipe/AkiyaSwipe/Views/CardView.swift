@@ -113,9 +113,14 @@ struct RemotePhoto: View {
         AsyncImage(url: url, transaction: Transaction(animation: .easeIn(duration: 0.15))) { phase in
             switch phase {
             case .success(let img):
-                ZStack {
-                    img.resizable().scaledToFill().blur(radius: 24).opacity(0.5).clipped()
-                    img.resizable().scaledToFit()
+                GeometryReader { g in
+                    ZStack {
+                        img.resizable().scaledToFill()
+                            .frame(width: g.size.width, height: g.size.height)
+                            .clipped().blur(radius: 24).opacity(0.5)
+                        img.resizable().scaledToFit()
+                            .frame(width: g.size.width, height: g.size.height)
+                    }
                 }
             case .failure:
                 VStack(spacing: 6) {

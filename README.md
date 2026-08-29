@@ -35,6 +35,7 @@ uv run akiya underwrite --price 6800000 --reno-mult 3 --winter-nights 90 --adr 2
 uv run akiya underwrite --price 3000000 --accom-tax --label "Kutchan candidate"
 
 uv run akiya images                     # download photos (skips rejects by default)
+uv run akiya images --detail            # SUUMO: also fetch each detail page for the full hi-res gallery (≥30s each)
 uv run akiya gallery                    # build data/gallery.html to eyeball everything
 uv run akiya gallery --verdict pass -o data/pass.html
 ```
@@ -159,3 +160,13 @@ p=build_payload(Store())
 for l in p['listings']: l['photos']=l['image_urls']; l['local_images']=[]
 json.dump(p, open('ios/AkiyaSwipe/AkiyaSwipe/Resources/listings.json','w'), ensure_ascii=False)"
 ```
+
+### Photo resolution
+
+SUUMO's list page only exposes 192×144 thumbnails, but its CDN is a resizer
+(`resizeImage?src=…&w=N`) that serves the same photo up to ~1200px wide, so the
+scraper rewrites every SUUMO URL to `w=1200` (width-only keeps floor plans
+un-distorted). `akiya images --detail` additionally fetches each non-reject
+SUUMO detail page — throttled ≥30s and disk-cached like every SUUMO request —
+to pick up the full gallery (typically 5–24 photos vs 3 on the list page).
+akiyajapan serves 640×480 originals and Blogspot `s1600` originals already.

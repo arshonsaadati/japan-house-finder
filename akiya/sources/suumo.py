@@ -38,6 +38,40 @@ DEFAULT_TOWNS = ["Otaru", "Furano"]
 
 MAX_PAGES = 10  # safety cap per city per run
 
+# SUUMO's image CDN is a resizer: the list page asks for w=192&h=144 thumbnails,
+# but the same `src` serves up to ~1200px wide. Width-only keeps the aspect
+# ratio (floor plans are portrait); w>=2000 returns HTTP 400.
+HIRES_WIDTH = 1200
+_RESIZE_RE = re.compile(r"(https://img\d+\.suumo\.com/jj/resizeImage\?src=[^&\s\"']+)")
+
+
+def hires(url: str) -> str:
+    """Rewrite a resizeImage thumbnail URL to the hi-res variant (idempotent)."""
+    m = _RESIZE_RE.match(url)
+    return f"{m.group(1)}&w={HIRES_WIDTH}" if m else url
+
+
+def parse_detail_gallery(html: str, source_id: str) -> list[str]:
+    """All photos of one listing from its detail page (nc_<id>), hi-res, in
+    photo order. The page also embeds thumbnails of *other* listings, so only
+    keep images whose CDN path contains this listing's id.
+    """
+    seen: list[str] = []
+    for base in _RESIZE_RE.findall(html):
+        if f"%2F{source_id}%2F" not in base and f"/{source_id}/" not in base:
+            continue
+        if base not in seen:
+            seen.append(base)
+    seen.sort()  # …_0001.jpg, _0002.jpg … = the site's own photo order
+    return [f"{b}&w={HIRES_WIDTH}" for b in seen]
+
+
+def fetch_gallery(client, listing: Listing) -> list[str]:
+    """Fetch the listing's detail page (throttled + cached by the client) and
+    return the full hi-res gallery; falls back to the existing URLs."""
+    html = client.get(listing.url)
+    return parse_detail_gallery(html, listing.source_id) or [hires(u) for u in listing.image_urls]
+
 
 def _city_url(slug: str, page: int) -> str:
     url = f"{BASE}/chukoikkodate/hokkaido_/{slug}/"
@@ -66,8 +100,10 @@ def parse_results_page(html: str) -> list[Listing]:
             src = im.get("rel") or im.get("data-src") or ""
             if isinstance(src, list):
                 src = src[0] if src else ""
-            if src and "suumo.com" in src and "resizeImage" in src and src not in images:
-                images.append(src)
+            if src and "suumo.com" in src and "resizeImage" in src:
+                src = hires(src)
+                if src not in images:
+                    images.append(src)
         url = a["href"]
         if url.startswith("/"):
             url = BASE + url

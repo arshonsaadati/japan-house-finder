@@ -114,3 +114,26 @@ def test_akiyajapan_cdn_image_mapping():
     out = _cdn_image(api_url)
     assert out == "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_abc_123.jpg"
     assert _cdn_image(None) is None
+
+
+def test_suumo_hires_rewrite():
+    from akiya.sources.suumo import hires, HIRES_WIDTH
+
+    thumb = ("https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F010%2FN010000"
+             "%2Fimg%2F196%2F20742196%2F20742196_0001.jpg&w=192&h=144")
+    hi = hires(thumb)
+    assert hi.endswith(f"&w={HIRES_WIDTH}") and "h=144" not in hi
+    assert hires(hi) == hi  # idempotent
+    assert hires("https://example.com/x.jpg") == "https://example.com/x.jpg"
+
+
+def test_suumo_detail_gallery():
+    from akiya.sources.suumo import parse_detail_gallery, HIRES_WIDTH
+
+    html = (FIX / "suumo_detail_20742196.html").read_text(encoding="utf-8")
+    urls = parse_detail_gallery(html, "20742196")
+    assert len(urls) >= 5
+    assert all(u.endswith(f"&w={HIRES_WIDTH}") for u in urls)
+    assert all("20742196" in u for u in urls)
+    assert urls[0].split("&")[0].endswith("20742196_0001.jpg")
+    assert len(set(urls)) == len(urls)

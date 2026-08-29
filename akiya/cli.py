@@ -122,6 +122,22 @@ def cmd_images(args: argparse.Namespace) -> int:
     listings = store.query(verdict=args.verdict, town=args.town)
     if not args.include_rejects and args.verdict is None:
         listings = [l for l in listings if l.verdict != "reject"]
+    # SUUMO: upgrade thumbnails to hi-res in place; with --detail also pull the
+    # full gallery from each detail page (throttled ≥30s/request, disk-cached).
+    from .sources import suumo
+
+    client = Client(use_cache=not args.no_cache) if args.detail else None
+    for l in listings:
+        if l.source != "suumo":
+            continue
+        if client is not None:
+            try:
+                l.image_urls = suumo.fetch_gallery(client, l)
+            except Exception as e:  # keep going; the thumbnails still work
+                console.print(f"[yellow]detail fetch failed for {l.key}: {e}[/yellow]")
+                l.image_urls = [suumo.hires(u) for u in l.image_urls]
+        else:
+            l.image_urls = [suumo.hires(u) for u in l.image_urls]
     with_urls = [l for l in listings if l.image_urls]
     console.print(f"[dim]downloading images for {len(with_urls)} listings…[/dim]")
     total = download_all(with_urls, force=args.force)
@@ -130,6 +146,7 @@ def cmd_images(args: argparse.Namespace) -> int:
         stored = store.get(l.key)
         if stored:
             stored.local_images = l.local_images
+            stored.image_urls = l.image_urls
     store.save()
     console.print(f"[green]saved {total} images[/green] under data/images/")
     return 0
@@ -202,6 +219,9 @@ def build_parser() -> argparse.ArgumentParser:
     ip.add_argument("--town")
     ip.add_argument("--include-rejects", action="store_true", help="also fetch reject photos")
     ip.add_argument("--force", action="store_true", help="re-download even if present")
+    ip.add_argument("--detail", action="store_true",
+                    help="SUUMO: fetch each detail page for the full hi-res gallery (slow: ≥30s each)")
+    ip.add_argument("--no-cache", action="store_true", help="bypass today's disk cache for --detail")
     ip.set_defaults(func=cmd_images)
 
     gp = sub.add_parser("gallery", help="build a self-contained HTML gallery to eyeball")
