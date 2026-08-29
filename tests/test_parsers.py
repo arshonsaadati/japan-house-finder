@@ -105,3 +105,12 @@ def test_akiyajapan_feature_flags():
     if no_parking:
         l = aj.parse_result(no_parking, "Otaru")
         assert any("no parking" in f for f in l.flags)
+
+
+def test_akiyajapan_cdn_image_mapping():
+    from akiya.sources.akiyajapan import _cdn_image
+    # www.akiyajapan.com/storage/... 404s; must map to the DO Spaces CDN.
+    api_url = "https://www.akiyajapan.com/storage/property/hm/hm_abc_123.jpg"
+    out = _cdn_image(api_url)
+    assert out == "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_abc_123.jpg"
+    assert _cdn_image(None) is None

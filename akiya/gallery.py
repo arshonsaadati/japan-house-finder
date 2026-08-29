@@ -80,8 +80,9 @@ header h1{margin:0 0 6px;font-size:16px}
 .filters button.active{background:#0969da;color:#fff;border-color:#0969da}
 #grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px;padding:16px}
 .card{border:1px solid #d0d7de;border-radius:10px;overflow:hidden;background:#fff;display:flex;flex-direction:column}
-.photos{display:flex;overflow-x:auto;gap:2px;background:#000;scroll-snap-type:x mandatory}
-.photos img{height:190px;width:auto;object-fit:cover;scroll-snap-align:start;flex:0 0 auto}
+.photos{display:flex;overflow-x:auto;gap:2px;background:#e5e7eb;scroll-snap-type:x mandatory}
+@media(prefers-color-scheme:dark){.photos{background:#1f2937}}
+.photos img{height:190px;width:auto;object-fit:cover;scroll-snap-align:start;flex:1 1 auto;min-width:0}
 .noimg{height:190px;display:flex;align-items:center;justify-content:center;color:#888;width:100%}
 .body{padding:10px 12px;display:flex;flex-direction:column;gap:6px}
 .head{display:flex;align-items:center;gap:8px;flex-wrap:wrap}

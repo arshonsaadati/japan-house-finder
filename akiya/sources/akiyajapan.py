@@ -19,6 +19,8 @@ store+residence) up to the reject price ceiling, and let filters.py judge them.
 
 from __future__ import annotations
 
+import re
+
 from ..models import Listing, parse_layout
 
 API = "https://www.akiyajapan.com/api/v1/properties/search"
@@ -35,6 +37,17 @@ DEFAULT_TOWNS = ["Otaru", "Yoichi", "Kutchan", "Niseko", "Rankoshi", "Suttsu", "
 
 _TYPE_MAP = {"house": "detached", "business": "mixed"}
 _FETCH_TYPES = ("house", "business")
+
+# The API returns image URLs on www.akiyajapan.com/storage/... which 404;
+# the actual files live on their DigitalOcean Spaces CDN.
+_CDN = "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com"
+
+
+def _cdn_image(url: str | None) -> str | None:
+    if not url:
+        return None
+    m = re.search(r"(/storage/.*)$", url)
+    return _CDN + m.group(1) if m else url
 
 
 def _flags_from_features(features: list[str]) -> list[str]:
@@ -60,7 +73,8 @@ def parse_result(r: dict, town_hint: str | None = None) -> Listing:
     # Prefer an LDK layout parsed from the title; else express bedroom count.
     layout = parse_layout(r.get("title")) or (f"{beds}BR" if beds is not None else None)
 
-    images = [r["image"]] if r.get("image") else []
+    img = _cdn_image(r.get("image"))
+    images = [img] if img else []
 
     return Listing(
         source="akiyajapan",

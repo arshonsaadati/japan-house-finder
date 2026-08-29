@@ -13534,7 +13534,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_ead9c754-a23b-11f1-a659-a6ae20f6eefe_2dc53dfde113d.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_ead9c754-a23b-11f1-a659-a6ae20f6eefe_2dc53dfde113d.jpg"
       ],
       "land_m2": 230.99,
       "last_seen": "2026-08-29",
@@ -13576,12 +13576,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_766bcf6f-a19d-11f1-a659-a6ae20f6eefe_7006c5d20d10f.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_766bcf6f-a19d-11f1-a659-a6ae20f6eefe_7006c5d20d10f.jpg"
       ],
       "land_m2": 205.13,
       "last_seen": "2026-08-29",
       "layout": "4BR",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f3c1e169b81628fb42f64cbaeb5b32e4d62890e28cc9dcfd5/00.jpg"
+      ],
       "price_yen": 6500000,
       "property_type": "detached",
       "raw": {
@@ -13617,12 +13619,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_ec3adc8c-a19d-11f1-a659-a6ae20f6eefe_ecfcfffe7babc.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_ec3adc8c-a19d-11f1-a659-a6ae20f6eefe_ecfcfffe7babc.jpg"
       ],
       "land_m2": 169.78,
       "last_seen": "2026-08-29",
       "layout": "5LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5fd83216700acce61005c5e2927a1b10cb169142446599e969/00.jpg"
+      ],
       "price_yen": 3600000,
       "property_type": "detached",
       "raw": {
@@ -13661,7 +13665,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_85d8119c-a129-11f1-a659-a6ae20f6eefe_420a0c6528e5d.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_85d8119c-a129-11f1-a659-a6ae20f6eefe_420a0c6528e5d.jpg"
       ],
       "land_m2": 153.22,
       "last_seen": "2026-08-29",
@@ -13706,7 +13710,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_e107c8ce-a0fa-11f1-a659-a6ae20f6eefe_ccfcf4990a65b.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_e107c8ce-a0fa-11f1-a659-a6ae20f6eefe_ccfcf4990a65b.jpg"
       ],
       "land_m2": 297.9,
       "last_seen": "2026-08-29",
@@ -13752,12 +13756,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_ecaabf70-9109-11f1-a659-a6ae20f6eefe_c3487590ccb0e.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_ecaabf70-9109-11f1-a659-a6ae20f6eefe_c3487590ccb0e.jpg"
       ],
       "land_m2": 146.24,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f39033b5c407b7410feef9acb51a1ee2db8d9f9261ee10bab/00.jpg"
+      ],
       "price_yen": 2300000,
       "property_type": "detached",
       "raw": {
@@ -13794,7 +13800,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_c98a752b-9109-11f1-a659-a6ae20f6eefe_ffc9bed9fb757.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_c98a752b-9109-11f1-a659-a6ae20f6eefe_ffc9bed9fb757.jpg"
       ],
       "land_m2": 84.18,
       "last_seen": "2026-08-29",
@@ -13834,7 +13840,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_9019b654-9109-11f1-a659-a6ae20f6eefe_871e651d811db.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_9019b654-9109-11f1-a659-a6ae20f6eefe_871e651d811db.jpg"
       ],
       "land_m2": 153.94,
       "last_seen": "2026-08-29",
@@ -13878,7 +13884,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_fb998e69-9108-11f1-a659-a6ae20f6eefe_9e6aaeb0dcbb1.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_fb998e69-9108-11f1-a659-a6ae20f6eefe_9e6aaeb0dcbb1.jpg"
       ],
       "land_m2": 167.39,
       "last_seen": "2026-08-29",
@@ -13925,7 +13931,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_1041ecd7-910a-11f1-a659-a6ae20f6eefe_498349488cc1e.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_1041ecd7-910a-11f1-a659-a6ae20f6eefe_498349488cc1e.jpg"
       ],
       "land_m2": 1233.16,
       "last_seen": "2026-08-29",
@@ -13972,7 +13978,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_6c80a57a-9109-11f1-a659-a6ae20f6eefe_1e41921a73618.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_6c80a57a-9109-11f1-a659-a6ae20f6eefe_1e41921a73618.jpg"
       ],
       "land_m2": 162.33,
       "last_seen": "2026-08-29",
@@ -14017,7 +14023,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_d01a8670-907d-11f1-a659-a6ae20f6eefe_826e6bd4de87c.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_d01a8670-907d-11f1-a659-a6ae20f6eefe_826e6bd4de87c.jpg"
       ],
       "land_m2": 489,
       "last_seen": "2026-08-29",
@@ -14062,7 +14068,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_a17a50aa-8f8c-11f1-a659-a6ae20f6eefe_35da3e419cce0.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_a17a50aa-8f8c-11f1-a659-a6ae20f6eefe_35da3e419cce0.jpg"
       ],
       "land_m2": 129.57,
       "last_seen": "2026-08-29",
@@ -14110,7 +14116,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_e25fe36c-8f8c-11f1-a659-a6ae20f6eefe_d7f413c049f80.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_e25fe36c-8f8c-11f1-a659-a6ae20f6eefe_d7f413c049f80.jpg"
       ],
       "land_m2": 323.78,
       "last_seen": "2026-08-29",
@@ -14156,7 +14162,7 @@
       "flags": [],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_52268cd2-8f8c-11f1-a659-a6ae20f6eefe_3c273af2d218d.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_52268cd2-8f8c-11f1-a659-a6ae20f6eefe_3c273af2d218d.jpg"
       ],
       "land_m2": 380.7,
       "last_seen": "2026-08-29",
@@ -14200,7 +14206,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_abacc5cb-8f8d-11f1-a659-a6ae20f6eefe_664bb7491a197.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_abacc5cb-8f8d-11f1-a659-a6ae20f6eefe_664bb7491a197.jpg"
       ],
       "land_m2": 47.19,
       "last_seen": "2026-08-29",
@@ -14244,12 +14250,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_f5799f30-8f8b-11f1-a659-a6ae20f6eefe_3dee1baa23a81.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_f5799f30-8f8b-11f1-a659-a6ae20f6eefe_3dee1baa23a81.jpg"
       ],
       "land_m2": 332.77,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f09eff2743c8cd666e37e5d003657c9331fd31605c809304c/00.jpg"
+      ],
       "price_yen": 4500000,
       "property_type": "detached",
       "raw": {
@@ -14283,7 +14291,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_7dbc7198-8f8b-11f1-a659-a6ae20f6eefe_1bde18757540a.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_7dbc7198-8f8b-11f1-a659-a6ae20f6eefe_1bde18757540a.jpg"
       ],
       "land_m2": 339.18,
       "last_seen": "2026-08-29",
@@ -14325,7 +14333,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_b2e16ed9-8f8a-11f1-a659-a6ae20f6eefe_50da7f29616ee.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_b2e16ed9-8f8a-11f1-a659-a6ae20f6eefe_50da7f29616ee.jpg"
       ],
       "land_m2": 256.4,
       "last_seen": "2026-08-29",
@@ -14371,12 +14379,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_13a396cc-8f8b-11f1-a659-a6ae20f6eefe_161daecf26398.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_13a396cc-8f8b-11f1-a659-a6ae20f6eefe_161daecf26398.jpg"
       ],
       "land_m2": 41.58,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f451b74c7d05ccedee2f5dda856c41dca77a028dea8a1672a/00.jpg"
+      ],
       "price_yen": 4800000,
       "property_type": "detached",
       "raw": {
@@ -14413,12 +14423,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/fp/fp_adde418f-88a9-11f1-a659-a6ae20f6eefe_5f96ce456e70b.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/fp/fp_adde418f-88a9-11f1-a659-a6ae20f6eefe_5f96ce456e70b.jpg"
       ],
       "land_m2": 215.9,
       "last_seen": "2026-08-29",
       "layout": "3LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5fbd8a85e38e296dc769a92cb2cffb12c2ececb78eb78fe43c/00.jpg"
+      ],
       "price_yen": 7000000,
       "property_type": "detached",
       "raw": {
@@ -14452,12 +14464,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/cp/cp_1f7d306b-86b4-11f1-a659-a6ae20f6eefe_794e7dfbd88bc.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_1f7d306b-86b4-11f1-a659-a6ae20f6eefe_794e7dfbd88bc.jpg"
       ],
       "land_m2": 133.82,
       "last_seen": "2026-08-29",
       "layout": "3LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f7ccbc454bf3beb97a344885682fba7a12d1896b31fa4d515/00.jpg"
+      ],
       "price_yen": 3200000,
       "property_type": "detached",
       "raw": {
@@ -14493,12 +14507,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_0c5116c4-85db-11f1-a659-a6ae20f6eefe_45acb59cef926.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_0c5116c4-85db-11f1-a659-a6ae20f6eefe_45acb59cef926.jpg"
       ],
       "land_m2": 99.5,
       "last_seen": "2026-08-29",
       "layout": "3LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f7bd72fe8069acf4bb4bfc8a83fac23826de36480e7439e85/00.jpg"
+      ],
       "price_yen": 1800000,
       "property_type": "detached",
       "raw": {
@@ -14535,12 +14551,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_15382e0a-85ce-11f1-a659-a6ae20f6eefe_f642fe8741a8d.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_15382e0a-85ce-11f1-a659-a6ae20f6eefe_f642fe8741a8d.jpg"
       ],
       "land_m2": 169.78,
       "last_seen": "2026-08-29",
       "layout": "6LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5fe3b5a6be18e1d190ac6000d1c46a738eeab1cfb3525d85a3/00.jpg"
+      ],
       "price_yen": 3600000,
       "property_type": "detached",
       "raw": {
@@ -14577,7 +14595,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_0d4b2b36-85d5-11f1-a659-a6ae20f6eefe_71e2d3469f2e9.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_0d4b2b36-85d5-11f1-a659-a6ae20f6eefe_71e2d3469f2e9.jpg"
       ],
       "land_m2": 330.56,
       "last_seen": "2026-08-29",
@@ -14619,7 +14637,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_2568fc09-85c5-11f1-a659-a6ae20f6eefe_84e8da7677517.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_2568fc09-85c5-11f1-a659-a6ae20f6eefe_84e8da7677517.jpg"
       ],
       "land_m2": 141.95,
       "last_seen": "2026-08-29",
@@ -14662,7 +14680,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_01e910ee-85c5-11f1-a659-a6ae20f6eefe_b7d4ce677fea5.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_01e910ee-85c5-11f1-a659-a6ae20f6eefe_b7d4ce677fea5.jpg"
       ],
       "land_m2": 193.04,
       "last_seen": "2026-08-29",
@@ -14706,7 +14724,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_33a7d6e3-85c5-11f1-a659-a6ae20f6eefe_c70dc0ff90d0b.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_33a7d6e3-85c5-11f1-a659-a6ae20f6eefe_c70dc0ff90d0b.jpg"
       ],
       "land_m2": 122.94,
       "last_seen": "2026-08-29",
@@ -14750,12 +14768,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_c95787fb-85c1-11f1-a659-a6ae20f6eefe_ab5e8bb7782ae.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_c95787fb-85c1-11f1-a659-a6ae20f6eefe_ab5e8bb7782ae.jpg"
       ],
       "land_m2": 203.8,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5fb919af7e985f62efb5aec75ac61d0e39ce348e43f1a092dd/00.jpg"
+      ],
       "price_yen": 8900000,
       "property_type": "detached",
       "raw": {
@@ -14793,7 +14813,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_ebbc5313-85c4-11f1-a659-a6ae20f6eefe_3905e19cf991a.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_ebbc5313-85c4-11f1-a659-a6ae20f6eefe_3905e19cf991a.jpg"
       ],
       "land_m2": 201.21,
       "last_seen": "2026-08-29",
@@ -14836,7 +14856,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_e709caf1-85c1-11f1-a659-a6ae20f6eefe_3c68cc68f4511.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_e709caf1-85c1-11f1-a659-a6ae20f6eefe_3c68cc68f4511.jpg"
       ],
       "land_m2": 333.61,
       "last_seen": "2026-08-29",
@@ -14876,7 +14896,7 @@
       "flags": [],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_d798b643-85c1-11f1-a659-a6ae20f6eefe_dbcf0179f2e16.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_d798b643-85c1-11f1-a659-a6ae20f6eefe_dbcf0179f2e16.jpg"
       ],
       "land_m2": 199.28,
       "last_seen": "2026-08-29",
@@ -14915,12 +14935,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_b51dbbc2-85c1-11f1-a659-a6ae20f6eefe_0171366a434a9.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_b51dbbc2-85c1-11f1-a659-a6ae20f6eefe_0171366a434a9.jpg"
       ],
       "land_m2": 197.58,
       "last_seen": "2026-08-29",
       "layout": "5LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5fde81f01dcd4d827998288a685bf98b4ee4200d2576f2b272/00.jpg"
+      ],
       "price_yen": 8990000,
       "property_type": "detached",
       "raw": {
@@ -14959,7 +14981,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_9792b5a8-8088-11f1-a659-a6ae20f6eefe_7410ffa3c013f.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_9792b5a8-8088-11f1-a659-a6ae20f6eefe_7410ffa3c013f.jpg"
       ],
       "land_m2": 322.08,
       "last_seen": "2026-08-29",
@@ -15004,7 +15026,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_e2337f69-8081-11f1-a659-a6ae20f6eefe_98b2f8bbf5827.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_e2337f69-8081-11f1-a659-a6ae20f6eefe_98b2f8bbf5827.jpg"
       ],
       "land_m2": 190.34,
       "last_seen": "2026-08-29",
@@ -15046,7 +15068,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_d40867a6-8086-11f1-a659-a6ae20f6eefe_6f578c669d7fc.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_d40867a6-8086-11f1-a659-a6ae20f6eefe_6f578c669d7fc.jpg"
       ],
       "land_m2": 167.07,
       "last_seen": "2026-08-29",
@@ -15091,7 +15113,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_eecd684f-8081-11f1-a659-a6ae20f6eefe_c3bc0f7643383.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_eecd684f-8081-11f1-a659-a6ae20f6eefe_c3bc0f7643383.jpg"
       ],
       "land_m2": 196.32,
       "last_seen": "2026-08-29",
@@ -15133,7 +15155,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_c2cd8962-8081-11f1-a659-a6ae20f6eefe_4448076291158.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_c2cd8962-8081-11f1-a659-a6ae20f6eefe_4448076291158.jpg"
       ],
       "land_m2": 466.31,
       "last_seen": "2026-08-29",
@@ -15176,7 +15198,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_01359d4e-8085-11f1-a659-a6ae20f6eefe_69fa747ad6bcf.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_01359d4e-8085-11f1-a659-a6ae20f6eefe_69fa747ad6bcf.jpg"
       ],
       "land_m2": 330.56,
       "last_seen": "2026-08-29",
@@ -15219,7 +15241,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_8fced8ea-8077-11f1-a659-a6ae20f6eefe_eebb901eae63e.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_8fced8ea-8077-11f1-a659-a6ae20f6eefe_eebb901eae63e.jpg"
       ],
       "land_m2": 175.14,
       "last_seen": "2026-08-29",
@@ -15262,7 +15284,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_ff41af07-807a-11f1-a659-a6ae20f6eefe_ddf3eb26d4333.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_ff41af07-807a-11f1-a659-a6ae20f6eefe_ddf3eb26d4333.jpg"
       ],
       "land_m2": 178.4,
       "last_seen": "2026-08-29",
@@ -15306,12 +15328,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_7741a99f-8077-11f1-a659-a6ae20f6eefe_a9ce081436121.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_7741a99f-8077-11f1-a659-a6ae20f6eefe_a9ce081436121.jpg"
       ],
       "land_m2": 214.54,
       "last_seen": "2026-08-29",
       "layout": "6LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f01dccf12f842159870f8d915b7875245ce43b00d99b01deb/00.jpg"
+      ],
       "price_yen": 5200000,
       "property_type": "detached",
       "raw": {
@@ -15349,12 +15373,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_e0ec74e3-807c-11f1-a659-a6ae20f6eefe_c2cafe3ea2730.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_e0ec74e3-807c-11f1-a659-a6ae20f6eefe_c2cafe3ea2730.jpg"
       ],
       "land_m2": 168.64,
       "last_seen": "2026-08-29",
       "layout": "4SLD",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5fe493e1210daff53aae7d67a2d1a90c922ffa4a6c87525d69/00.jpg"
+      ],
       "price_yen": 4000000,
       "property_type": "detached",
       "raw": {
@@ -15391,7 +15417,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_7c0d72e6-8072-11f1-a659-a6ae20f6eefe_de96488f31f3e.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_7c0d72e6-8072-11f1-a659-a6ae20f6eefe_de96488f31f3e.jpg"
       ],
       "land_m2": 554.16,
       "last_seen": "2026-08-29",
@@ -15435,12 +15461,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_057f41bd-8074-11f1-a659-a6ae20f6eefe_7c3400f3f6efa.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_057f41bd-8074-11f1-a659-a6ae20f6eefe_7c3400f3f6efa.jpg"
       ],
       "land_m2": 153.24,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f3ed2f3e5888ba2e14ddeaa194e1800ea024b538dee5ce5b4/00.jpg"
+      ],
       "price_yen": 6000000,
       "property_type": "detached",
       "raw": {
@@ -15477,12 +15505,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_c643f7dd-8075-11f1-a659-a6ae20f6eefe_5b360b9c8caac.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_c643f7dd-8075-11f1-a659-a6ae20f6eefe_5b360b9c8caac.jpg"
       ],
       "land_m2": 206.73,
       "last_seen": "2026-08-29",
       "layout": "5LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f473b388d9b6531f35b6330ce8806c318b678dc353f905fae/00.jpg"
+      ],
       "price_yen": 5500000,
       "property_type": "detached",
       "raw": {
@@ -15518,12 +15548,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_6caf17b9-8072-11f1-a659-a6ae20f6eefe_ceb2644def76e.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_6caf17b9-8072-11f1-a659-a6ae20f6eefe_ceb2644def76e.jpg"
       ],
       "land_m2": 290.12,
       "last_seen": "2026-08-29",
       "layout": "6LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f3e731a5bbc4f48cf89423451a6302f5d9f3954ab5cde5f36/00.jpg"
+      ],
       "price_yen": 6000000,
       "property_type": "detached",
       "raw": {
@@ -15560,12 +15592,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_0b5232d3-8074-11f1-a659-a6ae20f6eefe_f0adda2e3d0db.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_0b5232d3-8074-11f1-a659-a6ae20f6eefe_f0adda2e3d0db.jpg"
       ],
       "land_m2": 258.11,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f7fe79c4353d07a8433a39cdcfa914da1868ea36c102ef384/00.jpg"
+      ],
       "price_yen": 6000000,
       "property_type": "detached",
       "raw": {
@@ -15601,7 +15635,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_374758fe-8074-11f1-a659-a6ae20f6eefe_afd42de7ef13f.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_374758fe-8074-11f1-a659-a6ae20f6eefe_afd42de7ef13f.jpg"
       ],
       "land_m2": 108.33,
       "last_seen": "2026-08-29",
@@ -15644,7 +15678,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_ace32786-806e-11f1-a659-a6ae20f6eefe_2434f28f57233.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_ace32786-806e-11f1-a659-a6ae20f6eefe_2434f28f57233.jpg"
       ],
       "land_m2": 165.37,
       "last_seen": "2026-08-29",
@@ -15686,12 +15720,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_f89ebda2-806c-11f1-a659-a6ae20f6eefe_c6b138582212e.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_f89ebda2-806c-11f1-a659-a6ae20f6eefe_c6b138582212e.jpg"
       ],
       "land_m2": 142.51,
       "last_seen": "2026-08-29",
       "layout": "3SLD",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f483482bcb3d5e2b35eeea8c341af802bc5fa8c3374b0a147/00.jpg"
+      ],
       "price_yen": 7900000,
       "property_type": "detached",
       "raw": {
@@ -15727,12 +15763,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_3945fbdb-8066-11f1-a659-a6ae20f6eefe_7cf412cc928e6.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_3945fbdb-8066-11f1-a659-a6ae20f6eefe_7cf412cc928e6.jpg"
       ],
       "land_m2": 331.63,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f8918b2047a8ae24b26aab11be6fa95cdd0152b3c892474ed/00.jpg"
+      ],
       "price_yen": 9990000,
       "property_type": "detached",
       "raw": {
@@ -15769,7 +15807,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_35dc451a-805f-11f1-a659-a6ae20f6eefe_d75f0ff5383ad.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_35dc451a-805f-11f1-a659-a6ae20f6eefe_d75f0ff5383ad.jpg"
       ],
       "land_m2": 80.99,
       "last_seen": "2026-08-29",
@@ -15809,12 +15847,14 @@
       "flags": [],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_074085a5-8061-11f1-a659-a6ae20f6eefe_49b527f5616ac.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_074085a5-8061-11f1-a659-a6ae20f6eefe_49b527f5616ac.jpg"
       ],
       "land_m2": 187.6,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f8999eb8c7e37a280f28c3ed5ad55c0ea8216c6c615ac510d/00.jpg"
+      ],
       "price_yen": 9300000,
       "property_type": "detached",
       "raw": {
@@ -15851,7 +15891,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_63a03e61-7fd9-11f1-a659-a6ae20f6eefe_b4456537f75c4.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_63a03e61-7fd9-11f1-a659-a6ae20f6eefe_b4456537f75c4.jpg"
       ],
       "land_m2": 216,
       "last_seen": "2026-08-29",
@@ -15893,7 +15933,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_1c7e824d-7fdb-11f1-a659-a6ae20f6eefe_c87cf977ed42e.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_1c7e824d-7fdb-11f1-a659-a6ae20f6eefe_c87cf977ed42e.jpg"
       ],
       "land_m2": 574,
       "last_seen": "2026-08-29",
@@ -15933,12 +15973,14 @@
       "flags": [],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_ad044101-7fd7-11f1-a659-a6ae20f6eefe_e9fb3581eec37.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_ad044101-7fd7-11f1-a659-a6ae20f6eefe_e9fb3581eec37.jpg"
       ],
       "land_m2": 201.42,
       "last_seen": "2026-08-29",
       "layout": "4BR",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5fb9b06754e92e160e630d240a3a752d8fdd2a323ecffde07d/00.jpg"
+      ],
       "price_yen": 8800000,
       "property_type": "detached",
       "raw": {
@@ -15976,7 +16018,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_c7c60528-7fd7-11f1-a659-a6ae20f6eefe_7b27b7ad8d530.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_c7c60528-7fd7-11f1-a659-a6ae20f6eefe_7b27b7ad8d530.jpg"
       ],
       "land_m2": 293.97,
       "last_seen": "2026-08-29",
@@ -16019,7 +16061,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/nm/nm_0a22d3c9-7d80-11f1-a659-a6ae20f6eefe_e5bb393e097e1.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/nm/nm_0a22d3c9-7d80-11f1-a659-a6ae20f6eefe_e5bb393e097e1.jpg"
       ],
       "land_m2": 267.1,
       "last_seen": "2026-08-29",
@@ -16058,12 +16100,14 @@
       "flags": [],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/nm/nm_9f4ae0a6-7d71-11f1-a659-a6ae20f6eefe_7db577c3396d2.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/nm/nm_9f4ae0a6-7d71-11f1-a659-a6ae20f6eefe_7db577c3396d2.jpg"
       ],
       "land_m2": null,
       "last_seen": "2026-08-29",
       "layout": "5SLD",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f658c0c649b3a59a2433aa44b35d356a2f21f6bb33d7fc293/00.jpg"
+      ],
       "price_yen": 10000000,
       "property_type": "detached",
       "raw": {
@@ -16103,12 +16147,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/nm/nm_0521050f-7d6f-11f1-a659-a6ae20f6eefe_4f8bf9f4eba45.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/nm/nm_0521050f-7d6f-11f1-a659-a6ae20f6eefe_4f8bf9f4eba45.jpg"
       ],
       "land_m2": 206,
       "last_seen": "2026-08-29",
       "layout": "3LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5fc2aa820409c4255193a0e9d01c8e51a9de7e63daae41c23f/00.jpg"
+      ],
       "price_yen": 1500000,
       "property_type": "detached",
       "raw": {
@@ -16148,12 +16194,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/nm/nm_c0b19bf4-7c55-11f1-a659-a6ae20f6eefe_039903ebfe751.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/nm/nm_c0b19bf4-7c55-11f1-a659-a6ae20f6eefe_039903ebfe751.jpg"
       ],
       "land_m2": null,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f0b0143fa9d5cde669e73035409a38183635eb67833d98493/00.jpg"
+      ],
       "price_yen": 2380000,
       "property_type": "detached",
       "raw": {
@@ -16189,7 +16237,7 @@
       "flags": [],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/cp/cp_b6972a27-7b09-11f1-a659-a6ae20f6eefe_df60c62bcb0aa.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_b6972a27-7b09-11f1-a659-a6ae20f6eefe_df60c62bcb0aa.jpg"
       ],
       "land_m2": 154.56,
       "last_seen": "2026-08-29",
@@ -16234,7 +16282,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/nm/nm_39a5b4d4-7a8e-11f1-a659-a6ae20f6eefe_469be47e57a0d.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/nm/nm_39a5b4d4-7a8e-11f1-a659-a6ae20f6eefe_469be47e57a0d.jpg"
       ],
       "land_m2": 322.08,
       "last_seen": "2026-08-29",
@@ -16279,7 +16327,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/nm/nm_55bb9244-7a90-11f1-a659-a6ae20f6eefe_c45147d9548bd.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/nm/nm_55bb9244-7a90-11f1-a659-a6ae20f6eefe_c45147d9548bd.jpg"
       ],
       "land_m2": 234.03,
       "last_seen": "2026-08-29",
@@ -16324,12 +16372,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/cp/cp_d0a89503-7938-11f1-a659-a6ae20f6eefe_823a6a4324947.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_d0a89503-7938-11f1-a659-a6ae20f6eefe_823a6a4324947.jpg"
       ],
       "land_m2": 212.29,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f3458ca1c88571cdc964790054bdc484cc310e8389ecc2867/00.jpg"
+      ],
       "price_yen": 8500000,
       "property_type": "detached",
       "raw": {
@@ -16366,7 +16416,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/fp/fp_26bea229-7806-11f1-a659-a6ae20f6eefe_72fc7a2c79794.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/fp/fp_26bea229-7806-11f1-a659-a6ae20f6eefe_72fc7a2c79794.jpg"
       ],
       "land_m2": 349.19,
       "last_seen": "2026-08-29",
@@ -16405,7 +16455,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/fp/fp_7a594ae8-7806-11f1-a659-a6ae20f6eefe_a1ffef15606b7.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/fp/fp_7a594ae8-7806-11f1-a659-a6ae20f6eefe_a1ffef15606b7.jpg"
       ],
       "land_m2": 268.14,
       "last_seen": "2026-08-29",
@@ -16448,7 +16498,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/nm/nm_5432f598-7513-11f1-a659-a6ae20f6eefe_2542baa6de64c.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/nm/nm_5432f598-7513-11f1-a659-a6ae20f6eefe_2542baa6de64c.jpg"
       ],
       "land_m2": 151.4,
       "last_seen": "2026-08-29",
@@ -16491,12 +16541,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/nm/nm_f90ef6ab-74d2-11f1-a659-a6ae20f6eefe_498f77ef49adb.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/nm/nm_f90ef6ab-74d2-11f1-a659-a6ae20f6eefe_498f77ef49adb.jpg"
       ],
       "land_m2": 195.2,
       "last_seen": "2026-08-29",
       "layout": "5LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f08e2ca9a2dda8afae3e9f1c32d49ee1fc832f4f3a043bff4/00.jpg"
+      ],
       "price_yen": 5900000,
       "property_type": "detached",
       "raw": {
@@ -16535,7 +16587,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/nm/nm_00ce8761-74c3-11f1-a659-a6ae20f6eefe_8a555046de4b6.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/nm/nm_00ce8761-74c3-11f1-a659-a6ae20f6eefe_8a555046de4b6.jpg"
       ],
       "land_m2": 216.06,
       "last_seen": "2026-08-29",
@@ -16581,7 +16633,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/fp/fp_aa543256-742c-11f1-a659-a6ae20f6eefe_645841b22aac5.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/fp/fp_aa543256-742c-11f1-a659-a6ae20f6eefe_645841b22aac5.jpg"
       ],
       "land_m2": 210.24,
       "last_seen": "2026-08-29",
@@ -16625,7 +16677,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_f127682f-7199-11f1-bd67-a6ae20f6eefe_e90ab20140f41.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_f127682f-7199-11f1-bd67-a6ae20f6eefe_e90ab20140f41.jpg"
       ],
       "land_m2": null,
       "last_seen": "2026-08-29",
@@ -16667,12 +16719,14 @@
       "flags": [],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_a95e6b38-7126-11f1-bd67-a6ae20f6eefe_b6b1ff0fb8442.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_a95e6b38-7126-11f1-bd67-a6ae20f6eefe_b6b1ff0fb8442.jpg"
       ],
       "land_m2": 212.29,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f896f5d9674fbc4d19c33c9cdd207399d755a1c6912d79c8e/00.jpg"
+      ],
       "price_yen": 8500000,
       "property_type": "detached",
       "raw": {
@@ -16710,7 +16764,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_e04a93db-7126-11f1-bd67-a6ae20f6eefe_36278c5ea7485.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_e04a93db-7126-11f1-bd67-a6ae20f6eefe_36278c5ea7485.jpg"
       ],
       "land_m2": 689.58,
       "last_seen": "2026-08-29",
@@ -16754,12 +16808,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_66d055ba-7127-11f1-bd67-a6ae20f6eefe_80be1de6cfcf9.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_66d055ba-7127-11f1-bd67-a6ae20f6eefe_80be1de6cfcf9.jpg"
       ],
       "land_m2": 180,
       "last_seen": "2026-08-29",
       "layout": "5LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f1c5cf275bc5202e4bc7af121fb56ce4a8a4c2028e154f4c6/00.jpg"
+      ],
       "price_yen": 5800000,
       "property_type": "detached",
       "raw": {
@@ -16795,7 +16851,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_5c34867b-70da-11f1-bd67-a6ae20f6eefe_393b1ee0e8013.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_5c34867b-70da-11f1-bd67-a6ae20f6eefe_393b1ee0e8013.jpg"
       ],
       "land_m2": null,
       "last_seen": "2026-08-29",
@@ -16837,12 +16893,14 @@
       "flags": [],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_f4bb4749-6ee3-11f1-bd67-a6ae20f6eefe_f92e65d4956b0.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_f4bb4749-6ee3-11f1-bd67-a6ae20f6eefe_f92e65d4956b0.jpg"
       ],
       "land_m2": 194,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5fdceae609ed272b30c61a783188b3ec9a4de5b19ba820ba46/00.jpg"
+      ],
       "price_yen": 8600000,
       "property_type": "detached",
       "raw": {
@@ -16879,7 +16937,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_09aa6e0b-6ee4-11f1-bd67-a6ae20f6eefe_e73cd167f2116.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_09aa6e0b-6ee4-11f1-bd67-a6ae20f6eefe_e73cd167f2116.jpg"
       ],
       "land_m2": 310.86,
       "last_seen": "2026-08-29",
@@ -16921,7 +16979,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_471a8022-6ee4-11f1-bd67-a6ae20f6eefe_402e6e5863368.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_471a8022-6ee4-11f1-bd67-a6ae20f6eefe_402e6e5863368.jpg"
       ],
       "land_m2": 268.14,
       "last_seen": "2026-08-29",
@@ -16964,7 +17022,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_4cd22ef1-6ee4-11f1-bd67-a6ae20f6eefe_28aabf2a62e05.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_4cd22ef1-6ee4-11f1-bd67-a6ae20f6eefe_28aabf2a62e05.jpg"
       ],
       "land_m2": 223.24,
       "last_seen": "2026-08-29",
@@ -17009,12 +17067,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/fp/fp_49dc7187-6eb4-11f1-bd67-a6ae20f6eefe_12ed198ddc89c.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/fp/fp_49dc7187-6eb4-11f1-bd67-a6ae20f6eefe_12ed198ddc89c.jpg"
       ],
       "land_m2": 169.57,
       "last_seen": "2026-08-29",
       "layout": "4SLD",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f6ed0fd7d54e4d870e3582d5e4f34675bd1c0573b91f848d7/00.jpg"
+      ],
       "price_yen": 9800000,
       "property_type": "detached",
       "raw": {
@@ -17052,7 +17112,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_850c5bc7-6d29-11f1-bd67-a6ae20f6eefe_7f75bacad6d92.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_850c5bc7-6d29-11f1-bd67-a6ae20f6eefe_7f75bacad6d92.jpg"
       ],
       "land_m2": 121.98,
       "last_seen": "2026-08-29",
@@ -17099,7 +17159,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_fd0d63d2-6cde-11f1-bd67-a6ae20f6eefe_574f8797e0aa3.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_fd0d63d2-6cde-11f1-bd67-a6ae20f6eefe_574f8797e0aa3.jpg"
       ],
       "land_m2": 187,
       "last_seen": "2026-08-29",
@@ -17143,7 +17203,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_24adf8ef-66d7-11f1-bd67-a6ae20f6eefe_44827c4a1019f.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_24adf8ef-66d7-11f1-bd67-a6ae20f6eefe_44827c4a1019f.jpg"
       ],
       "land_m2": 427.1,
       "last_seen": "2026-08-29",
@@ -17189,7 +17249,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_50bdbcc0-6479-11f1-bd67-a6ae20f6eefe_15c656dd3e0b8.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_50bdbcc0-6479-11f1-bd67-a6ae20f6eefe_15c656dd3e0b8.jpg"
       ],
       "land_m2": 212.92,
       "last_seen": "2026-08-29",
@@ -17233,12 +17293,14 @@
       "flags": [],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_57e70853-6468-11f1-bd67-a6ae20f6eefe_174b321817572.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_57e70853-6468-11f1-bd67-a6ae20f6eefe_174b321817572.jpg"
       ],
       "land_m2": 450.36,
       "last_seen": "2026-08-29",
       "layout": "3LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f4e800817ef73ef3b8eb2b43dc0b9e768a76df67e65c787f3/00.jpg"
+      ],
       "price_yen": 9800000,
       "property_type": "detached",
       "raw": {
@@ -17275,7 +17337,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_0b057a6d-6468-11f1-bd67-a6ae20f6eefe_33e1c6e882e82.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_0b057a6d-6468-11f1-bd67-a6ae20f6eefe_33e1c6e882e82.jpg"
       ],
       "land_m2": 325.15,
       "last_seen": "2026-08-29",
@@ -17320,7 +17382,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_2c38d23a-6466-11f1-bd67-a6ae20f6eefe_069e5cf9c5e03.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_2c38d23a-6466-11f1-bd67-a6ae20f6eefe_069e5cf9c5e03.jpg"
       ],
       "land_m2": 364,
       "last_seen": "2026-08-29",
@@ -17367,7 +17429,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_fc24c0f0-6465-11f1-bd67-a6ae20f6eefe_f723f2541c3a8.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_fc24c0f0-6465-11f1-bd67-a6ae20f6eefe_f723f2541c3a8.jpg"
       ],
       "land_m2": 139.17,
       "last_seen": "2026-08-29",
@@ -17412,7 +17474,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_e50adbce-6465-11f1-bd67-a6ae20f6eefe_24bc7a2084a85.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_e50adbce-6465-11f1-bd67-a6ae20f6eefe_24bc7a2084a85.jpg"
       ],
       "land_m2": 189.6,
       "last_seen": "2026-08-29",
@@ -17457,7 +17519,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_ac77bf54-6465-11f1-bd67-a6ae20f6eefe_72e2591587ffd.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_ac77bf54-6465-11f1-bd67-a6ae20f6eefe_72e2591587ffd.jpg"
       ],
       "land_m2": 158.88,
       "last_seen": "2026-08-29",
@@ -17505,7 +17567,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_9561eefc-6465-11f1-bd67-a6ae20f6eefe_ea75748f728f9.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_9561eefc-6465-11f1-bd67-a6ae20f6eefe_ea75748f728f9.jpg"
       ],
       "land_m2": 165.45,
       "last_seen": "2026-08-29",
@@ -17551,7 +17613,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_8384872c-6465-11f1-bd67-a6ae20f6eefe_d95664b4748db.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_8384872c-6465-11f1-bd67-a6ae20f6eefe_d95664b4748db.jpg"
       ],
       "land_m2": 83.87,
       "last_seen": "2026-08-29",
@@ -17599,7 +17661,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_66a2427e-6465-11f1-bd67-a6ae20f6eefe_0d4084713ebae.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_66a2427e-6465-11f1-bd67-a6ae20f6eefe_0d4084713ebae.jpg"
       ],
       "land_m2": 185,
       "last_seen": "2026-08-29",
@@ -17645,7 +17707,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_ef5fd3fd-6464-11f1-bd67-a6ae20f6eefe_b0d8e63b1ff07.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_ef5fd3fd-6464-11f1-bd67-a6ae20f6eefe_b0d8e63b1ff07.jpg"
       ],
       "land_m2": 252,
       "last_seen": "2026-08-29",
@@ -17691,7 +17753,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_e51d41d1-6464-11f1-bd67-a6ae20f6eefe_5afbe10573c40.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_e51d41d1-6464-11f1-bd67-a6ae20f6eefe_5afbe10573c40.jpg"
       ],
       "land_m2": 217.61,
       "last_seen": "2026-08-29",
@@ -17736,7 +17798,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_bdcda20d-6464-11f1-bd67-a6ae20f6eefe_fcc5b5f28c3c6.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_bdcda20d-6464-11f1-bd67-a6ae20f6eefe_fcc5b5f28c3c6.jpg"
       ],
       "land_m2": 134.95,
       "last_seen": "2026-08-29",
@@ -17783,7 +17845,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_a6ae7b47-6464-11f1-bd67-a6ae20f6eefe_b91877126f702.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_a6ae7b47-6464-11f1-bd67-a6ae20f6eefe_b91877126f702.jpg"
       ],
       "land_m2": 392.33,
       "last_seen": "2026-08-29",
@@ -17827,7 +17889,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_85d0a2cf-6464-11f1-bd67-a6ae20f6eefe_ed260081328b3.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_85d0a2cf-6464-11f1-bd67-a6ae20f6eefe_ed260081328b3.jpg"
       ],
       "land_m2": 308.05,
       "last_seen": "2026-08-29",
@@ -17870,7 +17932,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_610e0e10-6464-11f1-bd67-a6ae20f6eefe_16658c2617179.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_610e0e10-6464-11f1-bd67-a6ae20f6eefe_16658c2617179.jpg"
       ],
       "land_m2": 330.69,
       "last_seen": "2026-08-29",
@@ -17916,12 +17978,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_2180aaae-6464-11f1-bd67-a6ae20f6eefe_a73269e592ea6.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_2180aaae-6464-11f1-bd67-a6ae20f6eefe_a73269e592ea6.jpg"
       ],
       "land_m2": 133.82,
       "last_seen": "2026-08-29",
       "layout": "3LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f38de736473338f3b3eefdaa7c4e1ec55c6f48326021faa12/00.jpg"
+      ],
       "price_yen": 2800000,
       "property_type": "detached",
       "raw": {
@@ -17959,7 +18023,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_119e4bc4-6464-11f1-bd67-a6ae20f6eefe_262a7d0afc0fd.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_119e4bc4-6464-11f1-bd67-a6ae20f6eefe_262a7d0afc0fd.jpg"
       ],
       "land_m2": 166.72,
       "last_seen": "2026-08-29",
@@ -18003,7 +18067,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_01ad8ddd-6464-11f1-bd67-a6ae20f6eefe_23c700632c518.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_01ad8ddd-6464-11f1-bd67-a6ae20f6eefe_23c700632c518.jpg"
       ],
       "land_m2": 187.56,
       "last_seen": "2026-08-29",
@@ -18047,12 +18111,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_eca0d80c-6463-11f1-bd67-a6ae20f6eefe_04e9c18aef5fe.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_eca0d80c-6463-11f1-bd67-a6ae20f6eefe_04e9c18aef5fe.jpg"
       ],
       "land_m2": 610.99,
       "last_seen": "2026-08-29",
       "layout": "7LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f09809c54755e646a645388268133051dd46d349ad722e5d8/00.jpg"
+      ],
       "price_yen": 2990000,
       "property_type": "detached",
       "raw": {
@@ -18091,12 +18157,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_bb629303-6463-11f1-bd67-a6ae20f6eefe_1f9fce4daebb9.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_bb629303-6463-11f1-bd67-a6ae20f6eefe_1f9fce4daebb9.jpg"
       ],
       "land_m2": 631.3,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f56872425aecf62d2455b40d8d64633629363da3158342d40/00.jpg"
+      ],
       "price_yen": 3000000,
       "property_type": "detached",
       "raw": {
@@ -18135,12 +18203,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_669c8f76-6463-11f1-bd67-a6ae20f6eefe_c8bfc3d526424.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_669c8f76-6463-11f1-bd67-a6ae20f6eefe_c8bfc3d526424.jpg"
       ],
       "land_m2": 419.16,
       "last_seen": "2026-08-29",
       "layout": "6LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5ffef93d9a116fd9de30a0566f0b4ddb802b9a77c51953e6f9/00.jpg"
+      ],
       "price_yen": 3500000,
       "property_type": "detached",
       "raw": {
@@ -18179,7 +18249,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_41e2ff34-6463-11f1-bd67-a6ae20f6eefe_18f3617aa7aea.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_41e2ff34-6463-11f1-bd67-a6ae20f6eefe_18f3617aa7aea.jpg"
       ],
       "land_m2": 190.34,
       "last_seen": "2026-08-29",
@@ -18225,7 +18295,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_2fa4ec18-6463-11f1-bd67-a6ae20f6eefe_542db2634dd31.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_2fa4ec18-6463-11f1-bd67-a6ae20f6eefe_542db2634dd31.jpg"
       ],
       "land_m2": 171.11,
       "last_seen": "2026-08-29",
@@ -18271,7 +18341,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_1694ba75-6463-11f1-bd67-a6ae20f6eefe_60b6fe74293ec.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_1694ba75-6463-11f1-bd67-a6ae20f6eefe_60b6fe74293ec.jpg"
       ],
       "land_m2": 175.82,
       "last_seen": "2026-08-29",
@@ -18315,7 +18385,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_8441bdb3-6462-11f1-bd67-a6ae20f6eefe_30657425ce9c5.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_8441bdb3-6462-11f1-bd67-a6ae20f6eefe_30657425ce9c5.jpg"
       ],
       "land_m2": 177.29,
       "last_seen": "2026-08-29",
@@ -18360,7 +18430,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_737b23e7-6462-11f1-bd67-a6ae20f6eefe_4a4a31e2d72ee.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_737b23e7-6462-11f1-bd67-a6ae20f6eefe_4a4a31e2d72ee.jpg"
       ],
       "land_m2": 271,
       "last_seen": "2026-08-29",
@@ -18404,7 +18474,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_62df573e-6462-11f1-bd67-a6ae20f6eefe_95b74c088824c.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_62df573e-6462-11f1-bd67-a6ae20f6eefe_95b74c088824c.jpg"
       ],
       "land_m2": 239.69,
       "last_seen": "2026-08-29",
@@ -18448,7 +18518,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_4c5cbaad-6462-11f1-bd67-a6ae20f6eefe_babfb4bf0eccc.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_4c5cbaad-6462-11f1-bd67-a6ae20f6eefe_babfb4bf0eccc.jpg"
       ],
       "land_m2": 66.11,
       "last_seen": "2026-08-29",
@@ -18493,7 +18563,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_ef14c7a0-6461-11f1-bd67-a6ae20f6eefe_f9a323d021711.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_ef14c7a0-6461-11f1-bd67-a6ae20f6eefe_f9a323d021711.jpg"
       ],
       "land_m2": 200.1,
       "last_seen": "2026-08-29",
@@ -18536,12 +18606,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_dc339b63-6461-11f1-bd67-a6ae20f6eefe_847b17839343d.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_dc339b63-6461-11f1-bd67-a6ae20f6eefe_847b17839343d.jpg"
       ],
       "land_m2": 228.82,
       "last_seen": "2026-08-29",
       "layout": "3LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f770b779334e66350a3a279928dfe4b4672a99134df64344f/00.jpg"
+      ],
       "price_yen": 4500000,
       "property_type": "detached",
       "raw": {
@@ -18579,7 +18651,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_c69b0687-6461-11f1-bd67-a6ae20f6eefe_25227229c4d57.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_c69b0687-6461-11f1-bd67-a6ae20f6eefe_25227229c4d57.jpg"
       ],
       "land_m2": 61.95,
       "last_seen": "2026-08-29",
@@ -18622,7 +18694,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_b3c62f6d-6461-11f1-bd67-a6ae20f6eefe_b09393c17c885.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_b3c62f6d-6461-11f1-bd67-a6ae20f6eefe_b09393c17c885.jpg"
       ],
       "land_m2": 94.87,
       "last_seen": "2026-08-29",
@@ -18669,12 +18741,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_a11560ed-6461-11f1-bd67-a6ae20f6eefe_1304aff831bb5.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_a11560ed-6461-11f1-bd67-a6ae20f6eefe_1304aff831bb5.jpg"
       ],
       "land_m2": 143.9,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f0baf37f85669cc32a91e61c0715ed5374c90f3335898693b/00.jpg"
+      ],
       "price_yen": 4800000,
       "property_type": "detached",
       "raw": {
@@ -18710,7 +18784,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_640bc05a-6461-11f1-bd67-a6ae20f6eefe_b0cdb3bef33d5.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_640bc05a-6461-11f1-bd67-a6ae20f6eefe_b0cdb3bef33d5.jpg"
       ],
       "land_m2": 226,
       "last_seen": "2026-08-29",
@@ -18755,12 +18829,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_3ca99f79-6461-11f1-bd67-a6ae20f6eefe_df024194b5bad.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_3ca99f79-6461-11f1-bd67-a6ae20f6eefe_df024194b5bad.jpg"
       ],
       "land_m2": 149.96,
       "last_seen": "2026-08-29",
       "layout": "5LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f7946b428f24fd670d1643683d5c2fb7c2925e2acb8895599/00.jpg"
+      ],
       "price_yen": 5800000,
       "property_type": "detached",
       "raw": {
@@ -18796,7 +18872,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_2ebea3e7-6461-11f1-bd67-a6ae20f6eefe_c55e0bc64a408.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_2ebea3e7-6461-11f1-bd67-a6ae20f6eefe_c55e0bc64a408.jpg"
       ],
       "land_m2": 117.13,
       "last_seen": "2026-08-29",
@@ -18843,7 +18919,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_19e6f2b2-6461-11f1-bd67-a6ae20f6eefe_ad74b7c0ce1dd.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_19e6f2b2-6461-11f1-bd67-a6ae20f6eefe_ad74b7c0ce1dd.jpg"
       ],
       "land_m2": 108.33,
       "last_seen": "2026-08-29",
@@ -18889,12 +18965,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_cc09e1c6-6460-11f1-bd67-a6ae20f6eefe_b3dd6c02c065d.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_cc09e1c6-6460-11f1-bd67-a6ae20f6eefe_b3dd6c02c065d.jpg"
       ],
       "land_m2": 258.11,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5fc69a213f433eb154dfa4bc44749f17a21daaa3f666447f87/00.jpg"
+      ],
       "price_yen": 6000000,
       "property_type": "detached",
       "raw": {
@@ -18931,12 +19009,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_baf9d36b-6460-11f1-bd67-a6ae20f6eefe_0e1e6b39fecb3.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_baf9d36b-6460-11f1-bd67-a6ae20f6eefe_0e1e6b39fecb3.jpg"
       ],
       "land_m2": 153.24,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5fb40e77f9516e5fc63396b824fd9910c7d5d339f6053a5618/00.jpg"
+      ],
       "price_yen": 6000000,
       "property_type": "detached",
       "raw": {
@@ -18972,12 +19052,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_a9074f67-6460-11f1-bd67-a6ae20f6eefe_2a5bc935aa6bd.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_a9074f67-6460-11f1-bd67-a6ae20f6eefe_2a5bc935aa6bd.jpg"
       ],
       "land_m2": 129.11,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5fd593c60f7912ef4028801dc27117b5b94a26b8eb7c317180/00.jpg"
+      ],
       "price_yen": 6000000,
       "property_type": "detached",
       "raw": {
@@ -19012,7 +19094,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_7550e98a-6460-11f1-bd67-a6ae20f6eefe_ea37bf16831c0.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_7550e98a-6460-11f1-bd67-a6ae20f6eefe_ea37bf16831c0.jpg"
       ],
       "land_m2": 255.33,
       "last_seen": "2026-08-29",
@@ -19058,7 +19140,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_689991ed-6460-11f1-bd67-a6ae20f6eefe_5334856690974.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_689991ed-6460-11f1-bd67-a6ae20f6eefe_5334856690974.jpg"
       ],
       "land_m2": 214.54,
       "last_seen": "2026-08-29",
@@ -19104,12 +19186,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_3421b9dc-6460-11f1-bd67-a6ae20f6eefe_2862818514f23.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_3421b9dc-6460-11f1-bd67-a6ae20f6eefe_2862818514f23.jpg"
       ],
       "land_m2": 235.24,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5feda82862ebef1d612423f2690491bd6620126b2c0963e926/00.jpg"
+      ],
       "price_yen": 7800000,
       "property_type": "detached",
       "raw": {
@@ -19149,7 +19233,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_f61ebe44-645f-11f1-bd67-a6ae20f6eefe_ad3ef06a6c783.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_f61ebe44-645f-11f1-bd67-a6ae20f6eefe_ad3ef06a6c783.jpg"
       ],
       "land_m2": 165.37,
       "last_seen": "2026-08-29",
@@ -19194,12 +19278,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_e2fa98e0-645f-11f1-bd67-a6ae20f6eefe_fc964e5b3aa73.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_e2fa98e0-645f-11f1-bd67-a6ae20f6eefe_fc964e5b3aa73.jpg"
       ],
       "land_m2": null,
       "last_seen": "2026-08-29",
       "layout": "3LDK+S",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f072a84c1e6d90a87f822c79facc0a9139bf06349106979d8/00.jpg"
+      ],
       "price_yen": 7900000,
       "property_type": "detached",
       "raw": {
@@ -19237,12 +19323,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_cc4fcaee-645f-11f1-bd67-a6ae20f6eefe_e6a35e004e142.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_cc4fcaee-645f-11f1-bd67-a6ae20f6eefe_e6a35e004e142.jpg"
       ],
       "land_m2": 260.49,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f2bf047de63404127d2497351be0152ba25150114f61e8a1f/00.jpg"
+      ],
       "price_yen": 8300000,
       "property_type": "detached",
       "raw": {
@@ -19278,12 +19366,14 @@
       "flags": [],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_b3befeef-645f-11f1-bd67-a6ae20f6eefe_f33df122c94ae.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_b3befeef-645f-11f1-bd67-a6ae20f6eefe_f33df122c94ae.jpg"
       ],
       "land_m2": 212.29,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f8a9bf4a85253e5d4ba0408e7cfe7c52d1651415951bf73c8/00.jpg"
+      ],
       "price_yen": 8500000,
       "property_type": "detached",
       "raw": {
@@ -19323,7 +19413,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_da068798-645e-11f1-bd67-a6ae20f6eefe_c32e132b9ba56.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_da068798-645e-11f1-bd67-a6ae20f6eefe_c32e132b9ba56.jpg"
       ],
       "land_m2": 139.65,
       "last_seen": "2026-08-29",
@@ -19369,12 +19459,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_af462d0f-645e-11f1-bd67-a6ae20f6eefe_147c0daa8c29f.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_af462d0f-645e-11f1-bd67-a6ae20f6eefe_147c0daa8c29f.jpg"
       ],
       "land_m2": 169.57,
       "last_seen": "2026-08-29",
       "layout": "4LDK+S",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5fb869521c3c0653afb85ea5ce2baaf438f5bcf2bdd372e662/00.jpg"
+      ],
       "price_yen": 9800000,
       "property_type": "detached",
       "raw": {
@@ -19412,7 +19504,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_88c9fd88-645e-11f1-bd67-a6ae20f6eefe_6b15b2e8ef8b3.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_88c9fd88-645e-11f1-bd67-a6ae20f6eefe_6b15b2e8ef8b3.jpg"
       ],
       "land_m2": 2072.14,
       "last_seen": "2026-08-29",
@@ -19459,12 +19551,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_6a63bf96-5da0-11f1-bd67-a6ae20f6eefe_8be15a5d2b203.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_6a63bf96-5da0-11f1-bd67-a6ae20f6eefe_8be15a5d2b203.jpg"
       ],
       "land_m2": 203.7,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5faaa7af0154eb73437834cf0cd3b79544e4f5f88800a37531/00.jpg"
+      ],
       "price_yen": 4500000,
       "property_type": "detached",
       "raw": {
@@ -19505,12 +19599,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/fp/fp_2886821b-4e87-11f1-bd67-a6ae20f6eefe_d1c336c42aaf8.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/fp/fp_2886821b-4e87-11f1-bd67-a6ae20f6eefe_d1c336c42aaf8.jpg"
       ],
       "land_m2": null,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f00947615efad8cdcd3c563246c87baf6b7bf4bcc1db032f5/00.jpg"
+      ],
       "price_yen": 9800000,
       "property_type": "detached",
       "raw": {
@@ -19548,12 +19644,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/cp/cp_c638d1b5-32c0-11f1-93a5-a6ae20f6eefe_ab4b4d2173798.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_c638d1b5-32c0-11f1-93a5-a6ae20f6eefe_ab4b4d2173798.jpg"
       ],
       "land_m2": 228.24,
       "last_seen": "2026-08-29",
       "layout": "5LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5fe38ebb790b2608cf6189186f807c49040f1a10a0763dca8e/00.jpg"
+      ],
       "price_yen": 9000000,
       "property_type": "detached",
       "raw": {
@@ -19592,7 +19690,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/cp/cp_b61039d0-32c0-11f1-93a5-a6ae20f6eefe_ff89c008eefc2.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_b61039d0-32c0-11f1-93a5-a6ae20f6eefe_ff89c008eefc2.jpg"
       ],
       "land_m2": 330.54,
       "last_seen": "2026-08-29",
@@ -19637,12 +19735,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/cp/cp_a24c0cbf-32c0-11f1-93a5-a6ae20f6eefe_3d7f0989271d5.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_a24c0cbf-32c0-11f1-93a5-a6ae20f6eefe_3d7f0989271d5.jpg"
       ],
       "land_m2": 79,
       "last_seen": "2026-08-29",
       "layout": "4SLD",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f11b88c47c29b837bce0bb97b6b7d8f37ca4c892791eb0afe/00.jpg"
+      ],
       "price_yen": 650000,
       "property_type": "detached",
       "raw": {
@@ -19678,7 +19778,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/cp/cp_e0adf70e-32be-11f1-93a5-a6ae20f6eefe_332176e839c7b.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_e0adf70e-32be-11f1-93a5-a6ae20f6eefe_332176e839c7b.jpg"
       ],
       "land_m2": 166.72,
       "last_seen": "2026-08-29",
@@ -19723,7 +19823,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/cp/cp_a56e4d51-32bc-11f1-93a5-a6ae20f6eefe_b3813fdd14a27.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_a56e4d51-32bc-11f1-93a5-a6ae20f6eefe_b3813fdd14a27.jpg"
       ],
       "land_m2": 294.01,
       "last_seen": "2026-08-29",
@@ -19769,7 +19869,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/cp/cp_9273aa74-32bc-11f1-93a5-a6ae20f6eefe_de2c3cee0370e.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_9273aa74-32bc-11f1-93a5-a6ae20f6eefe_de2c3cee0370e.jpg"
       ],
       "land_m2": 207.22,
       "last_seen": "2026-08-29",
@@ -19815,12 +19915,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/cp/cp_7db90f11-32bb-11f1-93a5-a6ae20f6eefe_7dbb2361c1509.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/cp/cp_7db90f11-32bb-11f1-93a5-a6ae20f6eefe_7dbb2361c1509.jpg"
       ],
       "land_m2": 410.79,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f8994f3698dedd085927f3431612c99853302b308317fac1d/00.jpg"
+      ],
       "price_yen": 8320000,
       "property_type": "detached",
       "raw": {
@@ -19858,12 +19960,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/kp/kp_cd5eb802-2715-11f1-93a5-a6ae20f6eefe_7fd3a570bda1b.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/kp/kp_cd5eb802-2715-11f1-93a5-a6ae20f6eefe_7fd3a570bda1b.jpg"
       ],
       "land_m2": null,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f87d74d33a65fa85cef506df93f56434efd3e58f0ef19824d/00.jpg"
+      ],
       "price_yen": 6800000,
       "property_type": "detached",
       "raw": {
@@ -19900,7 +20004,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_9f4b365f-1778-11f1-b058-6a8491d2da0f_5be7e3c109a6f.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_9f4b365f-1778-11f1-b058-6a8491d2da0f_5be7e3c109a6f.jpg"
       ],
       "land_m2": 115,
       "last_seen": "2026-08-29",
@@ -19946,7 +20050,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_c97383c3-14d2-11f1-b058-6a8491d2da0f_e914f68cc5c8f.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_c97383c3-14d2-11f1-b058-6a8491d2da0f_e914f68cc5c8f.jpg"
       ],
       "land_m2": 175.82,
       "last_seen": "2026-08-29",
@@ -19994,12 +20098,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_5d9b19db-14c1-11f1-b058-6a8491d2da0f_7dd47a5c45071.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_5d9b19db-14c1-11f1-b058-6a8491d2da0f_7dd47a5c45071.jpg"
       ],
       "land_m2": 125.83,
       "last_seen": "2026-08-29",
       "layout": "3LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f6188f4252e6a67cb72c17a709dc400363835e99847bc0967/00.jpg"
+      ],
       "price_yen": 2700000,
       "property_type": "detached",
       "raw": {
@@ -20039,12 +20145,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_e58fa647-149e-11f1-b058-6a8491d2da0f_1139910ba920c.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_e58fa647-149e-11f1-b058-6a8491d2da0f_1139910ba920c.jpg"
       ],
       "land_m2": 235.24,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f5b6a1bee621dca94ad7087be7178449f4818f454fb8e1032/00.jpg"
+      ],
       "price_yen": 8800000,
       "property_type": "detached",
       "raw": {
@@ -20086,7 +20194,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_4b159aee-148f-11f1-b058-6a8491d2da0f_d50347ddab474.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_4b159aee-148f-11f1-b058-6a8491d2da0f_d50347ddab474.jpg"
       ],
       "land_m2": 104.13,
       "last_seen": "2026-08-29",
@@ -20132,7 +20240,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_0bc95b6b-148f-11f1-b058-6a8491d2da0f_5e15d4e956a61.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_0bc95b6b-148f-11f1-b058-6a8491d2da0f_5e15d4e956a61.jpg"
       ],
       "land_m2": 158.88,
       "last_seen": "2026-08-29",
@@ -20182,7 +20290,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_a7231e3f-13cf-11f1-b058-6a8491d2da0f_02e698fa27d58.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_a7231e3f-13cf-11f1-b058-6a8491d2da0f_02e698fa27d58.jpg"
       ],
       "land_m2": 140.5,
       "last_seen": "2026-08-29",
@@ -20227,7 +20335,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_39b27a8c-13c8-11f1-b058-6a8491d2da0f_2acad02267e2b.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_39b27a8c-13c8-11f1-b058-6a8491d2da0f_2acad02267e2b.jpg"
       ],
       "land_m2": 239.69,
       "last_seen": "2026-08-29",
@@ -20274,7 +20382,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_99e702d4-13af-11f1-b058-6a8491d2da0f_e7ec3d58d7382.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_99e702d4-13af-11f1-b058-6a8491d2da0f_e7ec3d58d7382.jpg"
       ],
       "land_m2": 264.45,
       "last_seen": "2026-08-29",
@@ -20321,7 +20429,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_74d1f196-1386-11f1-b058-6a8491d2da0f_3b12ea82f7345.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_74d1f196-1386-11f1-b058-6a8491d2da0f_3b12ea82f7345.jpg"
       ],
       "land_m2": 271,
       "last_seen": "2026-08-29",
@@ -20366,7 +20474,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_54456ebc-137b-11f1-b058-6a8491d2da0f_94af8f11953ac.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_54456ebc-137b-11f1-b058-6a8491d2da0f_94af8f11953ac.jpg"
       ],
       "land_m2": 115,
       "last_seen": "2026-08-29",
@@ -20415,12 +20523,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_75f28492-1324-11f1-b058-6a8491d2da0f_16855015860d0.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_75f28492-1324-11f1-b058-6a8491d2da0f_16855015860d0.jpg"
       ],
       "land_m2": 179,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f743b6ab19d67020664fb446242eedc8d74b275f0b91edd7b/00.jpg"
+      ],
       "price_yen": 7000000,
       "property_type": "detached",
       "raw": {
@@ -20459,7 +20569,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_88d2a854-1310-11f1-b058-6a8491d2da0f_3f5e907305faf.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_88d2a854-1310-11f1-b058-6a8491d2da0f_3f5e907305faf.jpg"
       ],
       "land_m2": 83.87,
       "last_seen": "2026-08-29",
@@ -20505,7 +20615,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_64994b22-12f0-11f1-b058-6a8491d2da0f_f0b41ca4bee96.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_64994b22-12f0-11f1-b058-6a8491d2da0f_f0b41ca4bee96.jpg"
       ],
       "land_m2": 214.54,
       "last_seen": "2026-08-29",
@@ -20550,12 +20660,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_a02d7844-0ab2-11f1-ac5b-5687a637112a_1dc06ba4430f9.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_a02d7844-0ab2-11f1-ac5b-5687a637112a_1dc06ba4430f9.jpg"
       ],
       "land_m2": 317.46,
       "last_seen": "2026-08-29",
       "layout": "4SLD",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f11df6417dc2e3bb15971763ec89bf7e868e6d31b6c0ba54f/00.jpg"
+      ],
       "price_yen": 9900000,
       "property_type": "detached",
       "raw": {
@@ -20594,7 +20706,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_f3ab9d28-0a4d-11f1-ac5b-5687a637112a_c51eea1d064d0.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_f3ab9d28-0a4d-11f1-ac5b-5687a637112a_c51eea1d064d0.jpg"
       ],
       "land_m2": 140.98,
       "last_seen": "2026-08-29",
@@ -20642,7 +20754,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_72798a4c-09c8-11f1-ac5b-5687a637112a_a17edcf43b977.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_72798a4c-09c8-11f1-ac5b-5687a637112a_a17edcf43b977.jpg"
       ],
       "land_m2": 206.97,
       "last_seen": "2026-08-29",
@@ -20690,7 +20802,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_c01a8565-0833-11f1-ac5b-5687a637112a_7803f4eabe65b.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_c01a8565-0833-11f1-ac5b-5687a637112a_7803f4eabe65b.jpg"
       ],
       "land_m2": 217.61,
       "last_seen": "2026-08-29",
@@ -20736,7 +20848,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_87e18f54-0619-11f1-ac5b-5687a637112a_b392d34b03a5e.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_87e18f54-0619-11f1-ac5b-5687a637112a_b392d34b03a5e.jpg"
       ],
       "land_m2": 330,
       "last_seen": "2026-08-29",
@@ -20783,7 +20895,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_96bb403c-053b-11f1-ac5b-5687a637112a_86fca334c9520.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_96bb403c-053b-11f1-ac5b-5687a637112a_86fca334c9520.jpg"
       ],
       "land_m2": 102.57,
       "last_seen": "2026-08-29",
@@ -20828,12 +20940,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_4b9ef86e-0496-11f1-ac5b-5687a637112a_2406fd10810aa.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_4b9ef86e-0496-11f1-ac5b-5687a637112a_2406fd10810aa.jpg"
       ],
       "land_m2": 143.9,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5fc748031931e65be51d08d2bc61a1839df8787fda16f47b43/00.jpg"
+      ],
       "price_yen": 4800000,
       "property_type": "detached",
       "raw": {
@@ -20872,7 +20986,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_9cb73072-043d-11f1-ac5b-5687a637112a_c7230354fef1b.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_9cb73072-043d-11f1-ac5b-5687a637112a_c7230354fef1b.jpg"
       ],
       "land_m2": 252,
       "last_seen": "2026-08-29",
@@ -20919,7 +21033,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_66d9a2a2-034e-11f1-ac5b-5687a637112a_9dc5d5725cd31.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_66d9a2a2-034e-11f1-ac5b-5687a637112a_9dc5d5725cd31.jpg"
       ],
       "land_m2": 218.21,
       "last_seen": "2026-08-29",
@@ -20966,7 +21080,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/he/he_09dfa059-1d71-11f0-80c1-3a5072f3deca_3db3533a4f09f.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/he/he_09dfa059-1d71-11f0-80c1-3a5072f3deca_3db3533a4f09f.jpg"
       ],
       "land_m2": 221.4,
       "last_seen": "2026-08-29",
@@ -21011,12 +21125,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/he/he_7a63a817-1d34-11f0-80c1-3a5072f3deca_78426b49cb20e.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/he/he_7a63a817-1d34-11f0-80c1-3a5072f3deca_78426b49cb20e.jpg"
       ],
       "land_m2": 105.45,
       "last_seen": "2026-08-29",
       "layout": "3LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5face0aae91e23116eb50549a31b39dc10e6d061efdc53e676/00.jpg"
+      ],
       "price_yen": 2950000,
       "property_type": "detached",
       "raw": {
@@ -21057,7 +21173,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/he/he_3830345d-1708-11f0-80c1-3a5072f3deca_1f7923a02fa35.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/he/he_3830345d-1708-11f0-80c1-3a5072f3deca_1f7923a02fa35.jpg"
       ],
       "land_m2": 57.22,
       "last_seen": "2026-08-29",
@@ -21102,7 +21218,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/he/he_91253b84-16fe-11f0-80c1-3a5072f3deca_b7803b6528c28.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/he/he_91253b84-16fe-11f0-80c1-3a5072f3deca_b7803b6528c28.jpg"
       ],
       "land_m2": 95,
       "last_seen": "2026-08-29",
@@ -21146,7 +21262,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/he/he_3c31ce94-0f4d-11f0-80c1-3a5072f3deca_c5b7a1b7b7716.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/he/he_3c31ce94-0f4d-11f0-80c1-3a5072f3deca_c5b7a1b7b7716.jpg"
       ],
       "land_m2": 159.88,
       "last_seen": "2026-08-29",
@@ -21192,7 +21308,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/he/he_60b5a74c-0d72-11f0-80c1-3a5072f3deca_cd62fe61090f4.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/he/he_60b5a74c-0d72-11f0-80c1-3a5072f3deca_cd62fe61090f4.jpg"
       ],
       "land_m2": 374.55,
       "last_seen": "2026-08-29",
@@ -21238,7 +21354,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/he/he_79431dc6-079c-11f0-80c1-3a5072f3deca_1fd333ea3eee1.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/he/he_79431dc6-079c-11f0-80c1-3a5072f3deca_1fd333ea3eee1.jpg"
       ],
       "land_m2": 200.1,
       "last_seen": "2026-08-29",
@@ -21282,7 +21398,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/he/he_5d586330-066c-11f0-80c1-3a5072f3deca_0dd854ff6293d.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/he/he_5d586330-066c-11f0-80c1-3a5072f3deca_0dd854ff6293d.jpg"
       ],
       "land_m2": 310.86,
       "last_seen": "2026-08-29",
@@ -21326,7 +21442,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/he/he_a552000d-0321-11f0-9f41-de1b9cafd880_997a55713c461.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/he/he_a552000d-0321-11f0-9f41-de1b9cafd880_997a55713c461.jpg"
       ],
       "land_m2": 172,
       "last_seen": "2026-08-29",
@@ -21374,7 +21490,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/he/he_739adc5b-011d-11f0-9f41-de1b9cafd880_96ee0e780f0cd.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/he/he_739adc5b-011d-11f0-9f41-de1b9cafd880_96ee0e780f0cd.jpg"
       ],
       "land_m2": 171.11,
       "last_seen": "2026-08-29",
@@ -21422,7 +21538,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/he/he_d1c60f69-fe12-11ef-9f41-de1b9cafd880_de2ae57da214f.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/he/he_d1c60f69-fe12-11ef-9f41-de1b9cafd880_de2ae57da214f.jpg"
       ],
       "land_m2": 177.29,
       "last_seen": "2026-08-29",
@@ -21470,7 +21586,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/he/he_b3ca4bd8-c2e9-11ef-a879-ca8041064acc_44f78d1b72aab.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/he/he_b3ca4bd8-c2e9-11ef-a879-ca8041064acc_44f78d1b72aab.jpg"
       ],
       "land_m2": 364,
       "last_seen": "2026-08-29",
@@ -21517,7 +21633,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/he/he_6efb7d4d-c268-11ef-a879-ca8041064acc_d06437c01361a.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/he/he_6efb7d4d-c268-11ef-a879-ca8041064acc_d06437c01361a.jpg"
       ],
       "land_m2": 149.4,
       "last_seen": "2026-08-29",
@@ -21561,7 +21677,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/he/he_425a541d-c10a-11ef-a879-ca8041064acc_c0c2cf5822c7c.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/he/he_425a541d-c10a-11ef-a879-ca8041064acc_c0c2cf5822c7c.jpg"
       ],
       "land_m2": 66.18,
       "last_seen": "2026-08-29",
@@ -21605,7 +21721,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/he/he_9b5cafc1-b93f-11ef-a879-ca8041064acc_d2360fa377c05.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/he/he_9b5cafc1-b93f-11ef-a879-ca8041064acc_d2360fa377c05.jpg"
       ],
       "land_m2": 317.75,
       "last_seen": "2026-08-29",
@@ -21650,7 +21766,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hp/hp_84fec704-cd84-11ee-91c2-82d087486a07_63e8280ae4526.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hp/hp_84fec704-cd84-11ee-91c2-82d087486a07_63e8280ae4526.jpg"
       ],
       "land_m2": null,
       "last_seen": "2026-08-29",
@@ -21691,7 +21807,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_d3076674-a1e0-11f1-a659-a6ae20f6eefe_327ae7208f12d.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_d3076674-a1e0-11f1-a659-a6ae20f6eefe_327ae7208f12d.jpg"
       ],
       "land_m2": 323.78,
       "last_seen": "2026-08-29",
@@ -21733,12 +21849,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/ip/ip_3ba3ef4f-968a-11f1-a659-a6ae20f6eefe_244172642a34f.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/ip/ip_3ba3ef4f-968a-11f1-a659-a6ae20f6eefe_244172642a34f.jpg"
       ],
       "land_m2": 202.96,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5fe8d7eaab2856855a806e4a17b922ca70bfbed82e21804103/00.jpg"
+      ],
       "price_yen": 4500000,
       "property_type": "unknown",
       "raw": {
@@ -21774,12 +21892,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_4c8fa1ab-910a-11f1-a659-a6ae20f6eefe_93bf6c1e515ba.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_4c8fa1ab-910a-11f1-a659-a6ae20f6eefe_93bf6c1e515ba.jpg"
       ],
       "land_m2": 542.29,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f99c9745b41d2f5d862dd5bf9547c7ec322537b0151bd0af8/00.jpg"
+      ],
       "price_yen": 6000000,
       "property_type": "unknown",
       "raw": {
@@ -21818,7 +21938,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_83c3b40f-8f8d-11f1-a659-a6ae20f6eefe_ddfbc60162a8a.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_83c3b40f-8f8d-11f1-a659-a6ae20f6eefe_ddfbc60162a8a.jpg"
       ],
       "land_m2": 102.9,
       "last_seen": "2026-08-29",
@@ -21862,12 +21982,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_9c414009-8f8a-11f1-a659-a6ae20f6eefe_c1dc828db5b80.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_9c414009-8f8a-11f1-a659-a6ae20f6eefe_c1dc828db5b80.jpg"
       ],
       "land_m2": 205.13,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f8db5d14fc1f2ea3fabf43b2b1da0517d8f6ec9698a5afce7/00.jpg"
+      ],
       "price_yen": 6500000,
       "property_type": "unknown",
       "raw": {
@@ -21901,12 +22023,14 @@
       "flags": [],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_53d6566e-8f8b-11f1-a659-a6ae20f6eefe_f9a0d7aa9a8f6.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_53d6566e-8f8b-11f1-a659-a6ae20f6eefe_f9a0d7aa9a8f6.jpg"
       ],
       "land_m2": 280.66,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f59fd0c0ec0d42106e24706ef6192c145f6a1d288466e56b0/00.jpg"
+      ],
       "price_yen": 3800000,
       "property_type": "unknown",
       "raw": {
@@ -21945,7 +22069,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/fp/fp_22fabdac-87da-11f1-a659-a6ae20f6eefe_bb6d2d77d18ea.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/fp/fp_22fabdac-87da-11f1-a659-a6ae20f6eefe_bb6d2d77d18ea.jpg"
       ],
       "land_m2": 256.4,
       "last_seen": "2026-08-29",
@@ -21989,12 +22113,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_8ffcd93c-8072-11f1-a659-a6ae20f6eefe_47aefe784501e.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_8ffcd93c-8072-11f1-a659-a6ae20f6eefe_47aefe784501e.jpg"
       ],
       "land_m2": 284.84,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5fa91b6ca9d7a5fd823b03842f162e43847cf18cad6cebde8f/00.jpg"
+      ],
       "price_yen": 5000000,
       "property_type": "detached",
       "raw": {
@@ -22032,12 +22158,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_b2d07272-6d94-11f1-bd67-a6ae20f6eefe_c80ae7d41aa29.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_b2d07272-6d94-11f1-bd67-a6ae20f6eefe_c80ae7d41aa29.jpg"
       ],
       "land_m2": 286.31,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5fe57855e190f712c4637f6526a107ec8f3beef041407a9535/00.jpg"
+      ],
       "price_yen": 9990000,
       "property_type": "detached",
       "raw": {
@@ -22079,7 +22207,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_bf3d2f0d-6d94-11f1-bd67-a6ae20f6eefe_f03b28d29aefc.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_bf3d2f0d-6d94-11f1-bd67-a6ae20f6eefe_f03b28d29aefc.jpg"
       ],
       "land_m2": 464.35,
       "last_seen": "2026-08-29",
@@ -22128,12 +22256,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_fce30e73-6d94-11f1-bd67-a6ae20f6eefe_2f17e2946d025.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_fce30e73-6d94-11f1-bd67-a6ae20f6eefe_2f17e2946d025.jpg"
       ],
       "land_m2": 165.36,
       "last_seen": "2026-08-29",
       "layout": "4LDK",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f44ad11dce86f9ba110e42af6050bbed18a100412710d4563/00.jpg"
+      ],
       "price_yen": 5900000,
       "property_type": "detached",
       "raw": {
@@ -22171,7 +22301,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/sp/sp_0f3acc60-6d95-11f1-bd67-a6ae20f6eefe_09965593535fe.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/sp/sp_0f3acc60-6d95-11f1-bd67-a6ae20f6eefe_09965593535fe.jpg"
       ],
       "land_m2": 292.21,
       "last_seen": "2026-08-29",
@@ -22214,7 +22344,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_c24ef77c-0ae1-11f1-ac5b-5687a637112a_4f388c0f8de52.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_c24ef77c-0ae1-11f1-ac5b-5687a637112a_4f388c0f8de52.jpg"
       ],
       "land_m2": 443.11,
       "last_seen": "2026-08-29",
@@ -22260,7 +22390,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_906a7713-0a63-11f1-ac5b-5687a637112a_0e44ac553bc1d.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_906a7713-0a63-11f1-ac5b-5687a637112a_0e44ac553bc1d.jpg"
       ],
       "land_m2": 312.45,
       "last_seen": "2026-08-29",
@@ -22306,7 +22436,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hp/hp_6397ea80-9a63-11f1-a659-a6ae20f6eefe_62a0ecd24fd7f.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hp/hp_6397ea80-9a63-11f1-a659-a6ae20f6eefe_62a0ecd24fd7f.jpg"
       ],
       "land_m2": 1052,
       "last_seen": "2026-08-29",
@@ -22351,12 +22481,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_7a967145-8070-11f1-a659-a6ae20f6eefe_1bf5d78d4ead9.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_7a967145-8070-11f1-a659-a6ae20f6eefe_1bf5d78d4ead9.jpg"
       ],
       "land_m2": 327.28,
       "last_seen": "2026-08-29",
       "layout": "3BR",
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5fc5af4ab29b638e87fe75af810b52908073cbc9376ae0fe39/00.jpg"
+      ],
       "price_yen": 6200000,
       "property_type": "detached",
       "raw": {
@@ -22390,12 +22522,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/ha/ha_1d371aca-dff2-11eb-91f1-067a0533e408_70bafcd5b0096.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/ha/ha_1d371aca-dff2-11eb-91f1-067a0533e408_70bafcd5b0096.jpg"
       ],
       "land_m2": 729.46,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f5ae5c95d558afacc026e77eb9dd2f4a82c2d452e5e1a2fde/00.jpg"
+      ],
       "price_yen": 3800000,
       "property_type": "detached",
       "raw": {
@@ -22427,7 +22561,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_32225a48-99eb-11f1-a659-a6ae20f6eefe_0de03be4b2219.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_32225a48-99eb-11f1-a659-a6ae20f6eefe_0de03be4b2219.jpg"
       ],
       "land_m2": 299.58,
       "last_seen": "2026-08-29",
@@ -22466,12 +22600,14 @@
       "flags": [],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/em/em_02dadd1c-948e-11f1-a659-a6ae20f6eefe_e5e92f97b89ac.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/em/em_02dadd1c-948e-11f1-a659-a6ae20f6eefe_e5e92f97b89ac.jpg"
       ],
       "land_m2": 273.67,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f1ceb1159a149410f56cf61a4a986e7dbd84de333190cb5d5/00.jpg"
+      ],
       "price_yen": 8500000,
       "property_type": "detached",
       "raw": {
@@ -22510,7 +22646,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/hm/hm_11b89b9f-8072-11f1-a659-a6ae20f6eefe_4002a57cb0c7e.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/hm/hm_11b89b9f-8072-11f1-a659-a6ae20f6eefe_4002a57cb0c7e.jpg"
       ],
       "land_m2": 528.96,
       "last_seen": "2026-08-29",
@@ -22552,12 +22688,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/fm/fm_a3d7852d-75da-11f1-a659-a6ae20f6eefe_ed227df9e9c13.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/fm/fm_a3d7852d-75da-11f1-a659-a6ae20f6eefe_ed227df9e9c13.jpg"
       ],
       "land_m2": 141.31,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f4942945469e18e9f15230428afc0635b81202544ff220170/00.jpg"
+      ],
       "price_yen": 10000000,
       "property_type": "detached",
       "raw": {
@@ -22594,7 +22732,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/nm/nm_0e748aa7-7509-11f1-a659-a6ae20f6eefe_e2b9c38cf7e36.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/nm/nm_0e748aa7-7509-11f1-a659-a6ae20f6eefe_e2b9c38cf7e36.jpg"
       ],
       "land_m2": 514,
       "last_seen": "2026-08-29",
@@ -22638,12 +22776,14 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/fm/fm_58873749-7341-11f1-bd67-a6ae20f6eefe_6a1eb5807c311.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/fm/fm_58873749-7341-11f1-bd67-a6ae20f6eefe_6a1eb5807c311.jpg"
       ],
       "land_m2": 141.31,
       "last_seen": "2026-08-29",
       "layout": null,
-      "local_images": [],
+      "local_images": [
+        "/Users/arshonsaadati/Code/Personal/japan-house/data/images/akiyajapan/53616c7465645f5f80c884378f03a4009ffeb53be0948a183efe3c3373ba71d6/00.jpg"
+      ],
       "price_yen": 10000000,
       "property_type": "detached",
       "raw": {
@@ -22683,7 +22823,7 @@
       ],
       "history": [],
       "image_urls": [
-        "https://www.akiyajapan.com/storage/property/op/op_5a4715f9-48c3-11f1-bd67-a6ae20f6eefe_a3fb5f696b9ed.jpg"
+        "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property/op/op_5a4715f9-48c3-11f1-bd67-a6ae20f6eefe_a3fb5f696b9ed.jpg"
       ],
       "land_m2": 262,
       "last_seen": "2026-08-29",
