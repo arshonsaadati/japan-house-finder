@@ -21,24 +21,26 @@ struct ProfileView: View {
                         HStack { Text(Fmt.yenFull(listing.priceYen)).font(.title.bold()); Spacer(); VerdictBadge(verdict: listing.verdict) }
                         Text(Fmt.usd(listing.priceYen)).foregroundStyle(.secondary)
                         Text(listing.displayTitle).font(.headline)
-                        if let a = listing.address { Text(a).font(.subheadline).textSelection(.enabled) }
+                        if let a = listing.address, a != listing.displayTitle { Text(a).font(.subheadline).textSelection(.enabled) }
                     }
                 }
-                Section("Contact / source") {
-                    if let u = listing.sourceURL {
-                        Button { openURL(u) } label: {
-                            Label("Open listing on \(listing.source)", systemImage: "safari")
-                        }
-                        ShareLink(item: u) { Label("Share link", systemImage: "square.and.arrow.up") }
-                        Text(u.absoluteString).font(.caption2).foregroundStyle(.secondary).textSelection(.enabled)
-                    }
-                    row("Source", listing.source); row("Source ID", listing.sourceId)
+                Section("Location") {
+                    ListingMapView(listing: listing)
                 }
                 Section("Facts") {
                     row("Town", listing.town); row("Layout", listing.layout)
                     row("Building", listing.buildingM2.map(Fmt.m2)); row("Land", listing.landM2.map(Fmt.m2))
                     row("Built", listing.buildYear.map(String.init)); row("Type", listing.propertyType)
                     row("Status", listing.status)
+                }
+                Section("Numbers") {
+                    row("Price", Fmt.yenFull(listing.priceYen) + "  " + Fmt.usd(listing.priceYen))
+                    row("¥ / m² building", listing.yenPerBuildingM2.map(Fmt.yenFull))
+                    row("¥ / m² land", listing.yenPerLandM2.map(Fmt.yenFull))
+                    row("Age", listing.ageYears.map { "\($0) years" })
+                    row("Land / building", { if let b = listing.buildingM2, let l = listing.landM2, b > 0 { return String(format: "%.1f×", l / b) }; return nil }())
+                    row("Tsubo (land)", listing.landM2.map { String(format: "%.1f 坪", $0 / 3.30579) })
+                    row("Photos", "\(listing.photoCount)")
                     row("First seen", listing.firstSeen); row("Last seen", listing.lastSeen)
                 }
                 if !listing.verdictReasons.isEmpty {
@@ -56,6 +58,16 @@ struct ProfileView: View {
                         if rows.isEmpty { Text(v.display).textSelection(.enabled) }
                         else { ForEach(rows, id: \.0) { row($0.0, $0.1) } }
                     }
+                }
+                Section("Contact / source") {
+                    if let u = listing.sourceURL {
+                        Button { openURL(u) } label: {
+                            Label("Open listing on \(listing.source)", systemImage: "safari")
+                        }
+                        ShareLink(item: u) { Label("Share link", systemImage: "square.and.arrow.up") }
+                        Text(u.absoluteString).font(.caption2).foregroundStyle(.secondary).textSelection(.enabled)
+                    }
+                    row("Source", listing.source); row("Source ID", listing.sourceId)
                 }
             }
             .navigationTitle("Listing")

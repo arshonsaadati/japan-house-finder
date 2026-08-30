@@ -137,3 +137,12 @@ def test_suumo_detail_gallery():
     assert all("20742196" in u for u in urls)
     assert urls[0].split("&")[0].endswith("20742196_0001.jpg")
     assert len(set(urls)) == len(urls)
+
+
+def test_suumo_detail_coords():
+    from akiya.sources.suumo import parse_detail_coords
+
+    html = (FIX / "suumo_detail_20742196.html").read_text(encoding="utf-8")
+    lat, lng = parse_detail_coords(html)
+    assert abs(lat - 43.1365) < 0.001 and abs(lng - 141.1630) < 0.001
+    assert parse_detail_coords("<html>no map</html>") is None

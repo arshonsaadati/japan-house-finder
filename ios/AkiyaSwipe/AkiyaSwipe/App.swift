@@ -4,6 +4,7 @@ import SwiftUI
 struct AkiyaSwipeApp: App {
     @StateObject private var service = ListingService()
     @StateObject private var store = SwipeStore()
+    @StateObject private var geocoder = Geocoder()
 
     init() {
         // Photos are re-shown constantly while tapping through cards; cache generously.
@@ -15,6 +16,7 @@ struct AkiyaSwipeApp: App {
             RootView()
                 .environmentObject(service)
                 .environmentObject(store)
+                .environmentObject(geocoder)
         }
     }
 }

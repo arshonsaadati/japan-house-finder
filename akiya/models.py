@@ -151,6 +151,8 @@ class Listing:
     building_m2: float | None = None
     land_m2: float | None = None
     build_year: int | None = None
+    lat: float | None = None
+    lng: float | None = None
     property_type: str = "unknown"  # detached | condo | land | business | mixed | unknown
     status: str = "live"  # live | negotiating | sold | rental
     flags: list[str] = field(default_factory=list)

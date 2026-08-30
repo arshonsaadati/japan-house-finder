@@ -132,7 +132,7 @@ def cmd_images(args: argparse.Namespace) -> int:
             continue
         if client is not None:
             try:
-                l.image_urls = suumo.fetch_gallery(client, l)
+                suumo.enrich_from_detail(client, l)
             except Exception as e:  # keep going; the thumbnails still work
                 console.print(f"[yellow]detail fetch failed for {l.key}: {e}[/yellow]")
                 l.image_urls = [suumo.hires(u) for u in l.image_urls]
@@ -147,6 +147,8 @@ def cmd_images(args: argparse.Namespace) -> int:
         if stored:
             stored.local_images = l.local_images
             stored.image_urls = l.image_urls
+            if l.lat is not None:
+                stored.lat, stored.lng = l.lat, l.lng
     store.save()
     console.print(f"[green]saved {total} images[/green] under data/images/")
     return 0

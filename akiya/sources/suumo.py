@@ -66,11 +66,33 @@ def parse_detail_gallery(html: str, source_id: str) -> list[str]:
     return [f"{b}&w={HIRES_WIDTH}" for b in seen]
 
 
-def fetch_gallery(client, listing: Listing) -> list[str]:
-    """Fetch the listing's detail page (throttled + cached by the client) and
-    return the full hi-res gallery; falls back to the existing URLs."""
+_COORD_RE = re.compile(r"(?:init)?(Ido|Keido)\s*:\s*'([0-9.]+)'")
+
+
+def parse_detail_coords(html: str) -> tuple[float, float] | None:
+    """SUUMO's map init script carries `Ido : '43.13…'` / `Keido : '141.16…'`
+    (緯度/経度). Returns (lat, lng) if both are present and plausible for Japan."""
+    found = {k: float(v) for k, v in _COORD_RE.findall(html)}
+    lat, lng = found.get("Ido"), found.get("Keido")
+    if lat is None or lng is None or not (24 < lat < 46 and 122 < lng < 154):
+        return None
+    return lat, lng
+
+
+def enrich_from_detail(client, listing: Listing) -> Listing:
+    """Fetch the detail page (throttled + cached by the client) and fill in the
+    full hi-res gallery and coordinates. Mutates and returns `listing`."""
     html = client.get(listing.url)
-    return parse_detail_gallery(html, listing.source_id) or [hires(u) for u in listing.image_urls]
+    listing.image_urls = parse_detail_gallery(html, listing.source_id) or [hires(u) for u in listing.image_urls]
+    coords = parse_detail_coords(html)
+    if coords:
+        listing.lat, listing.lng = coords
+    return listing
+
+
+def fetch_gallery(client, listing: Listing) -> list[str]:
+    """Back-compat: just the gallery."""
+    return enrich_from_detail(client, listing).image_urls
 
 
 def _city_url(slug: str, page: int) -> str:

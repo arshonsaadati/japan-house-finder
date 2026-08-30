@@ -30,11 +30,13 @@ struct DeckView: View {
                 }
             }
             .padding(.bottom, 8)
-            .navigationTitle("Akiya")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .topBarLeading) {
-                    Text("\(deck.count)").font(.caption.monospacedDigit()).foregroundStyle(.secondary)
+                ToolbarItem(placement: .principal) {
+                    VStack(spacing: 0) {
+                        Text("Akiya").font(.headline)
+                        Text("\(deck.count) left · \(store.likes.count) liked").font(.caption2.monospacedDigit()).foregroundStyle(.secondary)
+                    }
                 }
                 ToolbarItem(placement: .topBarTrailing) {
                     Button { rebuild() } label: { Image(systemName: "arrow.clockwise") }

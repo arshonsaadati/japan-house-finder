@@ -35,6 +35,9 @@ final class ListingService: ObservableObject {
         loadBundled()
     }
 
+    /// Freshest copy of a listing (a like/pass snapshot may predate newer scrape fields).
+    func live(_ l: Listing) -> Listing { listings.first { $0.id == l.id } ?? l }
+
     func loadBundled() {
         guard let url = Bundle.main.url(forResource: "listings", withExtension: "json"),
               let data = try? Data(contentsOf: url),

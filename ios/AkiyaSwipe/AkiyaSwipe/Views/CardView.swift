@@ -64,32 +64,69 @@ struct CardView: View {
     }
 
     private var infoStrip: some View {
-        HStack(alignment: .bottom) {
-            VStack(alignment: .leading, spacing: 4) {
-                HStack(spacing: 8) {
-                    Text(listing.priceLine).font(.title2.bold())
-                    VerdictBadge(verdict: listing.verdict)
-                }
+        VStack(alignment: .leading, spacing: 7) {
+            HStack(alignment: .firstTextBaseline, spacing: 8) {
+                Text(Fmt.yen(listing.priceYen)).font(.system(size: 30, weight: .heavy, design: .rounded))
+                Text(Fmt.usd(listing.priceYen)).font(.subheadline.weight(.semibold)).foregroundStyle(.white.opacity(0.75))
+                Spacer(minLength: 4)
+                VerdictBadge(verdict: listing.verdict)
+            }
+            HStack(spacing: 6) {
+                Image(systemName: "mappin.and.ellipse").font(.caption)
                 Text([listing.town, listing.address].compactMap { $0 }.joined(separator: " · "))
-                    .font(.subheadline).lineLimit(1)
-                Text(listing.specLine).font(.caption).foregroundStyle(.white.opacity(0.8))
-                if !listing.flags.isEmpty {
-                    Text(listing.flags.joined(separator: " • ")).font(.caption2)
-                        .foregroundStyle(.yellow).lineLimit(2)
+                    .font(.subheadline.weight(.medium)).lineLimit(1)
+            }
+            // Stats chips — everything the scrape gives us, at a glance.
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 6) {
+                    if let v = listing.layout { Chip("square.split.2x2", v) }
+                    if let v = listing.buildingM2 { Chip("house", Fmt.m2(v)) }
+                    if let v = listing.landM2 { Chip("map", "land " + Fmt.m2(v)) }
+                    if let y = listing.buildYear { Chip("calendar", "\(y)" + (listing.ageYears.map { " · \($0)y" } ?? "")) }
+                    if let v = listing.yenPerBuildingM2 { Chip("yensign", Fmt.yen(v) + "/m²") }
+                    if listing.status != "live" { Chip("exclamationmark.triangle", listing.status, tint: .orange) }
+                    if listing.propertyType != "detached" { Chip("building.2", listing.propertyType, tint: .orange) }
+                    Chip("photo.on.rectangle", "\(listing.photoCount)")
+                    Chip("link", listing.source)
                 }
             }
-            Spacer(minLength: 8)
-            Button(action: onInfo) {
-                Image(systemName: "info.circle.fill").font(.system(size: 30))
+            if !listing.flags.isEmpty {
+                Label(listing.flags.joined(separator: " • "), systemImage: "flag.fill")
+                    .font(.caption2).foregroundStyle(.yellow).lineLimit(2)
             }
-            .buttonStyle(.plain)
         }
         .foregroundStyle(.white)
-        .padding(14)
+        .padding(.horizontal, 14).padding(.top, 10).padding(.bottom, 14)
+        .frame(maxWidth: .infinity, alignment: .leading)
         .background(
-            LinearGradient(colors: [.clear, .black.opacity(0.85)], startPoint: .top, endPoint: .bottom)
-                .padding(.top, -60)
+            LinearGradient(colors: [.clear, .black.opacity(0.55), .black.opacity(0.92)],
+                           startPoint: .top, endPoint: .bottom)
+                .padding(.top, -70)
         )
+        .overlay(alignment: .topTrailing) {
+            Button(action: onInfo) {
+                Image(systemName: "info.circle.fill").font(.system(size: 26))
+                    .foregroundStyle(.white, .white.opacity(0.25))
+            }
+            .buttonStyle(.plain)
+            .padding(.trailing, 14).padding(.top, -34)
+        }
+    }
+}
+
+struct Chip: View {
+    let icon: String; let text: String; var tint: Color = .white
+    init(_ icon: String, _ text: String, tint: Color = .white) { self.icon = icon; self.text = text; self.tint = tint }
+    var body: some View {
+        HStack(spacing: 4) {
+            Image(systemName: icon).font(.system(size: 10, weight: .semibold))
+            Text(text).font(.caption2.weight(.semibold))
+        }
+        .padding(.horizontal, 8).padding(.vertical, 5)
+        .background(.white.opacity(0.14), in: Capsule())
+        .overlay(Capsule().strokeBorder(.white.opacity(0.18)))
+        .foregroundStyle(tint)
+        .fixedSize()
     }
 }
 

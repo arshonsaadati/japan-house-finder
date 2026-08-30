@@ -19,7 +19,7 @@ struct LikesView: View {
                 } else {
                     List {
                         ForEach(entries) { e in
-                            Button { selected = e.listing } label: { ListingRow(listing: e.listing, baseURL: service.baseURL) }
+                            Button { selected = service.live(e.listing) } label: { ListingRow(listing: e.listing, baseURL: service.baseURL) }
                                 .buttonStyle(.plain)
                                 .swipeActions {
                                     Button(role: .destructive) { store.forget(e.id) } label: {

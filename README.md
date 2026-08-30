@@ -137,6 +137,12 @@ stack; everything inside the card is SwiftUI.
   **contact** — the source listing page (Open / Share). The scrapers don't
   extract a phone/agent field separately; the source page is where the contact
   form / agent lives.
+- **Location**: the profile has a MapKit map. SUUMO listings get exact
+  coordinates from their detail page (`akiya images --detail` scrapes the
+  `initIdo`/`initKeido` map init values into `lat`/`lng`); other sources are
+  geocoded on-device with `CLGeocoder` (full address → chōme → town fallbacks,
+  cached in the app). akiyajapan gives no street address, so those show a
+  town-level circle. "Maps" opens Apple Maps.
 - **Likes** and **Passed** lists are stored **only on the device**
   (`Documents/swipes.json`, full listing snapshots). Passed listings are never
   re-shown; swipe a row to forget/like/pass again.
