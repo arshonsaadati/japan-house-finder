@@ -10,10 +10,13 @@ final class ListingService: ObservableObject {
     @Published var loading = false
 
     static let serverKey = "serverBaseURL"
+    /// The Pi over Tailscale (HTTPS via `tailscale serve`; only reachable from a tailnet the Pi is shared into).
+    static let defaultServer = "https://raspberrypi.tail087d97.ts.net"
 
     var baseURL: URL? {
         let s = UserDefaults.standard.string(forKey: Self.serverKey)?.trimmingCharacters(in: .whitespaces) ?? ""
-        return s.isEmpty ? nil : URL(string: s)
+        if s == "-" { return nil }                       // explicit "bundled only"
+        return URL(string: s.isEmpty ? Self.defaultServer : s)
     }
 
     func load() async {

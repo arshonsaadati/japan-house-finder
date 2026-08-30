@@ -11,13 +11,13 @@ struct SettingsView: View {
         NavigationStack {
             Form {
                 Section("Server (`akiya serve`)") {
-                    TextField("http://192.168.1.10:8787", text: $server)
+                    TextField(ListingService.defaultServer, text: $server)
                         .keyboardType(.URL).textInputAutocapitalization(.never).autocorrectionDisabled()
                     Button("Reload listings") { Task { await service.load() } }
                     LabeledContent("Loaded from", value: service.origin)
                     LabeledContent("Listings", value: "\(service.listings.count)")
                     if let e = service.error { Text(e).font(.caption).foregroundStyle(.red) }
-                    Text("Leave blank to use the snapshot bundled with the app.").font(.caption).foregroundStyle(.secondary)
+                    Text("Blank = the Pi over Tailscale (needs the Tailscale app connected). Enter “-” to use only the bundled snapshot.").font(.caption).foregroundStyle(.secondary)
                 }
                 Section("Deck") {
                     Toggle("Include rejected listings", isOn: $showRejects)
