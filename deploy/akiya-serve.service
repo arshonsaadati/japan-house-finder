@@ -1,0 +1,26 @@
+# systemd --user unit: JSON API + photos for the iOS app.
+# Binds to 127.0.0.1 ONLY — reachable solely through `tailscale serve`
+# (HTTPS on the tailnet). Never exposed on the LAN or the internet.
+#   ln -sf ~/Code/japan-house-finder/deploy/akiya-serve.service ~/.config/systemd/user/
+#   systemctl --user daemon-reload && systemctl --user enable --now akiya-serve
+[Unit]
+Description=akiya serve — listings JSON API for the iOS swipe app (localhost only)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/arshons/Code/japan-house-finder
+ExecStart=/home/arshons/Code/japan-house-finder/.venv/bin/akiya serve --host 127.0.0.1 --port 8787
+Restart=always
+RestartSec=5
+Environment=PATH=/home/arshons/.local/bin:/usr/local/bin:/usr/bin:/bin
+# Hardening
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/home/arshons/Code/japan-house-finder/data
+
+[Install]
+WantedBy=default.target
