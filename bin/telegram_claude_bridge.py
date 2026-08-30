@@ -133,6 +133,14 @@ def main() -> None:
             offset = max(offset, upd["update_id"])
             _save_offset(offset)
             msg = upd.get("message") or {}
+            # Log the chat id of ANY update we can see (service messages,
+            # being added to a group, etc.) so new groups are easy to whitelist.
+            probe = msg or upd.get("my_chat_member") or upd.get("edited_message") or {}
+            probe_chat = probe.get("chat", {})
+            if probe_chat and str(probe_chat.get("id", "")) not in _allowed_chats():
+                print(f"seen chat {probe_chat.get('id')} "
+                      f"({probe_chat.get('title') or probe_chat.get('username') or probe_chat.get('type')})",
+                      flush=True)
             chat_id = str(msg.get("chat", {}).get("id", ""))
             text = (msg.get("text") or "").strip()
             if not text:
