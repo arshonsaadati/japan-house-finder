@@ -14,3 +14,4 @@ data/gallery*.html
 ios/AkiyaSwipe/build/
 ios/**/xcuserdata/
 ios/**/*.xcworkspace/xcshareddata/swiftpm/
+.DS_Store
