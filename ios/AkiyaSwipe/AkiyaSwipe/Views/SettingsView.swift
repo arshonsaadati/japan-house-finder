@@ -17,7 +17,7 @@ struct SettingsView: View {
                     LabeledContent("Loaded from", value: service.origin)
                     LabeledContent("Listings", value: "\(service.listings.count)")
                     if let e = service.error { Text(e).font(.caption).foregroundStyle(.red) }
-                    Text("Blank = the Pi over Tailscale (needs the Tailscale app connected). Enter “-” to use only the bundled snapshot.").font(.caption).foregroundStyle(.secondary)
+                    Text("Blank = the Pi (public HTTPS via Tailscale Funnel, app token required). Enter “-” to use only the bundled snapshot.").font(.caption).foregroundStyle(.secondary)
                 }
                 Section("Deck") {
                     Toggle("Include rejected listings", isOn: $showRejects)

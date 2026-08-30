@@ -177,23 +177,26 @@ SUUMO detail page — throttled ≥30s and disk-cached like every SUUMO request 
 to pick up the full gallery (typically 5–24 photos vs 3 on the list page).
 akiyajapan serves 640×480 originals and Blogspot `s1600` originals already.
 
-### Reaching the Pi from the app (Tailscale, no open ports)
+### Reaching the Pi from the app (Tailscale Funnel + app token)
 
-The app's server runs on the Pi as `deploy/akiya-serve.service` bound to
-**127.0.0.1:8787 only** — it is never on the LAN or the internet. Access is
-via **Tailscale**: `tailscale serve` terminates HTTPS on the tailnet
-(`https://raspberrypi.<tailnet>.ts.net`) and proxies to localhost. Each of the
-few users installs the Tailscale app on their phone and gets the Pi shared into
-their tailnet (Admin console → Machines → raspberrypi → Share). No router
-port-forwards, no public URL, no API keys in the app.
+`deploy/akiya-serve.service` runs `akiya serve` on the Pi bound to
+**127.0.0.1:8787 only**. **Tailscale Funnel** publishes it as
+`https://raspberrypi.tail087d97.ts.net` (TLS by Tailscale, no router
+port-forward, the Pi itself stays unreachable). Every request must carry the
+app token — `Authorization: Bearer …` or `?token=…` for photo URLs — or it gets
+a bare 401. Users just install the app; no VPN client needed.
+
+- Token lives in `.env.akiya` on the Pi (`AKIYA_API_TOKEN=…`, mode 600,
+  gitignored) and in `ios/AkiyaSwipe/AkiyaSwipe/Resources/Secrets.plist`
+  (gitignored; copy `Secrets.example.plist`). Rotate by regenerating both and
+  `systemctl --user restart akiya-serve`.
+- The repo is public: never commit either file.
 
 ```bash
 # on the Pi (one-time)
-curl -fsSL https://tailscale.com/install.sh | sh
-sudo tailscale up                       # click the printed login link
-sudo tailscale serve --bg 8787          # HTTPS :443 on the tailnet -> localhost:8787
+curl -fsSL https://tailscale.com/install.sh | sh && sudo tailscale up
+sudo tailscale funnel --bg 8787         # public HTTPS :443 -> localhost:8787
+umask 077; echo "AKIYA_API_TOKEN=$(openssl rand -hex 32)" > ~/Code/japan-house-finder/.env.akiya
 ln -sf ~/Code/japan-house-finder/deploy/akiya-serve.service ~/.config/systemd/user/
 systemctl --user daemon-reload && systemctl --user enable --now akiya-serve
 ```
-
-In the app: Settings → Server → `https://raspberrypi.<tailnet>.ts.net`.
