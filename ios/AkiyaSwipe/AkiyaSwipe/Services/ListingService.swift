@@ -2,6 +2,11 @@ import Foundation
 
 /// Loads listings from `akiya serve` if a base URL is configured and reachable,
 /// otherwise from the bundled snapshot (Resources/listings.json).
+enum ServerError: LocalizedError {
+    case unauthorized
+    var errorDescription: String? { "server rejected the app token (401) — check Secrets.plist" }
+}
+
 @MainActor
 final class ListingService: ObservableObject {
     @Published var listings: [Listing] = []
@@ -24,9 +29,12 @@ final class ListingService: ObservableObject {
         error = nil
         if let base = baseURL {
             do {
-                let (data, resp) = try await URLSession.shared.data(from: base.appendingPathComponent("api/listings"))
-                guard (resp as? HTTPURLResponse).map({ 200..<300 ~= $0.statusCode }) ?? true else {
-                    throw URLError(.badServerResponse)
+                var req = URLRequest(url: base.appendingPathComponent("api/listings"))
+                if let t = Secrets.apiToken { req.setValue("Bearer \(t)", forHTTPHeaderField: "Authorization") }
+                let (data, resp) = try await URLSession.shared.data(for: req)
+                if let code = (resp as? HTTPURLResponse)?.statusCode {
+                    if code == 401 { throw ServerError.unauthorized }
+                    guard 200..<300 ~= code else { throw URLError(.badServerResponse) }
                 }
                 listings = try JSONDecoder().decode(ListingsPayload.self, from: data).listings
                 origin = "server \(base.host ?? base.absoluteString)"

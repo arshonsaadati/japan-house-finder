@@ -46,7 +46,12 @@ struct Listing: Codable, Identifiable, Hashable {
     /// Photo URLs, resolved against the server base for relative `/images/...` paths.
     func photoURLs(base: URL?) -> [URL] {
         (photos ?? imageUrls).compactMap { s in
-            if s.hasPrefix("/"), let base { return URL(string: s, relativeTo: base)?.absoluteURL }
+            if s.hasPrefix("/"), let base {
+                // Server-hosted photo: AsyncImage can't send headers, so pass the token as a query param.
+                var path = s
+                if let t = Secrets.apiToken { path += "?token=\(t)" }
+                return URL(string: path, relativeTo: base)?.absoluteURL
+            }
             return URL(string: s)
         }
     }

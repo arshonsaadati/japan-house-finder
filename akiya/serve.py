@@ -7,18 +7,25 @@ Endpoints (stdlib only, no extra deps):
                                   /images/... when present, else the remote URLs.
   GET /images/<source>/<id>/<file>   static files from data/images/
 
-Run with `uv run akiya serve --host 0.0.0.0 --port 8787` (bind 0.0.0.0 so a
-phone on the same Wi-Fi / Tailscale can reach it).
+Auth: if AKIYA_API_TOKEN is set (it always is in production), every request
+must carry it — `Authorization: Bearer <token>` or `?token=<token>` (the latter
+for photo URLs, which the app loads without custom headers). Anything else is
+a bare 401. Compared in constant time.
+
+Run with `uv run akiya serve` behind `tailscale serve`/`funnel`, or bind
+`--host 0.0.0.0` on a trusted LAN.
 """
 
 from __future__ import annotations
 
+import hmac
 import json
+import os
 from functools import partial
 from http import HTTPStatus
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import parse_qs, urlsplit
 
 from .images import IMAGES_DIR
 from .sources.suumo import hires
@@ -65,7 +72,20 @@ class Handler(SimpleHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(body)
 
+    def _authorized(self) -> bool:
+        token = os.environ.get("AKIYA_API_TOKEN", "")
+        if not token:
+            return True  # dev mode, no token configured
+        hdr = self.headers.get("Authorization", "")
+        presented = hdr[7:] if hdr.startswith("Bearer ") else ""
+        if not presented:
+            qs = parse_qs(urlsplit(self.path).query)
+            presented = (qs.get("token") or [""])[0]
+        return hmac.compare_digest(presented, token)
+
     def do_GET(self):
+        if not self._authorized():
+            return self._json({"error": "unauthorized"}, HTTPStatus.UNAUTHORIZED)
         path = urlsplit(self.path).path
         if path == "/api/listings":
             # Re-read each request so a cron scrape shows up without a restart.
@@ -79,6 +99,10 @@ class Handler(SimpleHTTPRequestHandler):
         return self._json({"error": "not found"}, HTTPStatus.NOT_FOUND)
 
     def do_HEAD(self):
+        if not self._authorized():
+            self.send_response(HTTPStatus.UNAUTHORIZED)
+            self.end_headers()
+            return
         path = urlsplit(self.path).path
         if path.startswith("/images/"):
             self.path = path[len("/images"):]
@@ -92,7 +116,8 @@ def serve(host: str = "127.0.0.1", port: int = 8787,
     images_dir.mkdir(parents=True, exist_ok=True)
     handler = partial(Handler, store_path=store_path, images_dir=images_dir)
     httpd = ThreadingHTTPServer((host, port), handler)
-    print(f"akiya serve: http://{host}:{port}/api/listings  (images from {images_dir})")
+    auth = "token required" if os.environ.get("AKIYA_API_TOKEN") else "NO TOKEN (dev mode)"
+    print(f"akiya serve: http://{host}:{port}/api/listings  (images from {images_dir}; {auth})")
     try:
         httpd.serve_forever()
     except KeyboardInterrupt:

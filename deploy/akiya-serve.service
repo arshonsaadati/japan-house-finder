@@ -11,6 +11,8 @@ Wants=network-online.target
 [Service]
 Type=simple
 WorkingDirectory=/home/arshons/Code/japan-house-finder
+# AKIYA_API_TOKEN=<random> — required by serve.py; never committed.
+EnvironmentFile=/home/arshons/Code/japan-house-finder/.env.akiya
 ExecStart=/home/arshons/Code/japan-house-finder/.venv/bin/akiya serve --host 127.0.0.1 --port 8787
 Restart=always
 RestartSec=5
