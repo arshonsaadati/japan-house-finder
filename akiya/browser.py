@@ -16,7 +16,8 @@ import os
 
 CHALLENGE_MARKERS = ("awswaf", "challenge.js", "Just a moment", "cf-browser-verification")
 # Text that appears on the rendered challenge interstitial itself.
-CHALLENGE_BODY_MARKERS = ("confirm you are human", "確認しています", "Checking your browser")
+CHALLENGE_BODY_MARKERS = ("confirm you are human", "確認しています", "Checking your browser",
+                          "しばらくお待ちください")  # CF's Japanese "please wait"
 # A hard Cloudflare block (rate-limit / IP flag) — waiting won't clear it.
 BLOCK_MARKERS = ("Attention Required! | Cloudflare", "Sorry, you have been blocked")
 

@@ -146,3 +146,12 @@ def test_suumo_detail_coords():
     lat, lng = parse_detail_coords(html)
     assert abs(lat - 43.1365) < 0.001 and abs(lng - 141.1630) < 0.001
     assert parse_detail_coords("<html>no map</html>") is None
+
+
+def test_akiyajapan_property_gallery_dedupe():
+    from akiya.sources.akiyajapan import parse_property_gallery
+    cdn = "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property"
+    html = f'<img src="{cdn}/hm/a.jpg"><img src="{cdn}/hm/a.jpg"><img src="{cdn}/hm/b.webp">'
+    urls = parse_property_gallery(html)
+    assert urls == [f"{cdn}/hm/a.jpg", f"{cdn}/hm/b.webp"]
+    assert parse_property_gallery("<html>none</html>") == []

@@ -138,6 +138,37 @@ def cmd_images(args: argparse.Namespace) -> int:
                 l.image_urls = [suumo.hires(u) for u in l.image_urls]
         else:
             l.image_urls = [suumo.hires(u) for u in l.image_urls]
+
+    # akiyajapan: full galleries live on Cloudflare-gated /property pages that
+    # need a HEADED browser (and occasionally one human click on "verify" —
+    # the clearance cookie persists in ~/.akiya-cf-state.json afterwards).
+    if args.detail:
+        from pathlib import Path as _P
+        import time as _time
+
+        aj = [l for l in listings
+              if l.source == "akiyajapan" and len(l.image_urls) <= 1]
+        if aj:
+            from .browser import BrowserSession
+
+            state = str(_P.home() / ".akiya-cf-state.json")
+            console.print(
+                f"[cyan]akiyajapan: fetching galleries for {len(aj)} listings "
+                f"in a visible Chrome window. If Cloudflare shows a 'verify' "
+                f"button, click it once — after that it remembers you.[/cyan]"
+            )
+            from .sources import akiyajapan as _aj
+
+            with BrowserSession(headless=False, storage_state=state) as b:
+                for i, l in enumerate(aj):
+                    try:
+                        _aj.enrich_from_detail(b, l)
+                        console.print(f"[dim]  {i+1}/{len(aj)} {l.key}: "
+                                      f"{len(l.image_urls)} photos[/dim]")
+                    except Exception as e:
+                        console.print(f"[yellow]  {l.key}: {e}[/yellow]")
+                    if i < len(aj) - 1:
+                        _time.sleep(20)  # politeness between property pages
     with_urls = [l for l in listings if l.image_urls]
     console.print(f"[dim]downloading images for {len(with_urls)} listings…[/dim]")
     total = download_all(with_urls, force=args.force)

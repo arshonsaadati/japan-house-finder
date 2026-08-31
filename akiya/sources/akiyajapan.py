@@ -135,3 +135,41 @@ def fetch(client, towns: list[str] | None = None, log=None) -> list[Listing]:
     if attribution and log:
         log(f"akiyajapan attribution: {attribution}")
     return listings
+
+
+# --- Property-page gallery enrichment (headed browser; see DECISIONS.md) ---
+#
+# The API list response carries one cover image; full galleries (10-15 photos)
+# live on the robots-ALLOWED /property/{uuid} pages, which Cloudflare now
+# gates behind an interactive challenge. A headed real-Chrome session with a
+# persisted storage_state (~/.akiya-cf-state.json) clears it — the human
+# clicks "verify" once and the clearance cookie is reused for every
+# subsequent page. The tool itself never clicks the challenge.
+
+_GALLERY_RE = None  # compiled lazily
+
+
+def parse_property_gallery(html: str) -> list[str]:
+    """All property photos on a rendered /property page, deduped, in order."""
+    global _GALLERY_RE
+    if _GALLERY_RE is None:
+        _GALLERY_RE = re.compile(
+            r"https://akiyajapan\.sgp1\.cdn\.digitaloceanspaces\.com/"
+            r"storage/property/[^\s\"'\\)>]+"
+        )
+    seen: list[str] = []
+    for u in _GALLERY_RE.findall(html):
+        u = u.rstrip("\\'\"")
+        if u not in seen:
+            seen.append(u)
+    return seen[:16]
+
+
+def enrich_from_detail(browser, listing: Listing) -> Listing:
+    """Fetch the listing's property page in the given BrowserSession and fill
+    in the full gallery. Mutates and returns `listing`."""
+    html = browser.get_html(listing.url, challenge_timeout_ms=180_000)
+    gallery = parse_property_gallery(html)
+    if gallery:
+        listing.image_urls = gallery
+    return listing
