@@ -177,6 +177,9 @@ def parse_property_gallery(html: str, own_uuid: str) -> list[str]:
         if "/property/" in href and own_uuid not in href:
             continue  # related-listing card, not our photo
         u = m.group(0).rstrip("\\'\"")
+        # Thumbs (hash_thumb.webp) have a full-res twin at hash.jpg — verified
+        # live against their CDN. Normalize so dedupe collapses the pair.
+        u = re.sub(r"_thumb\.[A-Za-z]+$", ".jpg", u)
         if u not in seen:
             seen.append(u)
     return seen[:16]

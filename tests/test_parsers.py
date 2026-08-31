@@ -171,5 +171,8 @@ def test_akiyajapan_property_gallery_real_fixture():
     # 11 related-listing covers that must all be excluded.
     assert urls, "gallery should not be empty"
     assert all("766bcf6f" in u for u in urls), urls
+    # thumbs are normalized to their full-res .jpg twins and deduped
+    assert len(urls) == 4
+    assert all(u.endswith(".jpg") and "_thumb" not in u for u in urls)
     for foreign in ("9c414009", "bb3220c5", "ec3adc8c", "3ba3ef4f"):
         assert not any(foreign in u for u in urls)
