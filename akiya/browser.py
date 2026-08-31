@@ -57,6 +57,7 @@ class BrowserSession:
         self._pw = None
         self._browser = None
         self._context = None
+        self._page = None  # one reused tab: challenges stay clickable, cookies stick
 
     def __enter__(self) -> "BrowserSession":
         from playwright.sync_api import sync_playwright
@@ -98,6 +99,11 @@ class BrowserSession:
         return self
 
     def __exit__(self, *exc) -> None:
+        if self._page:
+            try:
+                self._page.close()
+            except Exception:
+                pass
         if self.storage_state and self._context:
             try:
                 self._context.storage_state(path=self.storage_state)
@@ -124,7 +130,13 @@ class BrowserSession:
         ChallengeUnsolved if the interstitial never clears, so a challenge
         page is never mistaken for content or cached.
         """
-        page = self._context.new_page()
+        # Reuse one tab: a fresh tab per URL re-triggers interactive
+        # challenges and yanks the page away mid-click. One persistent tab
+        # lets a human's "verify" click land, after which the clearance
+        # cookie carries every following navigation.
+        if self._page is None or self._page.is_closed():
+            self._page = self._context.new_page()
+        page = self._page
         try:
             page.goto(url, wait_until="domcontentloaded", timeout=45_000)
 
@@ -132,8 +144,12 @@ class BrowserSession:
             waited = 0
             step = 1000
             while waited < deadline:
-                content = page.content()
-                if not looks_like_challenge(content):
+                try:
+                    content = page.content()
+                except Exception:
+                    # Challenge JS reloads the page mid-read; just wait it out.
+                    content = ""
+                if content and not looks_like_challenge(content):
                     break
                 page.wait_for_timeout(step)
                 waited += step
@@ -159,6 +175,15 @@ class BrowserSession:
                 raise HardBlocked(f"hard block page returned for {url}")
             if looks_like_challenge(content):
                 raise ChallengeUnsolved(f"WAF challenge still present for {url}")
+            # A human may have just solved an interactive challenge — bank the
+            # clearance cookie immediately so a crash/kill can't lose it.
+            if self.storage_state:
+                try:
+                    self._context.storage_state(path=self.storage_state)
+                except Exception:
+                    pass
             return content
-        finally:
-            page.close()
+        except Exception:
+            # Keep the tab open (and any challenge on it clickable) for the
+            # next call; it is closed in __exit__.
+            raise
