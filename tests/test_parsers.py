@@ -176,3 +176,17 @@ def test_akiyajapan_property_gallery_real_fixture():
     assert all(u.endswith(".jpg") and "_thumb" not in u for u in urls)
     for foreign in ("9c414009", "bb3220c5", "ec3adc8c", "3ba3ef4f"):
         assert not any(foreign in u for u in urls)
+
+
+def test_akiyajapan_photo_set_ids():
+    from akiya.sources.akiyajapan import photo_set_ids
+    cdn = "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property"
+    urls = [
+        f"{cdn}/hm/hm_766bcf6f-a19d-11f1-a659-a6ae20f6eefe_10e0a79d7ea52.jpg",
+        f"{cdn}/hm/hm_766bcf6f-a19d-11f1-a659-a6ae20f6eefe_4657c03e52abf_thumb.webp",
+        f"{cdn}/sp/sp_9c414009-8f8a-11f1-a659-a6ae20f6eefe_aaa.jpg",
+    ]
+    ids = photo_set_ids(urls)
+    assert ids == {"766bcf6f-a19d-11f1-a659-a6ae20f6eefe",
+                   "9c414009-8f8a-11f1-a659-a6ae20f6eefe"}
+    assert photo_set_ids(["https://example.com/x.jpg"]) == set()

@@ -16,7 +16,7 @@ import httpx
 from .models import Listing
 
 IMAGES_DIR = Path(__file__).resolve().parent.parent / "data" / "images"
-MAX_PER_LISTING = 16  # full akiyajapan galleries run 15-16 photos
+MAX_PER_LISTING = 24  # full lightbox galleries run up to ~20 photos
 
 # Referer helps some hosts (HOME'S) serve images to non-browser clients.
 _REFERERS = {

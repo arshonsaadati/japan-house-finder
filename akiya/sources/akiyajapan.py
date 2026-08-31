@@ -185,12 +185,64 @@ def parse_property_gallery(html: str, own_uuid: str) -> list[str]:
     return seen[:16]
 
 
+def photo_set_ids(urls: list[str]) -> set[str]:
+    """A listing's photos share filename photo-set uuids (hm_<uuid>_<hash>…).
+    Extract them so lightbox-loaded photos can be matched to the listing."""
+    out: set[str] = set()
+    for u in urls:
+        m = re.search(r"/[a-z]{2}_([0-9a-f-]{36})_", u)
+        if m:
+            out.add(m.group(1))
+    return out
+
+
 def enrich_from_detail(browser, listing: Listing) -> Listing:
-    """Fetch the listing's property page in the given BrowserSession and fill
-    in the full gallery. Mutates and returns `listing`."""
-    html = browser.get_html(listing.url, challenge_timeout_ms=180_000)
+    """Open the property page, walk the photo lightbox to force every photo to
+    load, and keep only photos whose photo-set uuid matches the listing's own
+    statically-verified photos (anti-contamination). Mutates and returns."""
     own_uuid = listing.url.rstrip("/").rsplit("/", 1)[-1]
-    gallery = parse_property_gallery(html, own_uuid)
+    page = browser.open(listing.url, challenge_timeout_ms=180_000)
+    page.wait_for_timeout(2500)
+
+    static = parse_property_gallery(page.content(), own_uuid)
+    own_sets = photo_set_ids(static)
+    if not own_sets:
+        if static:
+            listing.image_urls = static
+        return listing
+
+    # Open the lightbox from the hero photo and arrow through the carousel so
+    # every lazily-loaded photo lands in the DOM. The tool clicks only the
+    # site's own gallery UI — never any challenge element.
+    try:
+        hero = page.query_selector("img[src*='storage/property']")
+        if hero:
+            hero.click()
+            page.wait_for_timeout(1500)
+            last = -1
+            for _ in range(40):
+                page.keyboard.press("ArrowRight")
+                page.wait_for_timeout(350)
+                n = page.evaluate(
+                    "[...new Set([...document.images].map(i=>i.currentSrc||i.src))]"
+                    ".filter(s=>s.includes('storage/property')).length"
+                )
+                if n == last:
+                    break
+                last = n
+            page.keyboard.press("Escape")
+    except Exception:
+        pass  # fall back to whatever loaded
+
+    dom_urls = page.evaluate(
+        "[...new Set([...document.images].map(i=>i.currentSrc||i.src))]"
+        ".filter(s=>s.includes('storage/property'))"
+    )
+    gallery: list[str] = []
+    for u in list(static) + list(dom_urls):
+        u = re.sub(r"_thumb\.[A-Za-z]+$", ".jpg", u.split("?")[0])
+        if photo_set_ids([u]) & own_sets and u not in gallery:
+            gallery.append(u)
     if gallery:
-        listing.image_urls = gallery
+        listing.image_urls = gallery[:24]
     return listing

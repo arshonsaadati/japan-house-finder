@@ -117,6 +117,32 @@ class BrowserSession:
             self._pw.stop()
         self._context = self._browser = self._pw = None
 
+    def open(self, url: str, challenge_timeout_ms: int = 50_000):
+        """Navigate the session's single tab to url, wait out any challenge,
+        and return the live Playwright page for further interaction."""
+        if self._page is None or self._page.is_closed():
+            self._page = self._context.new_page()
+        page = self._page
+        page.goto(url, wait_until="domcontentloaded", timeout=45_000)
+        waited = 0
+        while waited < challenge_timeout_ms:
+            try:
+                content = page.content()
+            except Exception:
+                content = ""
+            if content and not looks_like_challenge(content):
+                if looks_blocked(content):
+                    raise HardBlocked(f"hard block page returned for {url}")
+                if self.storage_state:
+                    try:
+                        self._context.storage_state(path=self.storage_state)
+                    except Exception:
+                        pass
+                return page
+            page.wait_for_timeout(1000)
+            waited += 1000
+        raise ChallengeUnsolved(f"WAF challenge did not clear for {url}")
+
     def get_html(
         self,
         url: str,
