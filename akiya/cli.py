@@ -286,6 +286,12 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def main(argv: list[str] | None = None) -> int:
+    # Line-buffer stdout even when piped/backgrounded so long runs (cron,
+    # nohup) stream progress live instead of dumping everything at exit.
+    try:
+        sys.stdout.reconfigure(line_buffering=True)
+    except Exception:
+        pass
     args = build_parser().parse_args(argv)
     return args.func(args)
 
