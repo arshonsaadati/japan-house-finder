@@ -148,10 +148,28 @@ def test_suumo_detail_coords():
     assert parse_detail_coords("<html>no map</html>") is None
 
 
-def test_akiyajapan_property_gallery_dedupe():
+def test_akiyajapan_property_gallery_excludes_related_listings():
     from akiya.sources.akiyajapan import parse_property_gallery
     cdn = "https://akiyajapan.sgp1.cdn.digitaloceanspaces.com/storage/property"
-    html = f'<img src="{cdn}/hm/a.jpg"><img src="{cdn}/hm/a.jpg"><img src="{cdn}/hm/b.webp">'
-    urls = parse_property_gallery(html)
-    assert urls == [f"{cdn}/hm/a.jpg", f"{cdn}/hm/b.webp"]
-    assert parse_property_gallery("<html>none</html>") == []
+    own = "aaaa1111"
+    html = (
+        f'<img src="{cdn}/hm/mine1.jpg"><img src="{cdn}/hm/mine1.jpg">'
+        f'<a href="/property/{own}"><img src="{cdn}/hm/mine2.jpg"></a>'
+        f'<a href="/property/bbbb2222"><img src="{cdn}/hm/theirs.jpg"></a>'
+    )
+    urls = parse_property_gallery(html, own)
+    assert urls == [f"{cdn}/hm/mine1.jpg", f"{cdn}/hm/mine2.jpg"]
+    assert parse_property_gallery("<html>none</html>", own) == []
+
+
+def test_akiyajapan_property_gallery_real_fixture():
+    from akiya.sources.akiyajapan import parse_property_gallery
+    html = (FIX / "akiyajapan_property.html").read_text(encoding="utf-8")
+    own = "53616c7465645f5f3c1e169b81628fb42f64cbaeb5b32e4d62890e28cc9dcfd5"
+    urls = parse_property_gallery(html, own)
+    # This listing owns exactly the hm_766bcf6f… photos; the page also embeds
+    # 11 related-listing covers that must all be excluded.
+    assert urls, "gallery should not be empty"
+    assert all("766bcf6f" in u for u in urls), urls
+    for foreign in ("9c414009", "bb3220c5", "ec3adc8c", "3ba3ef4f"):
+        assert not any(foreign in u for u in urls)

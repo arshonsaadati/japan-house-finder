@@ -146,20 +146,37 @@ def fetch(client, towns: list[str] | None = None, log=None) -> list[Listing]:
 # clicks "verify" once and the clearance cookie is reused for every
 # subsequent page. The tool itself never clicks the challenge.
 
-_GALLERY_RE = None  # compiled lazily
+_CDN_SRC = re.compile(r"https://akiyajapan\.sgp1\.cdn\.digitaloceanspaces\.com/storage/property/[^\s\"'\\)>]+")
 
 
-def parse_property_gallery(html: str) -> list[str]:
-    """All property photos on a rendered /property page, deduped, in order."""
-    global _GALLERY_RE
-    if _GALLERY_RE is None:
-        _GALLERY_RE = re.compile(
-            r"https://akiyajapan\.sgp1\.cdn\.digitaloceanspaces\.com/"
-            r"storage/property/[^\s\"'\\)>]+"
-        )
+def parse_property_gallery(html: str, own_uuid: str) -> list[str]:
+    """The listing's OWN photos from a rendered /property page.
+
+    The page embeds a related/similar-properties strip whose cover photos
+    live on the same CDN path — every one of those sits inside an
+    <a href="/property/<other-uuid>"> card. Rule (verified against a real
+    fixture): keep a CDN <img> only if no ancestor <a> links to a DIFFERENT
+    property. Filename uuids are unrelated to the listing uuid, so DOM
+    context is the only reliable signal.
+    """
+    from bs4 import BeautifulSoup
+
+    soup = BeautifulSoup(html, "html.parser")
     seen: list[str] = []
-    for u in _GALLERY_RE.findall(html):
-        u = u.rstrip("\\'\"")
+    for img in soup.find_all("img"):
+        src = img.get("src") or img.get("data-src") or ""
+        if isinstance(src, list):
+            src = src[0] if src else ""
+        m = _CDN_SRC.match(src)
+        if not m:
+            continue
+        a = img.find_parent("a")
+        href = (a.get("href") if a else "") or ""
+        if isinstance(href, list):
+            href = href[0] if href else ""
+        if "/property/" in href and own_uuid not in href:
+            continue  # related-listing card, not our photo
+        u = m.group(0).rstrip("\\'\"")
         if u not in seen:
             seen.append(u)
     return seen[:16]
@@ -169,7 +186,8 @@ def enrich_from_detail(browser, listing: Listing) -> Listing:
     """Fetch the listing's property page in the given BrowserSession and fill
     in the full gallery. Mutates and returns `listing`."""
     html = browser.get_html(listing.url, challenge_timeout_ms=180_000)
-    gallery = parse_property_gallery(html)
+    own_uuid = listing.url.rstrip("/").rsplit("/", 1)[-1]
+    gallery = parse_property_gallery(html, own_uuid)
     if gallery:
         listing.image_urls = gallery
     return listing

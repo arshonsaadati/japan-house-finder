@@ -58,6 +58,14 @@ def download_for(listing: Listing, base_dir: Path | None = None, force: bool = F
     if not listing.image_urls:
         return []
 
+    # A forced re-download must purge stale files first: if the corrected
+    # gallery is shorter than the old one, leftover higher-index files would
+    # otherwise survive and keep serving wrong photos.
+    if force and folder.exists():
+        for old_file in folder.iterdir():
+            if old_file.is_file():
+                old_file.unlink()
+
     own_client = client is None
     if own_client:
         client = httpx.Client(
