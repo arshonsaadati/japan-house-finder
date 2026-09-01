@@ -42,6 +42,7 @@ CITY_SLUGS = {
     "Shodoshima": ("Kagawa", "shodoshima"), "Awaji": ("Hyogo", "awaji"),
     "Sumoto": ("Hyogo", "sumoto"), "Tanabe": ("Wakayama", "tanabe"),
     "Kozushima": ("Tokyo", "kozushima"),
+    "SetouchiCity": ("Okayama", "setouchi"), "Tamano": ("Okayama", "tamano"),
 }
 DEFAULT_TOWNS = list(CITY_SLUGS)
 

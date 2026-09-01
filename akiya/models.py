@@ -51,6 +51,8 @@ TOWNS: dict[str, str] = {
     "田辺市": "Tanabe",
     "神津島村": "Kozushima",
     "大阪市": "OsakaCity",
+    "瀬戸内市": "SetouchiCity",
+    "玉野市": "Tamano",
 }
 
 # Era bases: era year 1 starts in the base+1 gregorian year (昭和1 = 1926).

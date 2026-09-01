@@ -47,11 +47,14 @@ CITY_SLUGS = {
     "Sumoto": ("hyogo", "sc_sumoto"),
     "Tanabe": ("wakayama", "sc_tanabe"),
     "Kozushima": ("tokyo", "sc_kozushima"),  # page exists; usually empty
+    "SetouchiCity": ("okayama", "sc_setouchi"),  # Ushimado coast
+    "Tamano": ("okayama", "sc_tamano"),          # Uno port -> Naoshima ferries
 }
 DEFAULT_TOWNS = [
     "Otaru", "Furano",
     "Itoshima", "Karatsu", "Onomichi", "Hatsukaichi", "Fukuyama",
     "Takehara", "Kurashiki", "Awaji", "Sumoto", "Tanabe", "Kozushima",
+    "SetouchiCity", "Tamano",
 ]
 
 MAX_PAGES = 10  # safety cap per city per run

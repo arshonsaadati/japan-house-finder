@@ -29,7 +29,7 @@ KNOWN_TOWNS = {
     # Ordinances UNVERIFIED like the rest — see data/ordinances.md.
     "Itoshima", "Karatsu", "Onomichi", "Hatsukaichi", "Fukuyama",
     "Takehara", "Kurashiki", "Tonosho", "Shodoshima", "Awaji",
-    "Sumoto", "Tanabe", "Kozushima",
+    "Sumoto", "Tanabe", "Kozushima", "SetouchiCity", "Tamano",
 }
 
 REJECT_TYPES = {"condo", "land", "business"}

@@ -56,3 +56,5 @@ priors only. Verifying them is the top follow-up task (see Open questions).
   with a licensed-property purchase (buy-vs-build path).
 - **Fukuoka City** — minpaku ordinance historically restricts residential-zone
   operation (weekend-pattern limits); Itoshima next door is the play.
+| SetouchiCity | Okayama | Ushimado "Japanese Aegean", olives, Bizen pottery | Added 2026-08-31 on request; modest tourism vs Kurashiki |
+| Tamano | Okayama | Uno port — Naoshima/Teshima art-island ferries | Art-festival surge demand; Naoshima itself unbuyable (no market) |
