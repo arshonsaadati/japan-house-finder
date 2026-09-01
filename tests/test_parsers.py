@@ -198,3 +198,13 @@ def test_suumo_city_url_prefecture_forms():
     assert _city_url(pref, slug, 1) == "https://suumo.jp/chukoikkodate/hokkaido_/sc_otaru/"
     pref, slug = CITY_SLUGS["Onomichi"]
     assert _city_url(pref, slug, 2) == "https://suumo.jp/chukoikkodate/hiroshima/sc_onomichi/?page=2"
+
+
+def test_suumo_gallery_excludes_promo_images():
+    from akiya.sources.suumo import parse_detail_gallery
+    html = (FIX / "suumo_detail_kurashiki_20511819.html").read_text(encoding="utf-8")
+    urls = parse_detail_gallery(html, "20511819")
+    assert len(urls) == 26  # 28 own-id images minus the gift + pamphlet promos
+    # the two promo files (0030 = プレゼント, 0031 = pamphlet) must be gone
+    assert not any("_0030.jpg" in u or "_0031.jpg" in u for u in urls)
+    assert all("20511819" in u for u in urls)

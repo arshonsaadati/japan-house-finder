@@ -72,15 +72,42 @@ def hires(url: str) -> str:
     return f"{m.group(1)}&w={HIRES_WIDTH}" if m else url
 
 
+# Realtor promo images (gift cards, pamphlets, campaigns) are uploaded into
+# the same photo set as real listing photos. They are identifiable by alt text
+# and by living outside the lightbox modal anchors.
+_PROMO_ALT_RE = re.compile(r"プレゼント|パンフレット|ギフト|キャンペーン|資料請求")
+
+
 def parse_detail_gallery(html: str, source_id: str) -> list[str]:
-    """All photos of one listing from its detail page (nc_<id>), hi-res, in
-    photo order. The page also embeds thumbnails of *other* listings, so only
-    keep images whose CDN path contains this listing's id.
+    """The listing's slide-deck photos from its detail page (nc_<id>), hi-res,
+    in photo order.
+
+    DOM-scoped, not page-wide (lesson learned twice now): keep an image only if
+    (a) its CDN path carries this listing's id, (b) it sits inside a SUUMO
+    lightbox anchor (a[id^=jsiNyroModalId] — the site's own slide-deck
+    grouping), and (c) its alt text isn't a realtor promo (gift/pamphlet).
     """
+    from bs4 import BeautifulSoup
+
+    soup = BeautifulSoup(html, "html.parser")
     seen: list[str] = []
-    for base in _RESIZE_RE.findall(html):
+    for img in soup.find_all("img"):
+        src = img.get("src") or img.get("rel") or img.get("data-src") or ""
+        if isinstance(src, list):
+            src = src[0] if src else ""
+        m = _RESIZE_RE.match(src)
+        if not m:
+            continue
+        base = m.group(1)
         if f"%2F{source_id}%2F" not in base and f"/{source_id}/" not in base:
             continue
+        alt = img.get("alt") or ""
+        if _PROMO_ALT_RE.search(alt):
+            continue
+        anchor = img.find_parent("a")
+        aid = (anchor.get("id") if anchor else "") or ""
+        if not str(aid).startswith("jsiNyroModalId"):
+            continue  # not part of the site's slide deck (promo/section art)
         if base not in seen:
             seen.append(base)
     seen.sort()  # …_0001.jpg, _0002.jpg … = the site's own photo order
