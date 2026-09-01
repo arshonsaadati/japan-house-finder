@@ -65,3 +65,28 @@ def test_query_sorts_by_price(tmp_path):
     store.upsert([_mk("A", price_yen=9_000_000), _mk("B", price_yen=3_000_000)], today="2026-01-01")
     result = store.query()
     assert [l.source_id for l in result] == ["B", "A"]
+
+
+def test_upsert_preserves_enrichment(tmp_path):
+    store = Store(path=tmp_path / "s.json")
+    rich = _mk("A")
+    rich.image_urls = ["u1", "u2", "u3"]
+    rich.local_images = ["/x/00.jpg"]
+    store.upsert([rich], today="2026-01-01")
+    store.save()
+
+    store2 = Store(path=tmp_path / "s.json")
+    fresh = _mk("A")
+    fresh.image_urls = ["cover_only"]  # API knows just the cover
+    store2.upsert([fresh], today="2026-01-02")
+    kept = store2.get("s:A")
+    assert kept.image_urls == ["u1", "u2", "u3"]
+    assert kept.local_images == ["/x/00.jpg"]
+
+    # but a genuinely richer fresh scrape wins
+    store3 = Store(path=tmp_path / "s.json")
+    richer = _mk("A")
+    richer.image_urls = ["n1", "n2", "n3", "n4"]
+    store3.upsert([richer], today="2026-01-03")
+    # (store2 wasn't saved; richer vs original 3 urls)
+    assert store3.get("s:A").image_urls == ["n1", "n2", "n3", "n4"]

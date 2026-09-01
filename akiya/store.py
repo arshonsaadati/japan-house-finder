@@ -105,6 +105,16 @@ class Store:
 
             fresh.first_seen = existing.first_seen or today
             fresh.last_seen = today
+            # Never let a re-scrape DOWNGRADE enrichment: sources' list/API
+            # payloads carry only cover photos, while galleries and local
+            # files were earned via detail-page/browser work. Keep the richer
+            # data (and coords) unless the fresh scrape genuinely knows more.
+            if len(existing.image_urls or []) > len(fresh.image_urls or []):
+                fresh.image_urls = existing.image_urls
+            if not fresh.local_images and existing.local_images:
+                fresh.local_images = existing.local_images
+            if getattr(fresh, "lat", None) is None and getattr(existing, "lat", None) is not None:
+                fresh.lat, fresh.lng = existing.lat, existing.lng
             self.listings[fresh.key] = fresh
 
         # Anything from a scraped source not seen this run has likely churned out.
