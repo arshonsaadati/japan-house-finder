@@ -59,7 +59,7 @@ struct Listing: Codable, Identifiable, Hashable {
     var sourceURL: URL? { URL(string: url) }
 
     /// Best text to geocode when the scrape has no coordinates. Street-level
-    /// for SUUMO/HOME'S/blogspot; only "Town, Hokkaido" for akiyajapan.
+    /// for SUUMO/HOME'S/blogspot; town-level for akiyajapan (no address).
     var geocodeQuery: String? { geocodeCandidates.first }
 
     /// Progressively coarser queries: full address → without block numbers
@@ -68,7 +68,13 @@ struct Listing: Codable, Identifiable, Hashable {
     var geocodeCandidates: [String] {
         var out: [String] = []
         if let a = address?.replacingOccurrences(of: " ", with: ""), !a.isEmpty {
-            let full = a.hasPrefix("北海道") ? a : "北海道" + a
+            // Prepend a prefecture ONLY when the address lacks one AND we know
+            // which it is (blogspot = Shiribeshi bank, always Hokkaido).
+            // Blindly prepending 北海道 sent Kurashiki/Onomichi/… pins to
+            // random spots in Hokkaido.
+            let hasPrefecture = a.hasPrefix("北海道")
+                || a.range(of: #"^[^\d]{1,3}[都府県]"#, options: .regularExpression) != nil
+            let full = hasPrefecture ? a : (source == "blogspot" ? "北海道" + a : a)
             out.append(full)
             // strip trailing "11-1" / "３１番１１４" style block numbers
             let noBlock = full.replacingOccurrences(of: #"[\d０-９]+([-‐−ー][\d０-９]+)*(番地?|号)?([\d０-９]+)?$"#, with: "", options: .regularExpression)
@@ -77,7 +83,7 @@ struct Listing: Codable, Identifiable, Hashable {
             let noChome = noBlock.replacingOccurrences(of: #"[\d０-９]+丁目$"#, with: "", options: .regularExpression)
             if noChome != noBlock, noChome.count > 3 { out.append(noChome) }
         }
-        if let t = town { out.append("\(t), Hokkaido, Japan") }
+        if let t = town { out.append("\(t), Japan") }
         return out
     }
     var hasStreetAddress: Bool { !(address ?? "").isEmpty }
