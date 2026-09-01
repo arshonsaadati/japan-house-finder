@@ -6,6 +6,7 @@ struct DeckView: View {
     @EnvironmentObject var store: SwipeStore
     @AppStorage("showRejects") private var showRejects = false
     @AppStorage("verdictOrder") private var verdictOrder = true
+    @AppStorage("townFilter") private var townFilter = ""
 
     @StateObject private var controller = DeckController()
     @State private var deck: [Listing] = []
@@ -23,7 +24,6 @@ struct DeckView: View {
                     CardStackView(listings: deck, baseURL: service.baseURL, controller: controller,
                                   onSwipe: { l, dir in dir == .right ? store.like(l) : store.dislike(l) },
                                   onUndo: { l in store.forget(l.id) },
-                                  onInfo: { l in profile = l },
                                   onEmpty: { finished = true })
                         .padding(.horizontal, 12)
                     controls
@@ -39,6 +39,9 @@ struct DeckView: View {
                     }
                 }
                 ToolbarItem(placement: .topBarTrailing) {
+                    TownFilterMenu(selection: $townFilter, towns: allTowns)
+                }
+                ToolbarItem(placement: .topBarTrailing) {
                     Button { rebuild() } label: { Image(systemName: "arrow.clockwise") }
                 }
             }
@@ -46,6 +49,7 @@ struct DeckView: View {
             .onChange(of: service.listings) { _, _ in rebuild() }
             .onChange(of: showRejects) { _, _ in rebuild() }
             .onChange(of: verdictOrder) { _, _ in rebuild() }
+            .onChange(of: townFilter) { _, _ in rebuild() }
             .onAppear { if deck.isEmpty { rebuild() } }
         }
     }
@@ -61,10 +65,15 @@ struct DeckView: View {
         }
     }
 
+    private var allTowns: [String] {
+        Array(Set(service.listings.compactMap(\.town))).sorted()
+    }
+
     private var emptyState: some View {
         VStack(spacing: 12) {
             Image(systemName: "checkmark.seal").font(.system(size: 56)).foregroundStyle(.green)
-            Text("You've seen everything").font(.title3.bold())
+            Text(townFilter.isEmpty ? "You've seen everything" : "Nothing left in \(townFilter)").font(.title3.bold())
+            if !townFilter.isEmpty { Button("Show all towns") { townFilter = "" } }
             Text("\(store.likes.count) liked · \(store.dislikes.count) passed")
                 .foregroundStyle(.secondary)
             if !showRejects {
@@ -80,7 +89,10 @@ struct DeckView: View {
     /// doesn't churn the UIKit stack.
     private func rebuild() {
         let seen = store.seenIDs
-        var d = service.listings.filter { !seen.contains($0.id) && (showRejects || $0.verdict != "reject") }
+        var d = service.listings.filter {
+            !seen.contains($0.id) && (showRejects || $0.verdict != "reject")
+                && (townFilter.isEmpty || $0.town == townFilter)
+        }
         if verdictOrder {
             d.sort { ($0.verdictRank, $0.priceYen ?? .max) < ($1.verdictRank, $1.priceYen ?? .max) }
         } else {

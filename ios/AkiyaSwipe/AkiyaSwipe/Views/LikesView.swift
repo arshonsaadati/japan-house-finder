@@ -6,16 +6,22 @@ struct LikesView: View {
     @EnvironmentObject var store: SwipeStore
     @EnvironmentObject var service: ListingService
     @State private var selected: Listing?
+    @State private var townFilter = ""
 
-    private var entries: [SwipeStore.Entry] { kind == .likes ? store.likes : store.dislikes }
+    private var allEntries: [SwipeStore.Entry] { kind == .likes ? store.likes : store.dislikes }
+    private var entries: [SwipeStore.Entry] {
+        townFilter.isEmpty ? allEntries : allEntries.filter { $0.listing.town == townFilter }
+    }
+    private var allTowns: [String] { Array(Set(allEntries.compactMap(\.listing.town))).sorted() }
 
     var body: some View {
         NavigationStack {
             Group {
                 if entries.isEmpty {
-                    ContentUnavailableView(kind == .likes ? "No likes yet" : "Nothing passed yet",
-                                           systemImage: kind == .likes ? "heart" : "xmark.circle",
-                                           description: Text("Swipe right to like, left to pass."))
+                    ContentUnavailableView(
+                        townFilter.isEmpty ? (kind == .likes ? "No likes yet" : "Nothing passed yet") : "Nothing in \(townFilter)",
+                        systemImage: kind == .likes ? "heart" : "xmark.circle",
+                        description: Text(townFilter.isEmpty ? "Swipe right to like, left to pass." : "Change or clear the town filter."))
                 } else {
                     List {
                         ForEach(entries) { e in
@@ -37,8 +43,11 @@ struct LikesView: View {
             }
             .navigationTitle(kind == .likes ? "Likes" : "Passed")
             .toolbar {
-                if kind == .dislikes && !entries.isEmpty {
-                    Button("Clear all") { store.clearDislikes() }
+                ToolbarItem(placement: .topBarTrailing) {
+                    TownFilterMenu(selection: $townFilter, towns: allTowns)
+                }
+                if kind == .dislikes && !allEntries.isEmpty {
+                    ToolbarItem(placement: .topBarTrailing) { Button("Clear all") { store.clearDislikes() } }
                 }
             }
             .sheet(item: $selected) { ProfileView(listing: $0) }

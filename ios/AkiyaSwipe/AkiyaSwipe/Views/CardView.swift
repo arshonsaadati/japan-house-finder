@@ -6,7 +6,6 @@ import SwiftUI
 struct CardView: View {
     let listing: Listing
     let baseURL: URL?
-    var onInfo: () -> Void
 
     @State private var index = 0
 
@@ -103,14 +102,6 @@ struct CardView: View {
                            startPoint: .top, endPoint: .bottom)
                 .padding(.top, -70)
         )
-        .overlay(alignment: .topTrailing) {
-            Button(action: onInfo) {
-                Image(systemName: "info.circle.fill").font(.system(size: 26))
-                    .foregroundStyle(.white, .white.opacity(0.25))
-            }
-            .buttonStyle(.plain)
-            .padding(.trailing, 14).padding(.top, -34)
-        }
     }
 }
 

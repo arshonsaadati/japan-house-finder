@@ -15,7 +15,6 @@ struct CardStackView: UIViewRepresentable {
     let controller: DeckController
     var onSwipe: (Listing, SwipeDirection) -> Void
     var onUndo: (Listing) -> Void
-    var onInfo: (Listing) -> Void
     var onEmpty: () -> Void
 
     func makeUIView(context: Context) -> SwipeCardStack {
@@ -54,9 +53,7 @@ struct CardStackView: UIViewRepresentable {
             let card = SwipeCard()
             card.swipeDirections = [.left, .right]
             card.footerHeight = 0
-            let host = UIHostingController(rootView: CardView(listing: listing, baseURL: parent.baseURL) { [weak self] in
-                self?.parent.onInfo(listing)
-            })
+            let host = UIHostingController(rootView: CardView(listing: listing, baseURL: parent.baseURL))
             host.view.backgroundColor = .clear
             hosts[index] = host
             card.content = host.view
