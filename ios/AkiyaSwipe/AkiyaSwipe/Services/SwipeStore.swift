@@ -11,6 +11,14 @@ final class SwipeStore: ObservableObject {
         var id: String { listing.id }
     }
     private struct Disk: Codable { var likes: [Entry]; var dislikes: [Entry] }
+    /// Wrapper so one undecodable entry (after a schema change) drops only itself,
+    /// never the whole file.
+    private struct Lenient<T: Codable>: Codable {
+        let value: T?
+        init(from d: Decoder) throws { value = try? T(from: d) }
+        func encode(to e: Encoder) throws { try value.encode(to: e) }
+    }
+    private struct LenientDisk: Codable { var likes: [Lenient<Entry>]; var dislikes: [Lenient<Entry>] }
 
     @Published private(set) var likes: [Entry] = []
     @Published private(set) var dislikes: [Entry] = []
@@ -46,9 +54,19 @@ final class SwipeStore: ObservableObject {
     }
 
     private func load() {
-        guard let data = try? Data(contentsOf: fileURL),
-              let d = try? JSONDecoder().decode(Disk.self, from: data) else { return }
-        likes = d.likes; dislikes = d.dislikes
+        guard let data = try? Data(contentsOf: fileURL) else { return }
+        if let d = try? JSONDecoder().decode(Disk.self, from: data) {
+            likes = d.likes; dislikes = d.dislikes
+            return
+        }
+        // Schema drift: salvage what decodes entry-by-entry, and keep an untouched
+        // backup of the original before we ever write over it.
+        let backup = fileURL.deletingLastPathComponent()
+            .appendingPathComponent("swipes-backup-\(Int(Date().timeIntervalSince1970)).json")
+        try? data.write(to: backup, options: .atomic)
+        if let d = try? JSONDecoder().decode(LenientDisk.self, from: data) {
+            likes = d.likes.compactMap(\.value); dislikes = d.dislikes.compactMap(\.value)
+        }
     }
     private func save() {
         let d = Disk(likes: likes, dislikes: dislikes)
