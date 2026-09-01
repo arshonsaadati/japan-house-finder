@@ -28,13 +28,31 @@ BASE = "https://suumo.jp"
 # Confirmed sc_ slugs for target/adjacent cities. Small Shiribeshi towns
 # (Yoichi, Kutchan, Niseko…) are gun-level and may not have their own sc_
 # page; those are covered by the akiya-bank sources instead.
+# town -> (prefecture URL segment, city slug). Hokkaido keeps its legacy
+# trailing-underscore segment; every other prefecture is bare.
 CITY_SLUGS = {
-    "Otaru": "sc_otaru",
-    "Furano": "sc_furano",
-    "Sapporo": "sa_sapporo",
-    "Asahikawa": "sc_asahikawa",
+    "Otaru": ("hokkaido_", "sc_otaru"),
+    "Furano": ("hokkaido_", "sc_furano"),
+    "Sapporo": ("hokkaido_", "sa_sapporo"),
+    "Asahikawa": ("hokkaido_", "sc_asahikawa"),
+    # Expansion (2026-08-31)
+    "Itoshima": ("fukuoka", "sc_itoshima"),
+    "Karatsu": ("saga", "sc_karatsu"),
+    "Onomichi": ("hiroshima", "sc_onomichi"),
+    "Hatsukaichi": ("hiroshima", "sc_hatsukaichi"),
+    "Fukuyama": ("hiroshima", "sc_fukuyama"),
+    "Takehara": ("hiroshima", "sc_takehara"),
+    "Kurashiki": ("okayama", "sc_kurashiki"),
+    "Awaji": ("hyogo", "sc_awaji"),
+    "Sumoto": ("hyogo", "sc_sumoto"),
+    "Tanabe": ("wakayama", "sc_tanabe"),
+    "Kozushima": ("tokyo", "sc_kozushima"),  # page exists; usually empty
 }
-DEFAULT_TOWNS = ["Otaru", "Furano"]
+DEFAULT_TOWNS = [
+    "Otaru", "Furano",
+    "Itoshima", "Karatsu", "Onomichi", "Hatsukaichi", "Fukuyama",
+    "Takehara", "Kurashiki", "Awaji", "Sumoto", "Tanabe", "Kozushima",
+]
 
 MAX_PAGES = 10  # safety cap per city per run
 
@@ -95,8 +113,8 @@ def fetch_gallery(client, listing: Listing) -> list[str]:
     return enrich_from_detail(client, listing).image_urls
 
 
-def _city_url(slug: str, page: int) -> str:
-    url = f"{BASE}/chukoikkodate/hokkaido_/{slug}/"
+def _city_url(pref: str, slug: str, page: int) -> str:
+    url = f"{BASE}/chukoikkodate/{pref}/{slug}/"
     if page > 1:
         url += f"?page={page}"
     return url
@@ -164,11 +182,12 @@ def fetch(client, towns: list[str] | None = None, max_pages: int = MAX_PAGES) ->
     towns = towns or DEFAULT_TOWNS
     listings: list[Listing] = []
     for town in towns:
-        slug = CITY_SLUGS.get(town)
-        if not slug:
+        pref_slug = CITY_SLUGS.get(town)
+        if not pref_slug:
             continue
+        pref, slug = pref_slug
         for page in range(1, max_pages + 1):
-            html = client.get(_city_url(slug, page))
+            html = client.get(_city_url(pref, slug, page))
             page_listings = parse_results_page(html)
             if not page_listings:
                 break

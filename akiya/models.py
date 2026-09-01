@@ -35,6 +35,22 @@ TOWNS: dict[str, str] = {
     "島牧村": "Shimamaki",
     "神恵内村": "Kamoenai",
     "札幌市": "Sapporo",
+    # Expansion targets (2026-08-31): Kyushu / Setouchi / Kansai / Tokyo isles
+    "糸島市": "Itoshima",
+    "唐津市": "Karatsu",
+    "福岡市": "FukuokaCity",
+    "尾道市": "Onomichi",
+    "廿日市市": "Hatsukaichi",
+    "福山市": "Fukuyama",
+    "竹原市": "Takehara",
+    "倉敷市": "Kurashiki",
+    "土庄町": "Tonosho",
+    "小豆島町": "Shodoshima",
+    "淡路市": "Awaji",
+    "洲本市": "Sumoto",
+    "田辺市": "Tanabe",
+    "神津島村": "Kozushima",
+    "大阪市": "OsakaCity",
 }
 
 # Era bases: era year 1 starts in the base+1 gregorian year (昭和1 = 1926).

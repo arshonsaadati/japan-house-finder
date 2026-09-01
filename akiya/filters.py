@@ -22,8 +22,14 @@ MIN_BUILD_YEAR = 1981  # new seismic code (post-June 1981)
 # Towns whose minpaku ordinance status is tracked in data/ordinances.md.
 # Anything outside this set is flagged (unknown ordinance), not rejected.
 KNOWN_TOWNS = {
+    # Hokkaido (original)
     "Otaru", "Yoichi", "Kutchan", "Niseko", "Rankoshi",
     "Suttsu", "Furano", "Akaigawa",
+    # Expansion (2026-08-31): Kyushu / Setouchi / Kansai / Tokyo isles.
+    # Ordinances UNVERIFIED like the rest — see data/ordinances.md.
+    "Itoshima", "Karatsu", "Onomichi", "Hatsukaichi", "Fukuyama",
+    "Takehara", "Kurashiki", "Tonosho", "Shodoshima", "Awaji",
+    "Sumoto", "Tanabe", "Kozushima",
 }
 
 REJECT_TYPES = {"condo", "land", "business"}

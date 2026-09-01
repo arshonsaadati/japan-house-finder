@@ -190,3 +190,11 @@ def test_akiyajapan_photo_set_ids():
     assert ids == {"766bcf6f-a19d-11f1-a659-a6ae20f6eefe",
                    "9c414009-8f8a-11f1-a659-a6ae20f6eefe"}
     assert photo_set_ids(["https://example.com/x.jpg"]) == set()
+
+
+def test_suumo_city_url_prefecture_forms():
+    from akiya.sources.suumo import _city_url, CITY_SLUGS
+    pref, slug = CITY_SLUGS["Otaru"]
+    assert _city_url(pref, slug, 1) == "https://suumo.jp/chukoikkodate/hokkaido_/sc_otaru/"
+    pref, slug = CITY_SLUGS["Onomichi"]
+    assert _city_url(pref, slug, 2) == "https://suumo.jp/chukoikkodate/hiroshima/sc_onomichi/?page=2"

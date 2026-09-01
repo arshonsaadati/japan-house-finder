@@ -33,3 +33,26 @@ priors only. Verifying them is the top follow-up task (see Open questions).
    that will take a property here — **legally required for a non-resident owner**,
    and availability varies a lot by town.
 4. Fill the row, set `Verified: yes`, cite the source + date.
+
+## Expansion towns (added 2026-08-31 — ALL UNVERIFIED)
+
+| Town | Pref | Case | Notes / watch-outs |
+|---|---|---|---|
+| Itoshima | Fukuoka | Beach/surf STR near Fukuoka city | Popular with domestic tourists; check coastal-zone rules |
+| Karatsu | Saga | Castle town, pottery, beaches | Cheap inventory; thin foreign-guest comps |
+| Onomichi | Hiroshima | Akiya-revival + Shimanami Kaido cycling | Steep-slope houses = no car access (check!); strong guesthouse scene |
+| Hatsukaichi | Hiroshima | Miyajima gateway | Tourist volume huge; check zones near the port |
+| Fukuyama | Hiroshima | Tomonoura historic port | Tomonoura is the draw, not Fukuyama city proper |
+| Takehara | Hiroshima | "Little Kyoto" townscape | Small market, cheap |
+| Kurashiki | Okayama | Bikan historical quarter | Real tourism; check historic-district rules |
+| Tonosho / Shodoshima | Kagawa | Setouchi art-islands / olive island | Ferry access; Setouchi Triennale surge years |
+| Awaji / Sumoto | Hyogo | Awaji island, Osaka/Kobe weekenders | Bridge access from Kobe; onsen at Sumoto |
+| Tanabe | Wakayama | Kumano Kodo trailhead | Strong foreign hiker demand (Kumano Travel comps) |
+| Kozushima | Tokyo | Izu island: diving, stargazing | Tiny market; Tokyo-jurisdiction minpaku rules; ferry logistics |
+
+**City watch-list (do not scrape for purchase):**
+- **Osaka City** — tokku minpaku closed to new entrants (2026-05-29 suspension per
+  HANDOFF); national-law minpaku subject to strict zone/day ordinances. Revisit only
+  with a licensed-property purchase (buy-vs-build path).
+- **Fukuoka City** — minpaku ordinance historically restricts residential-zone
+  operation (weekend-pattern limits); Itoshima next door is the play.

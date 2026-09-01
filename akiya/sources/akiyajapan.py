@@ -28,12 +28,22 @@ PER_PAGE = 50
 PRICE_CEILING_YEN = 10_000_000  # our stretch ceiling; above this we'd reject anyway
 MAX_PAGES = 40                  # safety cap per (city, type)
 
+# town -> (API prefecture name, city slug)
 CITY_SLUGS = {
-    "Otaru": "otaru", "Yoichi": "yoichi", "Kutchan": "kutchan",
-    "Niseko": "niseko", "Rankoshi": "rankoshi", "Suttsu": "suttsu",
-    "Furano": "furano", "Akaigawa": "akaigawa",
+    "Otaru": ("Hokkaido", "otaru"), "Yoichi": ("Hokkaido", "yoichi"),
+    "Kutchan": ("Hokkaido", "kutchan"), "Niseko": ("Hokkaido", "niseko"),
+    "Rankoshi": ("Hokkaido", "rankoshi"), "Suttsu": ("Hokkaido", "suttsu"),
+    "Furano": ("Hokkaido", "furano"), "Akaigawa": ("Hokkaido", "akaigawa"),
+    # Expansion (2026-08-31)
+    "Itoshima": ("Fukuoka", "itoshima"), "Karatsu": ("Saga", "karatsu"),
+    "Onomichi": ("Hiroshima", "onomichi"), "Hatsukaichi": ("Hiroshima", "hatsukaichi"),
+    "Fukuyama": ("Hiroshima", "fukuyama"), "Takehara": ("Hiroshima", "takehara"),
+    "Kurashiki": ("Okayama", "kurashiki"), "Tonosho": ("Kagawa", "tonosho"),
+    "Shodoshima": ("Kagawa", "shodoshima"), "Awaji": ("Hyogo", "awaji"),
+    "Sumoto": ("Hyogo", "sumoto"), "Tanabe": ("Wakayama", "tanabe"),
+    "Kozushima": ("Tokyo", "kozushima"),
 }
-DEFAULT_TOWNS = ["Otaru", "Yoichi", "Kutchan", "Niseko", "Rankoshi", "Suttsu", "Furano", "Akaigawa"]
+DEFAULT_TOWNS = list(CITY_SLUGS)
 
 _TYPE_MAP = {"house": "detached", "business": "mixed"}
 _FETCH_TYPES = ("house", "business")
@@ -101,9 +111,9 @@ def parse_result(r: dict, town_hint: str | None = None) -> Listing:
     )
 
 
-def _search_url(city_slug: str, ptype: str, page: int) -> str:
+def _search_url(prefecture: str, city_slug: str, ptype: str, page: int) -> str:
     return (
-        f"{API}?prefecture=Hokkaido&city={city_slug}&type={ptype}"
+        f"{API}?prefecture={prefecture}&city={city_slug}&type={ptype}"
         f"&listing_type=buy&max_price_jpy={PRICE_CEILING_YEN}"
         f"&per_page={PER_PAGE}&page={page}"
     )
@@ -114,15 +124,16 @@ def fetch(client, towns: list[str] | None = None, log=None) -> list[Listing]:
     listings: list[Listing] = []
     attribution = None
     for town in towns:
-        slug = CITY_SLUGS.get(town)
-        if not slug:
+        pref_slug = CITY_SLUGS.get(town)
+        if not pref_slug:
             continue
+        pref, slug = pref_slug
         for ptype in _FETCH_TYPES:
             page = 1
             total_pages = 1
             while page <= total_pages and page <= MAX_PAGES:
                 try:
-                    data = client.get_json(_search_url(slug, ptype, page))
+                    data = client.get_json(_search_url(pref, slug, ptype, page))
                 except Exception as e:
                     if log:
                         log(f"akiyajapan {town}/{ptype} p{page}: {e}")
