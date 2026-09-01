@@ -21,6 +21,8 @@ from __future__ import annotations
 import hmac
 import json
 import os
+import random
+from datetime import date
 from functools import partial
 from http import HTTPStatus
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
@@ -44,13 +46,21 @@ def _photos(d: dict, images_dir: Path) -> list[str]:
     return urls or [hires(u) for u in (d.get("image_urls") or [])]
 
 
-def build_payload(store: Store, images_dir: Path = IMAGES_DIR) -> dict:
+def build_payload(store: Store, images_dir: Path = IMAGES_DIR,
+                  order: str = "random") -> dict:
     listings = []
     for l in store.listings.values():
         d = l.to_dict()
         d["photos"] = _photos(d, images_dir)
         listings.append(d)
-    listings.sort(key=lambda d: (d.get("price_yen") is None, d.get("price_yen") or 0))
+    if order == "price":
+        listings.sort(key=lambda d: (d.get("price_yen") is None, d.get("price_yen") or 0))
+    else:
+        # Random deck for the swipe app, but seeded by the day so refreshes
+        # and pagination inside one session keep a stable order (no repeats,
+        # no mid-swipe reshuffles). ?sort=price restores the old order.
+        listings.sort(key=lambda d: f"{d.get('source')}:{d.get('source_id')}")
+        random.Random(date.today().isoformat()).shuffle(listings)
     return {"count": len(listings), "listings": listings}
 
 
@@ -89,7 +99,9 @@ class Handler(SimpleHTTPRequestHandler):
         path = urlsplit(self.path).path
         if path == "/api/listings":
             # Re-read each request so a cron scrape shows up without a restart.
-            return self._json(build_payload(Store(self.store_path), self.images_dir))
+            qs = parse_qs(urlsplit(self.path).query)
+            order = (qs.get("sort") or ["random"])[0]
+            return self._json(build_payload(Store(self.store_path), self.images_dir, order=order))
         if path == "/api/health":
             store = Store(self.store_path)
             return self._json({"ok": True, "count": len(store.listings)})

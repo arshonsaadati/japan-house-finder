@@ -49,3 +49,19 @@ def test_token_header_and_query(server):
 def test_dev_mode_without_token(server, monkeypatch):
     monkeypatch.delenv("AKIYA_API_TOKEN")
     assert _get(f"{server}/api/health")[0] == 200
+
+
+def test_default_order_random_but_stable(tmp_path):
+    from akiya.serve import build_payload
+    from akiya.store import Store
+    from akiya.models import Listing
+    store = Store(path=tmp_path / "s.json")
+    store.upsert([Listing(source="s", source_id=str(i), url="u", price_yen=i * 1000)
+                  for i in range(30)], today="2026-01-01")
+    a = [l["source_id"] for l in build_payload(store)["listings"]]
+    b = [l["source_id"] for l in build_payload(store)["listings"]]
+    priced = [l["source_id"] for l in build_payload(store, order="price")["listings"]]
+    assert a == b                      # stable within the same day
+    assert sorted(a) == sorted(priced) # same set
+    assert a != priced                 # not price order (30 items: collision odds ~0)
+    assert priced == [str(i) for i in range(30)]
