@@ -200,3 +200,11 @@ umask 077; echo "AKIYA_API_TOKEN=$(openssl rand -hex 32)" > ~/Code/japan-house-f
 ln -sf ~/Code/japan-house-finder/deploy/akiya-serve.service ~/.config/systemd/user/
 systemctl --user daemon-reload && systemctl --user enable --now akiya-serve
 ```
+
+### Matches (shared likes)
+
+`POST/GET /api/likes` on the server stores each device's like list
+(`data/likes.json` on the Pi — device UUID, self-chosen display name, listing
+keys; nothing else leaves the phone). The app pushes on every like/unlike and
+the **Matches** tab shows listings liked by you *and* someone else, tagged with
+their names. No accounts — the API token already limits this to our users.
