@@ -29,9 +29,43 @@ from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, urlsplit
 
+from datetime import datetime, timezone
+from pathlib import Path as _P
+from threading import Lock
+
 from .images import IMAGES_DIR
 from .sources.suumo import hires
 from .store import Store
+
+
+LIKES_PATH = _P(__file__).resolve().parent.parent / "data" / "likes.json"
+_likes_lock = Lock()
+MAX_LIKES_BODY = 256 * 1024  # plenty for a few users; refuses junk
+
+
+def load_likes(path: Path = LIKES_PATH) -> dict:
+    if path.exists():
+        try:
+            return json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            return {}
+    return {}
+
+
+def upsert_likes(device: str, name: str, likes: list[str], path: Path = LIKES_PATH) -> dict:
+    """Replace one device's like list. Returns the full map {device: {...}}."""
+    with _likes_lock:
+        data = load_likes(path)
+        data[device] = {
+            "name": (name or "?")[:40],
+            "likes": [str(k)[:200] for k in likes][:2000],
+            "updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        }
+        path.parent.mkdir(parents=True, exist_ok=True)
+        tmp = path.with_suffix(".tmp")
+        tmp.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
+        tmp.replace(path)
+        return data
 
 
 def _photos(d: dict, images_dir: Path) -> list[str]:
@@ -105,10 +139,30 @@ class Handler(SimpleHTTPRequestHandler):
         if path == "/api/health":
             store = Store(self.store_path)
             return self._json({"ok": True, "count": len(store.listings)})
+        if path == "/api/likes":
+            return self._json(load_likes())
         if path.startswith("/images/"):
             self.path = path[len("/images"):]
             return super().do_GET()
         return self._json({"error": "not found"}, HTTPStatus.NOT_FOUND)
+
+    def do_POST(self):
+        if not self._authorized():
+            return self._json({"error": "unauthorized"}, HTTPStatus.UNAUTHORIZED)
+        path = urlsplit(self.path).path
+        if path != "/api/likes":
+            return self._json({"error": "not found"}, HTTPStatus.NOT_FOUND)
+        try:
+            n = int(self.headers.get("Content-Length", 0))
+            if not 0 < n <= MAX_LIKES_BODY:
+                raise ValueError("bad length")
+            body = json.loads(self.rfile.read(n))
+            device = str(body["device"])[:64]
+            name = str(body.get("name", ""))
+            likes = list(body.get("likes", []))
+        except (ValueError, KeyError, TypeError) as e:
+            return self._json({"error": f"bad request: {e}"}, HTTPStatus.BAD_REQUEST)
+        return self._json(upsert_likes(device, name, likes))
 
     def do_HEAD(self):
         if not self._authorized():

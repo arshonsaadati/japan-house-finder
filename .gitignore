@@ -18,3 +18,4 @@ ios/**/*.xcworkspace/xcshareddata/swiftpm/
 
 # app secrets
 ios/**/Secrets.plist
+data/likes.json

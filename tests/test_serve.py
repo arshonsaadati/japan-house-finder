@@ -65,3 +65,38 @@ def test_default_order_random_but_stable(tmp_path):
     assert sorted(a) == sorted(priced) # same set
     assert a != priced                 # not price order (30 items: collision odds ~0)
     assert priced == [str(i) for i in range(30)]
+
+
+def _post(url, obj, headers=None):
+    data = json.dumps(obj).encode()
+    req = Request(url, data=data, headers={"Content-Type": "application/json", **(headers or {})})
+    try:
+        with urlopen(req, timeout=5) as r:
+            return r.status, json.loads(r.read())
+    except HTTPError as e:
+        return e.code, e.read()
+
+
+def test_likes_roundtrip(server, tmp_path, monkeypatch):
+    import akiya.serve as sv
+    monkeypatch.setattr(sv, "LIKES_PATH", tmp_path / "likes.json")
+    auth = {"Authorization": "Bearer s3cret"}
+    assert _post(f"{server}/api/likes", {"device": "d1", "name": "Arshon", "likes": ["suumo:1"]})[0] == 401
+    code, all_likes = _post(f"{server}/api/likes", {"device": "d1", "name": "Arshon", "likes": ["suumo:1", "b:2"]}, auth)
+    assert code == 200 and all_likes["d1"]["likes"] == ["suumo:1", "b:2"]
+    _post(f"{server}/api/likes", {"device": "d2", "name": "Dana", "likes": ["suumo:1"]}, auth)
+    code, body = _get(f"{server}/api/likes", auth)
+    m = json.loads(body)
+    assert set(m) == {"d1", "d2"} and m["d2"]["name"] == "Dana"
+    # replace, not append
+    _post(f"{server}/api/likes", {"device": "d1", "name": "Arshon", "likes": ["b:2"]}, auth)
+    m = json.loads(_get(f"{server}/api/likes", auth)[1])
+    assert m["d1"]["likes"] == ["b:2"]
+
+
+def test_likes_bad_request(server, monkeypatch, tmp_path):
+    import akiya.serve as sv
+    monkeypatch.setattr(sv, "LIKES_PATH", tmp_path / "likes.json")
+    auth = {"Authorization": "Bearer s3cret"}
+    assert _post(f"{server}/api/likes", {"name": "x"}, auth)[0] == 400
+    assert _post(f"{server}/api/nope", {}, auth)[0] == 404
